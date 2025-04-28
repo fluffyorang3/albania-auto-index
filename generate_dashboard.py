@@ -22,7 +22,10 @@ df = df[df['price_currency'].str.upper() == 'EUR']
 
 # Parse numeric year and price
 df["year"]  = pd.to_numeric(df["year"], errors="coerce").astype('Int64')
-df["price"] = pd.to_numeric(df["price_value"].astype(str).str.replace(r"\D+", "", regex=True), errors="coerce")
+df["price"] = pd.to_numeric(
+    df["price_value"].astype(str).str.replace(r"\D+", "", regex=True),
+    errors="coerce"
+)
 
 # Parse mileage ranges: take lower bound
 def parse_mileage(m):
@@ -33,10 +36,18 @@ def parse_mileage(m):
     except:
         return pd.NA
 
-df['mileage'] = df['mileage'].apply(parse_mileage).astype('Int64')
+ df['mileage'] = df['mileage'].apply(parse_mileage).astype('Int64')
 
 # Drop rows missing core numeric fields
 df = df.dropna(subset=["year", "price", "mileage"]).copy()
+
+# Filter out unrealistic price outliers using IQR
+Q1 = df['price'].quantile(0.25)
+Q3 = df['price'].quantile(0.75)
+IQR = Q3 - Q1
+lower_bound = max(Q1 - 1.5 * IQR, 0)
+upper_bound = Q3 + 1.5 * IQR
+df = df[(df['price'] >= lower_bound) & (df['price'] <= upper_bound)].copy()
 
 # Derive age
 df["age"] = datetime.now().year - df["year"].astype(int)
@@ -259,7 +270,7 @@ html = f'''<!doctype html>
 
   </div>
 </body>
-</html>'''
+</html>''' 
 
 with open(REPORT, "w", encoding="utf-8") as f:
     f.write(html)
