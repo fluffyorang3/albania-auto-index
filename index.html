@@ -1,10 +1,75 @@
 <!doctype html>
-<html><head><meta charset="utf-8"><title>Auto Listings Dashboard</title></head><body>
+<html><head><meta charset='utf-8'><title>Auto Listings Dashboard</title>
+<style>
+  body { font-family: sans-serif; padding:1rem; }
+  table { border-collapse: collapse; margin-bottom: 1rem; width:100%; }
+  th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
+</style>
+</head><body>
 <h1>Auto Listings Dashboard</h1>
-<p>Generated: 2025-04-28T11:15:42.436964</p>
-<h2>1. Avg Price by Model & Year</h2><img src="heatmap_model_year.png" width="800"/>
-<h2>2. Depreciation Curve – Top 5 Models</h2><img src="depreciation_top5.png" width="800"/>
-<h2>3. Price Distribution Boxplots</h2><img src="boxplots.png" width="800"/>
-<h2>4. Regional Comparison</h2><img src="regional_comparison.png" width="600"/>
-<h2>5. Listings Volume Over Time</h2><img src="volume_over_time.png" width="800"/>
+<p>Generated: 2025-04-28 11:38:03</p>
+
+<h2>Summary Metrics</h2>
+<table>
+<tr><th>Total Listings</th><td>949</td></tr>
+<tr><th>Missing Price</th><td>0</td></tr>
+<tr><th>Average Price</th><td>18,294.04</td></tr>
+<tr><th>Average Mileage</th><td>142,017,553,740</td></tr>
+<tr><th>Average Age</th><td>14.0</td></tr>
+</table>
+
+<h2>Top 10 Models by Count</h2>
+<table>
+<tr><th>Model</th><th>Count</th></tr>
+<tr><td>Golf</td><td>53</td></tr><tr><td>A6</td><td>40</td></tr><tr><td>Tiguan</td><td>33</td></tr><tr><td>C 220</td><td>30</td></tr><tr><td>XC 60</td><td>27</td></tr><tr><td>Fiesta</td><td>26</td></tr><tr><td>A3</td><td>22</td></tr><tr><td>Yaris</td><td>20</td></tr><tr><td>Q5</td><td>19</td></tr><tr><td>Focus</td><td>17</td></tr>
+</table>
+
+<h2>Average Price by Fuel Type</h2>
+<table>
+<tr><th>Fuel</th><th>Avg Price</th></tr>
+<tr><td>Benzin</td><td>10,746.00</td></tr><tr><td>Dizel / Naftë</td><td>22,408.14</td></tr><tr><td>Elektrikë</td><td>10,600.25</td></tr><tr><td>Gaz (TNG) / Benzinë</td><td>11,552.24</td></tr><tr><td>Hibrid & CNG</td><td>9,300.00</td></tr><tr><td>Tjetër</td><td>20,000.00</td></tr>
+</table>
+
+<h2>Average Price by Region</h2>
+<img src="regional_comparison.png" width="600"/>
+<table>
+<tr><th>Region</th><th>Avg Price</th></tr>
+<tr><td>Durres</td><td>9,736.77</td></tr><tr><td>Other</td><td>11,970.53</td></tr><tr><td>Tirane</td><td>26,891.26</td></tr><tr><td>Vlore</td><td>9,270.51</td></tr>
+</table>
+
+<h2>Avg Price by Model & Year</h2>
+<img src="heatmap_model_year.png" width="800"/>
+
+<h2>Depreciation Curve – Top 5 Models</h2>
+<img src="deprecation_top5.png" width="800"/>
+
+<h2>Price Distribution Boxplots</h2>
+<img src="boxplots.png" width="800"/>
+
+<h2>Listings Volume Over Time</h2>
+<img src="volume_over_time.png" width="800"/>
+<table>
+<tr><th>Week</th><th>Listings</th></tr>
+<tr><td>2025-05-04</td><td>949</td></tr>
+</table>
+
+<h2>Weekly Average Price</h2>
+<img src="weekly_avg_price.png" width="800"/>
+<table>
+<tr><th>Week</th><th>Avg Price</th></tr>
+<tr><td>2025-05-04</td><td>18,294.04</td></tr>
+</table>
+
+<h2>Download Data</h2>
+<ul>
+  <li><a href="historical_listings.csv">Full Scraped Data (CSV)</a></li>
+  <li><a href="avg_price_model_year.csv">Avg Price by Model & Year (CSV)</a></li>
+  <li><a href="top_models.csv">Top Models Counts (CSV)</a></li>
+  <li><a href="avg_price_by_fuel.csv">Avg Price by Fuel Type (CSV)</a></li>
+  <li><a href="avg_price_by_region.csv">Avg Price by Region (CSV)</a></li>
+  <li><a href="weekly_volume.csv">Weekly Listings Volume (CSV)</a></li>
+  <li><a href="weekly_avg_price.csv">Weekly Avg Price Over Time (CSV)</a></li>
+  <li><a href="daily_avg_price.csv">Daily Avg Price Time Series (CSV)</a></li>
+</ul>
+
 </body></html>

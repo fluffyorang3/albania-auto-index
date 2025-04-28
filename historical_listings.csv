@@ -1,0 +1,950 @@
+scrape_date,listing_url,year,transmission,mileage,fuel,municipality,color,make,model,price_value,price_currency,price,age,region
+2025-04-28 09:36:06.940990,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:36:06.941020,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:36:06.941092,https://www.merrjep.al/njoftim/shitet-benz-c-class/15144628,2005,Automatik,3000034999.0,Dizel / Naftë,Gjirokastër,E Zezë,Mercedes-Benz,C 220,3500.0,EUR,3500.0,20,Other
+2025-04-28 09:36:06.941113,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:36:06.941129,https://www.merrjep.al/njoftim/hyundai-i10-benzine+gaz-2016/15061384,2016,Manual,130000139999.0,Gaz (TNG) / Benzinë,Durrës,E Bardhë,Hyundai,i10,5900.0,EUR,5900.0,9,Durres
+2025-04-28 09:36:06.941144,https://www.merrjep.al/njoftim/c220-avantgarde-full-options/15061193,2005,Automatik,190000199999.0,Dizel / Naftë,Shkodër,Blu,Mercedes-Benz,C 220,4300.0,EUR,4300.0,20,Other
+2025-04-28 09:36:06.941159,https://www.merrjep.al/njoftim/ford-fiesta-1-4-nafte-automat/15175548,2005,Automatik,250000299999.0,Dizel / Naftë,Tiranë,E Zezë,Ford,Fiesta,2150.0,EUR,2150.0,20,Tirane
+2025-04-28 09:36:06.941176,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:36:06.941186,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:36:06.941204,https://www.merrjep.al/njoftim/nissan-micra-1-2-benzine-automat-zvicre-13/15200362,2012,Automatik,150000159999.0,Benzin,Durrës,E Bardhë,Nissan,Micra,4950.0,EUR,4950.0,13,Durres
+2025-04-28 09:36:06.941223,https://www.merrjep.al/njoftim/ford-focus-2012-full-option/15197398,2012,Manual,200000249999.0,Dizel / Naftë,Tiranë,E Bardhë,Ford,Focus,1.0,EUR,1.0,13,Tirane
+2025-04-28 09:36:06.941242,https://www.merrjep.al/njoftim/mercedes-e-200-k-benzin-gaz-automat-06-zvicre/15218888,2005,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Durrës,E Zezë,Mercedes-Benz,E 200,5300.0,EUR,5300.0,20,Durres
+2025-04-28 09:36:06.941252,https://www.merrjep.al/njoftim/mercedes-e-280-benzine-automat-09-zvicre/15218539,2009,Automatik,200000249999.0,Benzin,Durrës,Gri,Mercedes-Benz,E 280,7200.0,EUR,7200.0,16,Durres
+2025-04-28 09:36:06.941261,https://www.merrjep.al/njoftim/shitet-e-klas-automat/15216518,2014,Automatik,200000249999.0,Dizel / Naftë,Durrës,E Zezë,Mercedes-Benz,E 350,10500.0,EUR,10500.0,11,Durres
+2025-04-28 09:36:06.941270,https://www.merrjep.al/njoftim/jeep-wrangler-3-8-benzin+gaz-2011-super-gjendje/15201084,2011,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Tiranë,Blu,Jeep,Wrangler,13500.0,EUR,13500.0,14,Tirane
+2025-04-28 09:36:06.941279,https://www.merrjep.al/njoftim/gle-350-naft-2017-super-full-opsion/15201142,2017,Automatik,180000189999.0,Dizel / Naftë,Tiranë,Blu,Mercedes-Benz,GLE 350,23500.0,EUR,23500.0,8,Tirane
+2025-04-28 09:36:06.941288,https://www.merrjep.al/njoftim/peugot-3008-automat-1-6-benzin-2012/15201102,2012,Automatik,190000199999.0,Benzin,Fier,Gri,Peugeot,3008,4450.0,EUR,4450.0,13,Other
+2025-04-28 09:36:06.941296,https://www.merrjep.al/njoftim/hyundai-tucson-2-0-naft-2011-super-gjendje/15201227,2012,Automatik,200000249999.0,Dizel / Naftë,Fier,Kafe,Hyundai,Tucson,6700.0,EUR,6700.0,13,Other
+2025-04-28 09:36:06.941313,https://www.merrjep.al/njoftim/e-350-benzin+gaz-2012-full-opsion/15201160,2012,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Fier,E Zezë,Mercedes-Benz,E 350,9700.0,EUR,9700.0,13,Other
+2025-04-28 09:36:06.941323,https://www.merrjep.al/njoftim/shitet-audi-q5-automat/15155139,2018,Automatik,190000199999.0,Benzin,Durrës,E Bardhë,Audi,Q5,18500.0,EUR,18500.0,7,Durres
+2025-04-28 09:36:06.941332,https://www.merrjep.al/njoftim/blej-makina/15154609,2008,Automatik,110000119999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Golf,2000.0,EUR,2000.0,17,Tirane
+2025-04-28 09:36:06.941383,https://www.merrjep.al/njoftim/1-1-bezin-super-gjendje-shes-nderoj/15033741,2005,Manual,1000014999.0,Benzin,Pogradec,E Zezë,Kia,Picanto,1700.0,LEK,1700.0,20,Other
+2025-04-28 09:36:06.941392,https://www.merrjep.al/njoftim/gl-350-naft-2014-gjendje-perfekte-full-opsion/15201263,2014,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Blu,Mercedes-Benz,GL 350,17500.0,EUR,17500.0,11,Tirane
+2025-04-28 09:36:06.941401,https://www.merrjep.al/njoftim/alfa-romeo-giulietta-1-4-benzin-2012-gjendje-perfekte/15201329,2012,Manual,180000189999.0,Benzin,Vlorë,Gri,Alfa Romeo,Giulietta,4999.0,EUR,4999.0,13,Vlore
+2025-04-28 09:36:06.941410,https://www.merrjep.al/njoftim/ford-c-max-1-6-naft-2006-gjendje-perfekte/15201344,2006,Manual,200000249999.0,Dizel / Naftë,Tiranë,Gri,Ford,Focus C-Max,2690.0,EUR,2690.0,19,Tirane
+2025-04-28 09:36:06.941419,https://www.merrjep.al/njoftim/e-250-naft-2015-gjendje-perfekte-full-opsion/15201304,2015,Automatik,180000189999.0,Dizel / Naftë,Tiranë,Kafe,Mercedes-Benz,E 250,13999.0,EUR,13999.0,10,Tirane
+2025-04-28 09:36:06.941428,https://www.merrjep.al/njoftim/range-rover/15116500,2007,Automatik,200000249999.0,Dizel / Naftë,Vlorë,E Kuqe,Rover,Model tjetër,8000.0,EUR,8000.0,18,Vlore
+2025-04-28 09:36:06.941437,https://www.merrjep.al/njoftim/golf-6-1-4-benzin-2010-gjendje-perfekte/15201251,2010,Automatik,180000189999.0,Benzin,Fier,E Bardhë,VW Volkswagen,Golf,6200.0,EUR,6200.0,15,Other
+2025-04-28 09:36:06.941445,https://www.merrjep.al/njoftim/mercedes-300-benz+gaz-i-7-2008-avant-garde-nga-zvicra/13645687,2008,Automatik,200000249999.0,Benzin,Durrës,E Zezë,Mercedes-Benz,E 300,6800.0,EUR,6800.0,17,Durres
+2025-04-28 09:36:06.941472,https://www.merrjep.al/njoftim/ford-transit/15223292,2012,Manual,200000249999.0,Dizel / Naftë,Lushnjë,Blu,Ford,Transit,9900.0,EUR,9900.0,13,Other
+2025-04-28 09:36:06.941480,https://www.merrjep.al/njoftim/golf-6/15223294,2012,Automatik,1000014999.0,Dizel / Naftë,Tiranë,E Kuqe,VW Volkswagen,Golf,1.0,LEK,1.0,13,Tirane
+2025-04-28 09:36:06.941488,https://www.merrjep.al/njoftim/alfa-romeo-147-1-9-jtd-manuale/15220788,2003,Manual,200000249999.0,Dizel / Naftë,Durrës,Gri,Alfa Romeo,Alfa 147,150000.0,LEK,150000.0,22,Durres
+2025-04-28 09:36:06.941747,https://www.merrjep.al/njoftim/shitet-opel-automat/15222376,2010,Automatik,170000179999.0,Dizel / Naftë,Tiranë,E Bardhë,Opel,Insignia,3200.0,EUR,3200.0,15,Tirane
+2025-04-28 09:36:06.941766,https://www.merrjep.al/njoftim/mercedes-disqe/15055780,1998,Manual,190000199999.0,Dizel / Naftë,Vlorë,Gri,Mercedes-Benz,E 250,90.0,LEK,90.0,27,Vlore
+2025-04-28 09:36:06.941776,https://www.merrjep.al/njoftim/mercedes-benz-glk-250-viti-2014/15149770,2014,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,GLK 250,12700.0,EUR,12700.0,11,Tirane
+2025-04-28 09:36:06.941785,https://www.merrjep.al/njoftim/c-klas-benzin-gas-2009/15158455,2009,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Fier,E Zezë,Mercedes-Benz,C 180,7599.0,LEK,7599.0,16,Other
+2025-04-28 09:36:06.941795,https://www.merrjep.al/njoftim/volvo-xc60-t6-3-0-viti-2014/15216920,2014,Automatik,200000249999.0,Benzin,Tiranë,E Bardhë,Volvo,XC 60,11400.0,EUR,11400.0,11,Tirane
+2025-04-28 09:36:06.941803,https://www.merrjep.al/njoftim/shitet-audi-q7-automat/15216500,2012,Automatik,2000024999.0,Dizel / Naftë,Durrës,Gri,Audi,Q7,10400.0,EUR,10400.0,13,Durres
+2025-04-28 09:36:06.941812,https://www.merrjep.al/njoftim/mercedes-benz-c300-4-matic-viti-2011/14846347,2011,Automatik,170000179999.0,Benzin,Tiranë,Gri,Mercedes-Benz,C 300,7300.0,EUR,7300.0,14,Tirane
+2025-04-28 09:36:06.941831,https://www.merrjep.al/njoftim/volvo-xc60-r-desing-3-0t6-okazion/14654789,2012,Automatik,170000179999.0,Benzin,Tiranë,E Bardhë,Volvo,XC 60,8300.0,LEK,8300.0,13,Tirane
+2025-04-28 09:36:06.941840,https://www.merrjep.al/njoftim/g-class-55-amg-kompressor-500+hp/11683039,2011,Automatik,160000169999.0,Benzin,Durrës,E Zezë,Mercedes-Benz,G 55 AMG,1.0,EUR,1.0,14,Durres
+2025-04-28 09:36:06.941849,https://www.merrjep.al/njoftim/shitet-audi-a6-automat/15196537,2015,Automatik,190000199999.0,Dizel / Naftë,Durrës,E Bardhë,Audi,A6,10000.0,EUR,10000.0,10,Durres
+2025-04-28 09:36:06.941857,https://www.merrjep.al/njoftim/volvo-xc60-r-desing-3-0-benzin/15218670,2012,Automatik,170000179999.0,Benzin,Tiranë,E Bardhë,Volvo,XC 60,8300.0,EUR,8300.0,13,Tirane
+2025-04-28 09:36:06.941878,https://www.merrjep.al/njoftim/mercedes-benz-124/15169709,1991,Manual,400000449999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,200,2200.0,LEK,2200.0,34,Tirane
+2025-04-28 09:36:06.941888,https://www.merrjep.al/njoftim/mercedes-benz/15199134,2000,Automatik,250000299999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,220,2300.0,EUR,2300.0,25,Tirane
+2025-04-28 09:36:06.941897,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:36:06.941906,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:36:06.941915,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:36:06.941925,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:36:06.941933,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:36:06.941959,https://www.merrjep.al/njoftim/wolskagen-fox/15167653,2008,Manual,180000189999.0,Benzin,Tiranë,Gri,VW Volkswagen,Fox,2200.0,EUR,2200.0,17,Tirane
+2025-04-28 09:36:06.941967,https://www.merrjep.al/njoftim/audi-q7-s-line-shitet-nderrohet/15192500,2015,Automatik,1500019999.0,Benzin,Durrës,Gri,Audi,Q7,10500.0,EUR,10500.0,10,Durres
+2025-04-28 09:36:06.941975,https://www.merrjep.al/njoftim/shitet-ford-focus-1-6-tdci/14379494,2012,Manual,190000199999.0,Dizel / Naftë,Durrës,E Kuqe,Ford,Focus,4400.0,EUR,4400.0,13,Durres
+2025-04-28 09:36:06.941984,https://www.merrjep.al/njoftim/c-class-w204-220-cdi/15170613,2013,Automatik,2000024999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,C 220,9200.0,EUR,9200.0,12,Durres
+2025-04-28 09:36:06.941992,https://www.merrjep.al/njoftim/toyota-yaris-benzin+gaz-1-3-kambio-manual-vp-2008/15223416,2008,Manual,1500019999.0,Gaz (TNG) / Benzinë,Vlorë,E Bardhë,Toyota,Yaris,3800.0,EUR,3800.0,17,Vlore
+2025-04-28 09:36:06.942001,https://www.merrjep.al/njoftim/okazion-golf-6/15029889,2013,Automatik,150000159999.0,Dizel / Naftë,Tiranë,E Kuqe,VW Volkswagen,Golf,690000.0,LEK,690000.0,12,Tirane
+2025-04-28 09:36:06.942010,https://www.merrjep.al/njoftim/vw-golf-6-2-0-2012/15024608,2012,Automatik,150000159999.0,Dizel / Naftë,Tiranë,E Kuqe,VW Volkswagen,Golf,690000.0,LEK,690000.0,13,Tirane
+2025-04-28 09:36:06.942019,https://www.merrjep.al/njoftim/toyota-yaris-1-4-nafte-viti-2014/15019558,2014,Manual,110000119999.0,Dizel / Naftë,Durrës,E Kuqe,Toyota,Yaris,6700.0,EUR,6700.0,11,Durres
+2025-04-28 09:36:06.942028,https://www.merrjep.al/njoftim/renxh-rover-evoque/15168096,2004,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Land Rover,Range Rover Evoque,3400.0,EUR,3400.0,21,Tirane
+2025-04-28 09:36:06.942056,https://www.merrjep.al/njoftim/okazion-golf-6/15024342,2012,Automatik,150000159999.0,Dizel / Naftë,Tiranë,E Kuqe,VW Volkswagen,Golf,690000.0,LEK,690000.0,13,Tirane
+2025-04-28 09:36:06.942067,https://www.merrjep.al/njoftim/okazion-400-euro-cmimi-fundit/15223410,1999,Manual,160000169999.0,Benzin,Durrës,Blu,Kia,Pride,1.0,EUR,1.0,26,Durres
+2025-04-28 09:36:06.942075,https://www.merrjep.al/njoftim/shitet-nderrohet/15223404,2012,Automatik,160000169999.0,Dizel / Naftë,Tiranë,E Bardhë,Mercedes-Benz,C 220,7800.0,EUR,7800.0,13,Tirane
+2025-04-28 09:36:06.942084,https://www.merrjep.al/njoftim/toyota-auris-automat-1-4-diesel-vp-2009-150-klm/15223406,2009,Automatik,1000014999.0,Dizel / Naftë,Vlorë,Gri,Toyota,Auris,5600.0,EUR,5600.0,16,Vlore
+2025-04-28 09:36:06.942093,https://www.merrjep.al/njoftim/suzuki-grand-vitara-2-7-gaz-benzin/15154769,2008,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Suzuki,Grand Vitara,6200.0,EUR,6200.0,17,Tirane
+2025-04-28 09:36:06.942102,https://www.merrjep.al/njoftim/vetem-shitet-8800-tiguan-2013-2-0benzine-gas-automat/15219214,2013,Automatik,170000179999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,VW Volkswagen,Tiguan,8800.0,EUR,8800.0,12,Tirane
+2025-04-28 09:36:06.942110,https://www.merrjep.al/njoftim/audi-sq5-viti-2018-2019/15112335,2018,Automatik,150000159999.0,Dizel / Naftë,Tiranë,Gri,Audi,SQ5,29000.0,EUR,29000.0,7,Tirane
+2025-04-28 09:36:06.942119,https://www.merrjep.al/njoftim/volkswagen-tiguan-viti-2015-2016/15165570,2015,Automatik,150000159999.0,Benzin,Tiranë,E Bardhë,VW Volkswagen,Tiguan,7500.0,EUR,7500.0,10,Tirane
+2025-04-28 09:36:06.942128,https://www.merrjep.al/njoftim/golf-5-gti-fabrike-188km-automat-5800-0686686122/15219210,2005,Automatik,180000189999.0,Benzin,Tiranë,E Zezë,VW Volkswagen,Golf,5800.0,EUR,5800.0,20,Tirane
+2025-04-28 09:36:06.942137,https://www.merrjep.al/njoftim/nissan-qashqai-viti-2016-automat-1-6-nafte/15223412,2016,Automatik,160000169999.0,Dizel / Naftë,Tiranë,Gri,Nissan,Qashqai,125.0,EUR,125.0,9,Tirane
+2025-04-28 09:36:06.942145,https://www.merrjep.al/njoftim/bmw-3-0-nafte-model-3-5-xdrive-2011-look-m/15193322,2011,Automatik,200000249999.0,Dizel / Naftë,Fier,E Zezë,BMW,X5,1.0,EUR,1.0,14,Other
+2025-04-28 09:36:06.942154,https://www.merrjep.al/njoftim/okazion-golf-6/15024329,2012,Automatik,150000159999.0,Dizel / Naftë,Tiranë,E Kuqe,VW Volkswagen,Golf,690000.0,LEK,690000.0,13,Tirane
+2025-04-28 09:36:06.942162,https://www.merrjep.al/njoftim/opel-astra-1-7-naft-6-marsha/15062490,2007,Manual,200000249999.0,Dizel / Naftë,Krujë,Gri,Opel,Astra,2990.0,EUR,2990.0,18,Other
+2025-04-28 09:36:06.942171,https://www.merrjep.al/njoftim/okazion-400-euro-cmimi-fundit/15223402,1999,Manual,160000169999.0,Benzin,Durrës,Blu,Kia,Pride,400.0,EUR,400.0,26,Durres
+2025-04-28 09:36:06.942179,https://www.merrjep.al/njoftim/range-rover-vogue-5-0l-14-autobiography-full-panoramic/14333870,2014,Automatik,170000179999.0,Benzin,Tiranë,E Zezë,Land Rover,Range Rover,24000.0,EUR,24000.0,11,Tirane
+2025-04-28 09:36:06.942250,https://www.merrjep.al/njoftim/mercedes-benz-gle-350d-amg-line/15216054,2016,Automatik,2000024999.0,Dizel / Naftë,Durrës,E Bardhë,Mercedes-Benz,GLE 350,22800.0,EUR,22800.0,9,Durres
+2025-04-28 09:36:06.942272,https://www.merrjep.al/njoftim/okazion-golf-6/15023257,2012,Automatik,130000139999.0,Dizel / Naftë,Tiranë,E Kuqe,VW Volkswagen,Golf,690000.0,LEK,690000.0,13,Tirane
+2025-04-28 09:36:06.942292,https://www.merrjep.al/njoftim/ford-focus-2006-1-6-nafte/14537557,2006,Manual,200000249999.0,Dizel / Naftë,Krujë,Blu,Ford,Focus,2200.0,EUR,2200.0,19,Other
+2025-04-28 09:36:06.942300,https://www.merrjep.al/njoftim/vw-amarok-2-0tdi-170km-6+r-13-5-vetem-shitet/15222528,2013,Automatik,170000179999.0,Dizel / Naftë,Tiranë,Kafe,VW Volkswagen,Amarok,13500.0,EUR,13500.0,12,Tirane
+2025-04-28 09:36:06.942309,https://www.merrjep.al/njoftim/audi-a3-2-0-naft-dsg/14976558,2005,Automatik,190000199999.0,Dizel / Naftë,Krujë,Gri,Audi,A3,4600.0,EUR,4600.0,20,Other
+2025-04-28 09:36:06.942317,https://www.merrjep.al/njoftim/okazion-400-euro-cmimi-fundit/15223391,1999,Manual,160000169999.0,Benzin,Durrës,Blu,Kia,Pride,400.0,EUR,400.0,26,Durres
+2025-04-28 09:36:06.942326,https://www.merrjep.al/njoftim/okazion-ford-escape-1-6-viti-2014-2015/15033986,2014,Automatik,180000189999.0,Benzin,Tiranë,E Zezë,Ford,Escape,6800.0,EUR,6800.0,11,Tirane
+2025-04-28 09:36:06.942343,https://www.merrjep.al/njoftim/mercedes-benz-gl420-09-mundesi-nderrimi/14497865,2008,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,GL 420,8000.0,EUR,8000.0,17,Tirane
+2025-04-28 09:36:06.942352,https://www.merrjep.al/njoftim/ford-focus-titanium-automat/15214496,2013,Automatik,200000249999.0,Dizel / Naftë,Krujë,Gri,Ford,Focus,5700.0,EUR,5700.0,12,Other
+2025-04-28 09:36:06.942360,https://www.merrjep.al/njoftim/smart-center/15153627,2008,Automatik,110000119999.0,Benzin,Tiranë,E Zezë,Smart,ForTwo,4200.0,EUR,4200.0,17,Tirane
+2025-04-28 09:36:06.942368,https://www.merrjep.al/njoftim/smart-center/15153658,2009,Automatik,9000094999.0,Benzin,Tiranë,Gri,Smart,ForTwo,5999.0,EUR,5999.0,16,Tirane
+2025-04-28 09:36:06.942376,https://www.merrjep.al/njoftim/volvo-xc-60-2011-benzin/15214623,2011,Automatik,140000149999.0,Benzin,Lushnjë,Gri,Volvo,XC 60,8000.0,EUR,8000.0,14,Other
+2025-04-28 09:36:06.942385,https://www.merrjep.al/njoftim/s350d/13269714,2018,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,S 350,49000.0,EUR,49000.0,7,Tirane
+2025-04-28 09:36:06.942394,https://www.merrjep.al/njoftim/golf-5-1-6-benzin-gaz-2008/14971688,2008,Manual,200000249999.0,Dizel / Naftë,Krujë,Gri,VW Volkswagen,Golf,3900.0,EUR,3900.0,17,Other
+2025-04-28 09:36:06.942402,https://www.merrjep.al/njoftim/mercedes-ml-automat-diesel-pa-taks-luksi-vp-2007/15223395,2007,Automatik,2500029999.0,Dizel / Naftë,Vlorë,E Zezë,Mercedes-Benz,ML 320,4700.0,EUR,4700.0,18,Vlore
+2025-04-28 09:36:06.942411,https://www.merrjep.al/njoftim/okazion-golf-6/15029833,2012,Automatik,150000159999.0,Dizel / Naftë,Tiranë,E Kuqe,VW Volkswagen,Golf,690000.0,LEK,690000.0,13,Tirane
+2025-04-28 09:36:06.942420,https://www.merrjep.al/njoftim/range-rover-evoque-2-0-benzine-dynamic/14995985,2015,Automatik,170000179999.0,Benzin,Tiranë,E Zezë,Land Rover,Range Rover Evoque,14900.0,EUR,14900.0,10,Tirane
+2025-04-28 09:36:06.942429,https://www.merrjep.al/njoftim/shitet-mercedes-benz-s-350-lang-amg/15113818,2014,Automatik,4500049999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,350,55000.0,EUR,55000.0,11,Tirane
+2025-04-28 09:36:06.942437,https://www.merrjep.al/njoftim/volkswagen-golf-viti-2013-1-6-tdi-110cv/15059658,2013,Manual,140000149999.0,Dizel / Naftë,Fier,E Bardhë,VW Volkswagen,Golf,8900.0,EUR,8900.0,12,Other
+2025-04-28 09:36:06.942446,https://www.merrjep.al/njoftim/mercedes-benz-c350-benzine-viti-2013-104000-km/15188384,2013,Automatik,100000109999.0,Benzin,Tiranë,Gri,Mercedes-Benz,C 350,8500.0,EUR,8500.0,12,Tirane
+2025-04-28 09:36:06.942713,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:36:06.942723,https://www.merrjep.al/njoftim/fieata-titanium-2009-gjendje-te-mire-oakzion-3500/15197930,2009,Manual,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Ford,Fiesta,3500.0,LEK,3500.0,16,Vlore
+2025-04-28 09:36:06.942732,https://www.merrjep.al/njoftim/ford-kuga/14955064,2013,Automatik,190000199999.0,Dizel / Naftë,Fier,Gri,Ford,Kuga,8600.0,EUR,8600.0,12,Other
+2025-04-28 09:36:06.942741,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:36:06.942749,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:36:06.942758,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:36:06.942767,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:36:06.942776,https://www.merrjep.al/njoftim/golf-7r-+400hp-4motion/14953816,2017,Automatik,190000199999.0,Benzin,Tiranë,E Bardhë,VW Volkswagen,Golf,25000.0,EUR,25000.0,8,Tirane
+2025-04-28 09:36:06.942785,https://www.merrjep.al/njoftim/bmw-750l-4-4-twin-turbo-limit-editon-mundesi-nderrimi/11707635,2016,Steptronic / Tiptronic,9500099999.0,Benzin,Tiranë,E Bardhë,BMW,750,30000.0,EUR,30000.0,9,Tirane
+2025-04-28 09:36:06.942794,https://www.merrjep.al/njoftim/skoda/15110445,2008,Manual,2000024999.0,Dizel / Naftë,Shkodër,Gri,Škoda,Octavia,2300.0,EUR,2300.0,17,Other
+2025-04-28 09:36:06.942803,https://www.merrjep.al/njoftim/audi-q5-2-0-shitet-8500-diskutueshem/14513815,2012,Automatik,190000199999.0,Benzin,Durrës,Blu,Audi,Q5,8500.0,LEK,8500.0,13,Durres
+2025-04-28 09:36:06.942812,https://www.merrjep.al/njoftim/okazion-400-euro-cmimi-fundit/15223375,1999,Manual,160000169999.0,Benzin,Durrës,Blu,Kia,Pride,400.0,LEK,400.0,26,Durres
+2025-04-28 09:36:06.942821,https://www.merrjep.al/njoftim/okazion-opel-corsa-super-ekonomike/13917714,2011,Manual,3000034999.0,Gaz (TNG) / Benzinë,Lushnjë,Blu,Opel,Corsa,2999.0,EUR,2999.0,14,Other
+2025-04-28 09:36:06.942829,https://www.merrjep.al/njoftim/nderrohet-karrotrec-atego-817-me-bllokazh-me-syze/15088160,1999,Manual,450000499999.0,Dizel / Naftë,Tiranë,Blu,Mercedes-Benz,Model tjetër,17900.0,EUR,17900.0,26,Tirane
+2025-04-28 09:36:06.942839,https://www.merrjep.al/njoftim/5700-nderrohet-toyota-iq-2011-automat-motorr-1-0-benzine+/14976780,2011,Automatik,170000179999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Toyota,IQ,5700.0,EUR,5700.0,14,Tirane
+2025-04-28 09:36:06.942848,https://www.merrjep.al/njoftim/2017-audi-q7-prestige-full-options/11094227,2017,Automatik,110000119999.0,Benzin,Durrës,Blu,Audi,Q7,27000.0,EUR,27000.0,8,Durres
+2025-04-28 09:36:06.942856,https://www.merrjep.al/njoftim/wv-pasat-2-5/15161336,2013,Automatik,180000189999.0,Benzin,Durrës,E Bardhë,VW Volkswagen,Passat,6500.0,EUR,6500.0,12,Durres
+2025-04-28 09:36:06.942865,https://www.merrjep.al/njoftim/okazion-e-class-350-super-gjendje/11003674,2011,Automatik,250000299999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,E 350,9999.0,EUR,9999.0,14,Tirane
+2025-04-28 09:36:06.942874,https://www.merrjep.al/njoftim/c-class-220-classic-cdi/15223367,2000,Manual,250000299999.0,Dizel / Naftë,Elbasan,E Zezë,Mercedes-Benz,220,270000.0,LEK,270000.0,25,Other
+2025-04-28 09:36:06.942883,https://www.merrjep.al/njoftim/full-options-amg-package-2013-mercedes-benz-e350-bluetec/14755339,2013,Automatik,140000149999.0,Dizel / Naftë,Durrës,E Bardhë,Mercedes-Benz,E 350,11500.0,EUR,11500.0,12,Durres
+2025-04-28 09:36:06.942901,https://www.merrjep.al/njoftim/2500-ford-cmax-2007-nafte-1-8-gjendje-te-mire-me-letra/15153201,2007,Manual,250000299999.0,Dizel / Naftë,Tiranë,Blu,Ford,Focus C-Max,2500.0,EUR,2500.0,18,Tirane
+2025-04-28 09:36:06.942930,https://www.merrjep.al/njoftim/porsche-cayene-2014-diesel/15193715,2014,Automatik,190000199999.0,Dizel / Naftë,Tiranë,Gri,Porsche,Cayenne,1790.0,EUR,1790.0,11,Tirane
+2025-04-28 09:36:06.942945,https://www.merrjep.al/njoftim/audi-a6-s-line-technik-2016-nafte/15219620,2016,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Blu,Audi,A6,20800.0,EUR,20800.0,9,Tirane
+2025-04-28 09:36:06.942955,https://www.merrjep.al/njoftim/honda-civic-1-8-benzine+gaz-me-klima/15215094,2009,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Honda,Civic,4900.0,EUR,4900.0,16,Tirane
+2025-04-28 09:36:06.942964,https://www.merrjep.al/njoftim/audi-a7/15133978,2014,Automatik,110000119999.0,Dizel / Naftë,Krujë,E Bardhë,Audi,A7,15000.0,EUR,15000.0,11,Other
+2025-04-28 09:36:06.942975,https://www.merrjep.al/njoftim/okazion-400-euro-cmimi-fundit/15223364,1999,Manual,160000169999.0,Benzin,Durrës,Blu,Kia,Pride,500.0,EUR,500.0,26,Durres
+2025-04-28 09:36:06.942985,https://www.merrjep.al/njoftim/passat-sel-1-8-benzin+gaz-2017-gjendje-perfekte/15193992,2017,Automatik,120000129999.0,Gaz (TNG) / Benzinë,Durrës,Vishnje,VW Volkswagen,Passat,10300.0,EUR,10300.0,8,Durres
+2025-04-28 09:36:06.942994,https://www.merrjep.al/njoftim/okazion-shitet-mercedes-e250-cdi-4-matic/15223366,2015,Automatik,250000299999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,E 250,14000.0,EUR,14000.0,10,Tirane
+2025-04-28 09:36:06.943004,https://www.merrjep.al/njoftim/ford-focus-1-6-naft-2011-gjendje-perfekte/15193987,2011,Manual,190000199999.0,Dizel / Naftë,Tiranë,E Bardhë,Ford,Focus,3550.0,EUR,3550.0,14,Tirane
+2025-04-28 09:36:06.943013,https://www.merrjep.al/njoftim/benz-s550-4matic-bi-turbo-viti-2013-mundesi-nderrimi/11191906,2013,Automatik,180000189999.0,Benzin,Tiranë,E Zezë,Mercedes-Benz,S 550,14900.0,LEK,14900.0,12,Tirane
+2025-04-28 09:36:06.943023,https://www.merrjep.al/njoftim/shitet-ose-nderrohet/15223361,2012,Automatik,160000169999.0,Benzin,Tiranë,E Bardhë,Subaru,Legacy,7800.0,EUR,7800.0,13,Tirane
+2025-04-28 09:36:06.943031,https://www.merrjep.al/njoftim/subaru-forester-okaziooonnnn/15117180,2011,Automatik,190000199999.0,Benzin,Tiranë,E Zezë,Subaru,Forester,5900.0,EUR,5900.0,14,Tirane
+2025-04-28 09:36:06.943103,https://www.merrjep.al/njoftim/2013-vw-volkswagen-jetta-2-0-tdi-full-options/14644147,2013,Automatik,200000249999.0,Dizel / Naftë,Durrës,E Bardhë,VW Volkswagen,Jetta,7700.0,EUR,7700.0,12,Durres
+2025-04-28 09:36:06.943114,https://www.merrjep.al/njoftim/bmw-118-d-super-okazioooon-2900-euro/15159095,2006,Manual,250000299999.0,Dizel / Naftë,Tiranë,E Zezë,BMW,118,2850.0,LEK,2850.0,19,Tirane
+2025-04-28 09:36:06.943123,https://www.merrjep.al/njoftim/shitet-volkswagen-touran-1-9-tdi-automatik/15189021,2007,Automatik,250000299999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Touran,5199.0,LEK,5199.0,18,Tirane
+2025-04-28 09:36:06.943133,https://www.merrjep.al/njoftim/audi-s7-4-0-benzin-tfsi-2015-super-full-opsion/15194428,2015,Automatik,180000189999.0,Benzin,Tiranë,Gri,Audi,S7,22500.0,EUR,22500.0,10,Tirane
+2025-04-28 09:36:06.943141,https://www.merrjep.al/njoftim/peugot-207cc-kabrio-1-6-benzin-2008/15193998,2008,Automatik,140000149999.0,Benzin,Fier,Gri,Peugeot,207,3700.0,EUR,3700.0,17,Other
+2025-04-28 09:36:06.943150,https://www.merrjep.al/njoftim/okazion-400-euro-cmimi-fundit/15223360,1999,Manual,160000169999.0,Benzin,Durrës,Blu,Kia,Pride,500.0,EUR,500.0,26,Durres
+2025-04-28 09:36:06.943158,https://www.merrjep.al/njoftim/skoda-fabia-1-2-benzin-2008-super-gjendje/15194435,2008,Automatik,170000179999.0,Benzin,Fier,Blu,Škoda,Fabia,2350.0,EUR,2350.0,17,Other
+2025-04-28 09:36:06.943169,https://www.merrjep.al/njoftim/cla45-amg-2017-edition-1/14957476,2017,Automatik,140000149999.0,Benzin,Tiranë,E Bardhë,Mercedes-Benz,CLA 45 AMG,30000.0,EUR,30000.0,8,Tirane
+2025-04-28 09:36:06.943178,https://www.merrjep.al/njoftim/c-220-naft-2016-full-opsion/15194419,2016,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,C 220,14900.0,EUR,14900.0,9,Tirane
+2025-04-28 09:36:06.943187,https://www.merrjep.al/njoftim/audi-a6-s-line-technik-2016-nafte/15218795,2016,Automatik,2000024999.0,Dizel / Naftë,Tiranë,Blu,Audi,A6,20800.0,EUR,20800.0,9,Tirane
+2025-04-28 09:36:06.943196,https://www.merrjep.al/njoftim/shite/15223355,2012,Manual,250000299999.0,Dizel / Naftë,Tiranë,Gri,Nissan,Qashqai+2,3500.0,EUR,3500.0,13,Tirane
+2025-04-28 09:36:06.943204,https://www.merrjep.al/njoftim/audi-a8-50tdi-2019/14953803,2019,Automatik,6000064999.0,Dizel / Naftë,Tiranë,E Zezë,Audi,A8,30000.0,EUR,30000.0,6,Tirane
+2025-04-28 09:36:06.943213,https://www.merrjep.al/njoftim/bmw-x5-3-5i-3-0-benzin-2015-full-opsion/15194415,2015,Automatik,170000179999.0,Benzin,Tiranë,Gri,BMW,X5,14999.0,EUR,14999.0,10,Tirane
+2025-04-28 09:36:06.943222,https://www.merrjep.al/njoftim/toyota-2007-naft-1-4-automat-rrobotiku-i-ri/15157363,2007,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Zezë,Toyota,Yaris,4400.0,EUR,4400.0,18,Tirane
+2025-04-28 09:36:06.943231,https://www.merrjep.al/njoftim/toyota-subaru-trezia-1-4-nafte-2012/15180732,2012,Manual,1500019999.0,Dizel / Naftë,Durrës,Gri,Subaru,Trezia,4600.0,EUR,4600.0,13,Durres
+2025-04-28 09:36:06.943239,https://www.merrjep.al/njoftim/audi-a4-2-0-tdi-2013/14671966,2013,Automatik,8000084999.0,Dizel / Naftë,Durrës,Gri,Audi,A4,9700.0,EUR,9700.0,12,Durres
+2025-04-28 09:36:06.943247,https://www.merrjep.al/njoftim/toyota-auris-automatike-benzine-gas/15174967,2008,Automatik,1500019999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Toyota,Auris,5500.0,LEK,5500.0,17,Tirane
+2025-04-28 09:36:06.943256,https://www.merrjep.al/njoftim/mercedes-benz-b-class/15004310,2010,Automatik,120000129999.0,Gaz (TNG) / Benzinë,Durrës,E Bardhë,Mercedes-Benz,B 200,5300.0,EUR,5300.0,15,Durres
+2025-04-28 09:36:06.943265,https://www.merrjep.al/njoftim/vw-jetta-2-5-2011/15002167,2011,Automatik,120000129999.0,Benzin,Durrës,Gri,VW Volkswagen,Jetta,5999.0,EUR,5999.0,14,Durres
+2025-04-28 09:36:06.943519,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:36:06.943532,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:36:06.943543,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:36:06.943552,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:36:06.943569,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:36:06.943587,https://www.merrjep.al/njoftim/discovery-5-autobiografy-18-mundesi-nderrimi/14714538,2017,Automatik,140000149999.0,Benzin,Tiranë,Gri,Land Rover,Discovery,28000.0,EUR,28000.0,8,Tirane
+2025-04-28 09:36:06.943596,https://www.merrjep.al/njoftim/discovery-5-autobiografy-18-mundesi-nderrimi/14714536,2017,Automatik,9000094999.0,Benzin,Tiranë,Gri,Land Rover,Discovery,28000.0,EUR,28000.0,8,Tirane
+2025-04-28 09:36:06.943605,https://www.merrjep.al/njoftim/smart-center/15153679,2009,Automatik,100000109999.0,Benzin,Tiranë,Gri,Smart,ForTwo,4300.0,EUR,4300.0,16,Tirane
+2025-04-28 09:36:06.943613,https://www.merrjep.al/njoftim/e-350-naft-2013-gjendje-perfekte-full-opsion/15192808,2013,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,E 350,10300.0,EUR,10300.0,12,Tirane
+2025-04-28 09:36:06.943622,https://www.merrjep.al/njoftim/smart-center/15154502,2013,Automatik,110000119999.0,Benzin,Tiranë,E Bardhë,Smart,ForTwo,5500.0,EUR,5500.0,12,Tirane
+2025-04-28 09:36:06.943631,https://www.merrjep.al/njoftim/shitet-e-250-okazion/14727900,2014,Automatik,1000014999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,E 250,15000.0,EUR,15000.0,11,Tirane
+2025-04-28 09:36:06.943668,https://www.merrjep.al/njoftim/shitet-e-250-okazion/14840693,2014,Automatik,1000014999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,E 250,15000.0,EUR,15000.0,11,Tirane
+2025-04-28 09:36:06.943676,https://www.merrjep.al/njoftim/land-rover-discovery-3-0-sdv6-hse-4wd/15011233,2015,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Artë,Land Rover,Discovery,18900.0,EUR,18900.0,10,Tirane
+2025-04-28 09:36:06.943685,https://www.merrjep.al/njoftim/ford-fiesta-5p-viti-2008-1-4-tdci-68cv/15059860,2008,Manual,130000139999.0,Dizel / Naftë,Fier,Gri,Ford,Fiesta,3200.0,EUR,3200.0,17,Other
+2025-04-28 09:36:06.943694,https://www.merrjep.al/njoftim/vw-cc-2015/14976687,2015,Automatik,2000024999.0,Dizel / Naftë,Tiranë,E Zezë,VW Volkswagen,CC,9800.0,EUR,9800.0,10,Tirane
+2025-04-28 09:36:06.943710,https://www.merrjep.al/njoftim/bmw-535-naft-2012-full-opsion/15192804,2012,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,BMW,535,11300.0,EUR,11300.0,13,Tirane
+2025-04-28 09:36:06.943719,https://www.merrjep.al/njoftim/volvo-xc-60-2013-benzin/15214537,2013,Automatik,150000159999.0,Benzin,Lushnjë,Blu,Volvo,XC 60,8900.0,EUR,8900.0,12,Other
+2025-04-28 09:36:06.943727,https://www.merrjep.al/njoftim/bezin-gaz-automat-super-gj-dhes-nderoj/15143927,2014,Automatik,1500019999.0,Gaz (TNG) / Benzinë,Pogradec,Gri,VW Volkswagen,Tiguan,9800.0,LEK,9800.0,11,Other
+2025-04-28 09:36:06.943737,https://www.merrjep.al/njoftim/vw-caddy-maxi-1-9-nafte-automatik-klima-2010/15136817,2010,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Caddy,7800.0,EUR,7800.0,15,Tirane
+2025-04-28 09:36:06.943746,https://www.merrjep.al/njoftim/3299-ero-okazion/15115458,2008,Automatik,250000299999.0,Dizel / Naftë,Elbasan,E Zezë,Mercedes-Benz,B 180,3299.0,EUR,3299.0,17,Other
+2025-04-28 09:36:06.943754,https://www.merrjep.al/njoftim/edhe-nderrohet-ford-1-6gaz-benzine-2011/15007974,2011,Manual,190000199999.0,Gaz (TNG) / Benzinë,Fier,E Zezë,Ford,Focus,4000.0,EUR,4000.0,14,Other
+2025-04-28 09:36:06.943763,https://www.merrjep.al/njoftim/volvo-xc60-3-0/15219356,2010,Automatik,200000249999.0,Benzin,Vlorë,E Zezë,Volvo,XC 60,6500.0,EUR,6500.0,15,Vlore
+2025-04-28 09:36:06.943772,https://www.merrjep.al/njoftim/okazion-3499-ero/15115450,2008,Manual,200000249999.0,Gaz (TNG) / Benzinë,Elbasan,E Zezë,Fiat,500,3499.0,EUR,3499.0,17,Other
+2025-04-28 09:36:06.943780,https://www.merrjep.al/njoftim/mecedes-e220-viti-viti-2011-investimet-0-0-kontakto-+383/15219361,2011,Automatik,190000199999.0,Dizel / Naftë,Kukës,E Artë,Mercedes-Benz,220,6500.0,EUR,6500.0,14,Other
+2025-04-28 09:36:06.943789,https://www.merrjep.al/njoftim/discovery-3-0-naft-2020-super-full-opsion/15192827,2020,Automatik,140000149999.0,Dizel / Naftë,Tiranë,Blu,Land Rover,Discovery,31000.0,EUR,31000.0,5,Tirane
+2025-04-28 09:36:06.943798,https://www.merrjep.al/njoftim/okazion-shitet-mercedes-benz-w211-evo-280/15075240,2007,Automatik,2500029999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Mercedes-Benz,E 280,6000.0,EUR,6000.0,18,Tirane
+2025-04-28 09:36:06.943807,https://www.merrjep.al/njoftim/opel-corsa-d-1-2-benzine-2011-motorr-zinxhir-4-pistona/14742156,2011,Manual,140000149999.0,Benzin,Fier,E Zezë,Opel,Corsa,3900.0,EUR,3900.0,14,Other
+2025-04-28 09:36:06.943815,https://www.merrjep.al/njoftim/volvo-xc60-d4-2-0-nafte-2015-okazion-24ore/15191994,2015,Automatik,200000249999.0,Dizel / Naftë,Vlorë,E Bardhë,Volvo,XC 60,11000.0,EUR,11000.0,10,Vlore
+2025-04-28 09:36:06.943824,https://www.merrjep.al/njoftim/okazion/15063138,2012,Automatik,150000159999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,VW Volkswagen,Passat,7500.0,EUR,7500.0,13,Tirane
+2025-04-28 09:36:06.943833,https://www.merrjep.al/njoftim/b-200-benzin-2014-gjendje-perfekte-full-opsion/15193683,2014,Automatik,200000249999.0,Benzin,Fier,E Zezë,Mercedes-Benz,B 200,8300.0,EUR,8300.0,11,Other
+2025-04-28 09:36:06.943841,https://www.merrjep.al/njoftim/volvo-xc60-benzine-t6-3-0-2015-okazion/15192022,2015,Automatik,190000199999.0,Benzin,Vlorë,E Bardhë,Volvo,XC 60,12200.0,EUR,12200.0,10,Vlore
+2025-04-28 09:36:06.943849,https://www.merrjep.al/njoftim/nissan-juke-1-6-benzin-2016-full-opsion/15193654,2016,Automatik,120000129999.0,Benzin,Tiranë,Blu,Nissan,Juke,8600.0,EUR,8600.0,9,Tirane
+2025-04-28 09:36:06.943858,https://www.merrjep.al/njoftim/hybrid-c-300-benzin-2017-gjendje/15192849,2017,Automatik,190000199999.0,Benzin,Tiranë,E Bardhë,Mercedes-Benz,C 300,15500.0,EUR,15500.0,8,Tirane
+2025-04-28 09:36:06.943867,https://www.merrjep.al/njoftim/mercedes-ml-350-bluetec-4-matic-2015/15221433,2015,Automatik,190000199999.0,Dizel / Naftë,Vlorë,Gri,Mercedes-Benz,ML 350,16000.0,EUR,16000.0,10,Vlore
+2025-04-28 09:36:06.943876,https://www.merrjep.al/njoftim/bezin-gaz-m-nderimi-m-gjitha-letra-t-prera/14970125,1996,Manual,2000024999.0,Gaz (TNG) / Benzinë,Pogradec,E Zezë,Mercedes-Benz,B 180,1900.0,LEK,1900.0,29,Other
+2025-04-28 09:36:06.943885,https://www.merrjep.al/njoftim/peugot-rcz-1-6-benzin-2012-full-opsion/15193688,2012,Manual,200000249999.0,Benzin,Lushnjë,E Bardhë,Peugeot,RCZ,7900.0,EUR,7900.0,13,Other
+2025-04-28 09:36:06.943893,https://www.merrjep.al/njoftim/mitsubishi-space-star-2000/14956456,2000,Manual,2000024999.0,Gaz (TNG) / Benzinë,Pogradec,E Kuqe,Mitsubishi,Space Star,1400.0,LEK,1400.0,25,Other
+2025-04-28 09:36:06.943902,https://www.merrjep.al/njoftim/c-220-naft-2008-super-gjendje/15192839,2008,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,C 220,6750.0,EUR,6750.0,17,Tirane
+2025-04-28 09:36:06.943911,https://www.merrjep.al/njoftim/audi-q5-3-0-naft-2016-full-opsion/15193674,2016,Automatik,180000189999.0,Dizel / Naftë,Tiranë,Gri,Audi,Q5,13800.0,EUR,13800.0,9,Tirane
+2025-04-28 09:36:06.943919,https://www.merrjep.al/njoftim/autoveture/14378005,2012,Manual,180000189999.0,Dizel / Naftë,Tiranë,E Bardhë,Fiat,Fiorino,5200.0,EUR,5200.0,13,Tirane
+2025-04-28 09:36:06.943928,https://www.merrjep.al/njoftim/4x4-she-s-nderoj-super-gjendje/15044168,2003,Manual,2000024999.0,Dizel / Naftë,Pogradec,Gri,Mercedes-Benz,270,2990.0,LEK,2990.0,22,Other
+2025-04-28 09:36:06.943936,https://www.merrjep.al/njoftim/autoveture/14848571,2014,Manual,200000249999.0,Dizel / Naftë,Tiranë,E Bardhë,VW Volkswagen,Caddy,8500.0,EUR,8500.0,11,Tirane
+2025-04-28 09:36:06.943945,https://www.merrjep.al/njoftim/tucson-full-options/15158557,2016,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Zezë,Hyundai,Tucson,1.0,EUR,1.0,9,Tirane
+2025-04-28 09:36:06.943954,https://www.merrjep.al/njoftim/a6-2016-full-options/15160374,2016,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Zezë,Audi,A6,1.0,EUR,1.0,9,Tirane
+2025-04-28 09:36:06.943962,https://www.merrjep.al/njoftim/c-300-naft-2009-gjendje-perfekte/15193978,2009,Automatik,200000249999.0,Dizel / Naftë,Fier,E Gjelbër,Mercedes-Benz,C 300,6700.0,EUR,6700.0,16,Other
+2025-04-28 09:36:06.943971,https://www.merrjep.al/njoftim/fiat-500l-1-4-benzin-2015-full-opsion/15193966,2015,Automatik,170000179999.0,Benzin,Tiranë,E Zezë,Fiat,500L,8300.0,EUR,8300.0,10,Tirane
+2025-04-28 09:36:06.943980,https://www.merrjep.al/njoftim/audi-a8-lungo-presidencial-4-0-benzin-tfsi-s8-2014-full/15193973,2014,Automatik,180000189999.0,Benzin,Tiranë,E Zezë,Audi,A8,11999.0,EUR,11999.0,11,Tirane
+2025-04-28 09:36:06.943988,https://www.merrjep.al/njoftim/ml-350-naft-2014-gjendje-perfekte-full-opsion/15193697,2014,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,ML 350,14900.0,EUR,14900.0,11,Tirane
+2025-04-28 09:36:06.943997,https://www.merrjep.al/njoftim/okazion-2013-e250cdi-4matic/15196011,2013,Automatik,200000249999.0,Dizel / Naftë,Fier,Bezhë,Mercedes-Benz,E 250,10200.0,EUR,10200.0,12,Other
+2025-04-28 09:36:06.944006,https://www.merrjep.al/njoftim/volvo-xc60-2-5-benzin+gaz-2017-full-opsion/15193981,2017,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Durrës,Gri,Volvo,XC 60,13500.0,EUR,13500.0,8,Durres
+2025-04-28 09:36:06.944015,https://www.merrjep.al/njoftim/ml-350-naft-2014-super-full-opsion/15193701,2014,Automatik,190000199999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,ML 350,16500.0,EUR,16500.0,11,Tirane
+2025-04-28 09:36:10.412934,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:36:10.412984,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:36:10.412996,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:36:10.413014,https://www.merrjep.al/njoftim/vw-jetta-2-5-2011/15002167,2011,Automatik,120000129999.0,Benzin,Durrës,Gri,VW Volkswagen,Jetta,5999.0,EUR,5999.0,14,Durres
+2025-04-28 09:36:10.413023,https://www.merrjep.al/njoftim/mercedes-benz-b-class/15004310,2010,Automatik,120000129999.0,Gaz (TNG) / Benzinë,Durrës,E Bardhë,Mercedes-Benz,B 200,5300.0,EUR,5300.0,15,Durres
+2025-04-28 09:36:10.413032,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:36:10.413063,https://www.merrjep.al/njoftim/audi-a4-2-0-tdi-2013/14671966,2013,Automatik,8000084999.0,Dizel / Naftë,Durrës,Gri,Audi,A4,9700.0,EUR,9700.0,12,Durres
+2025-04-28 09:36:10.413073,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:36:10.413109,https://www.merrjep.al/njoftim/okazion-400-euro-cmimi-fundit/15223354,1999,Manual,150000159999.0,Benzin,Durrës,Blu,Kia,Pride,400.0,EUR,400.0,26,Durres
+2025-04-28 09:36:10.413117,https://www.merrjep.al/njoftim/shitet/15178651,2015,Automatik,100000109999.0,Dizel / Naftë,Tiranë,Blu,Volvo,V40,880000.0,LEK,880000.0,10,Tirane
+2025-04-28 09:36:10.413134,https://www.merrjep.al/njoftim/mitsubishi-colt-1-3-benzin-2006-super-gjendje/15194441,2006,Manual,100000109999.0,Benzin,Fier,Gri,Mitsubishi,Colt,2350.0,EUR,2350.0,19,Other
+2025-04-28 09:36:10.413152,https://www.merrjep.al/njoftim/audi-q5-3-0-naft-2015-full-opsion/15194618,2015,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Audi,Q5,13800.0,EUR,13800.0,10,Tirane
+2025-04-28 09:36:10.413161,https://www.merrjep.al/njoftim/freelander-2-2-naft-2008-automat-super-gjendje/15194612,2008,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Land Rover,Freelander,4999.0,EUR,4999.0,17,Tirane
+2025-04-28 09:36:10.413195,https://www.merrjep.al/njoftim/mercedes-benz-e350-cdi-super-full/15199285,2010,Automatik,250000299999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,E 350,11900.0,EUR,11900.0,15,Durres
+2025-04-28 09:36:10.413204,https://www.merrjep.al/njoftim/nissan-rouge-2-5-benzin-2015-full-opsion/15194630,2015,Automatik,200000249999.0,Benzin,Tiranë,Gri,Nissan,Model tjetër,7900.0,EUR,7900.0,10,Tirane
+2025-04-28 09:36:10.413212,https://www.merrjep.al/njoftim/audi-a8-4-2-naft-2016-lungo-full-opsion/15195605,2016,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Audi,A8,20900.0,EUR,20900.0,9,Tirane
+2025-04-28 09:36:10.413220,https://www.merrjep.al/njoftim/audi-a5-2-0-naft-2014-gjendje-perfekte-full-opsion/15195727,2014,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Bardhë,Audi,A5,10900.0,EUR,10900.0,11,Tirane
+2025-04-28 09:36:10.413238,https://www.merrjep.al/njoftim/bmw-320-naft-2010-gjendje-perfekte/15195538,2010,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,BMW,320,3650.0,EUR,3650.0,15,Tirane
+2025-04-28 09:36:10.413247,https://www.merrjep.al/njoftim/2023-volvo-xc60-2-0-naft-r-design-full-opsion/15194642,2023,Automatik,140000149999.0,Dizel / Naftë,Tiranë,Blu,Volvo,XC 60,35500.0,EUR,35500.0,2,Tirane
+2025-04-28 09:36:10.413256,https://www.merrjep.al/njoftim/jeep-patriot-2-4-benzin-2013-full-opsion/15194635,2013,Automatik,200000249999.0,Benzin,Tiranë,E Gjelbër,Jeep,Patriot,5600.0,EUR,5600.0,12,Tirane
+2025-04-28 09:36:10.413265,https://www.merrjep.al/njoftim/audi-q5-2-0-benzin-2014-full-opsion/15194624,2014,Automatik,200000249999.0,Benzin,Tiranë,E Zezë,Audi,Q5,8700.0,EUR,8700.0,11,Tirane
+2025-04-28 09:36:10.413274,https://www.merrjep.al/njoftim/okazion-400-euro-cmimi-fundit/15223348,1999,Manual,160000169999.0,Benzin,Durrës,Blu,Kia,Pride,400.0,EUR,400.0,26,Durres
+2025-04-28 09:36:10.413290,https://www.merrjep.al/njoftim/passat-sel-2-5-benzin-gaz/15223349,2013,Automatik,250000299999.0,Gaz (TNG) / Benzinë,Tiranë,Vishnje,VW Volkswagen,Passat,8000.0,EUR,8000.0,12,Tirane
+2025-04-28 09:36:10.413299,https://www.merrjep.al/njoftim/toyota-yaris-2008/15159548,2008,Manual,190000199999.0,Dizel / Naftë,Vlorë,Kafe,Toyota,Yaris,4200.0,EUR,4200.0,17,Vlore
+2025-04-28 09:36:10.413323,https://www.merrjep.al/njoftim/hummer-h3-5-3-benzin+gaz-2009-super-gjendje/15203277,2009,Automatik,150000159999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Hummer,H3,8900.0,EUR,8900.0,16,Tirane
+2025-04-28 09:36:10.413332,https://www.merrjep.al/njoftim/e-250-cdi-full-opsion/15196692,2014,Automatik,1000014999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,E 250,15000.0,EUR,15000.0,11,Tirane
+2025-04-28 09:36:10.413349,https://www.merrjep.al/njoftim/audi-a6-3-0-naft-2012-gjendje-perfekte-full-opsion/15195759,2012,Automatik,250000299999.0,Dizel / Naftë,Tiranë,Gri,Audi,A6,9800.0,EUR,9800.0,13,Tirane
+2025-04-28 09:36:10.413358,https://www.merrjep.al/njoftim/2022-golf-8-2-0-naft-gjendje-perfekte/15199394,2022,Automatik,100000109999.0,Dizel / Naftë,Tiranë,E Zezë,VW Volkswagen,Golf,17900.0,EUR,17900.0,3,Tirane
+2025-04-28 09:36:10.413366,https://www.merrjep.al/njoftim/okazion-super-gjendje-10-10/15185750,1985,Automatik,2500029999.0,Dizel / Naftë,Tiranë,Bezhë,Mercedes-Benz,190,3000.0,EUR,3000.0,40,Tirane
+2025-04-28 09:36:10.413375,https://www.merrjep.al/njoftim/golf-6-gaz-benzin/15045677,2009,Manual,200000249999.0,Gaz (TNG) / Benzinë,Lushnjë,E Bardhë,VW Volkswagen,Golf,530000.0,LEK,530000.0,16,Other
+2025-04-28 09:36:10.413399,https://www.merrjep.al/njoftim/bmw-x5-2013/15010591,2013,Automatik,300000349999.0,Dizel / Naftë,Tiranë,Gri,BMW,X5,10999.0,EUR,10999.0,12,Tirane
+2025-04-28 09:36:10.413425,https://www.merrjep.al/njoftim/nisan-qashqai-2011-1-6-gaz-benzine/15221168,2011,Manual,190000199999.0,Gaz (TNG) / Benzinë,Fier,Gri,Nissan,Qashqai,7300.0,EUR,7300.0,14,Other
+2025-04-28 09:36:10.413436,https://www.merrjep.al/njoftim/e-250-cdi-4-matic-full-option/15160277,2014,Automatik,1000014999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,E 250,15000.0,EUR,15000.0,11,Tirane
+2025-04-28 09:36:10.413445,https://www.merrjep.al/njoftim/shitet-e-250-cdi-4-matic/15075171,2014,Automatik,1000014999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,E 250,15000.0,EUR,15000.0,11,Tirane
+2025-04-28 09:36:10.413454,https://www.merrjep.al/njoftim/shitet-e250-cdi-4matic/14840685,2014,Automatik,1000014999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,E 250,15000.0,EUR,15000.0,11,Tirane
+2025-04-28 09:36:10.413462,https://www.merrjep.al/njoftim/mercedes-benz-c200/15046018,2008,Automatik,8000084999.0,Benzin,Durrës,Gri,Mercedes-Benz,200,6000.0,EUR,6000.0,17,Durres
+2025-04-28 09:36:10.413470,https://www.merrjep.al/njoftim/okazion-fiat-500e-83kw-full-elektrik/15023060,2015,Automatik,170000179999.0,Elektrikë,Tiranë,Blu,Fiat,500,8800.0,EUR,8800.0,10,Tirane
+2025-04-28 09:36:44.212512,https://www.merrjep.al/njoftim/a6-2014-full-options/15083663,2014,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Bardhë,Audi,A6,1.0,EUR,1.0,11,Tirane
+2025-04-28 09:36:44.212537,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:36:44.212548,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:36:44.212559,https://www.merrjep.al/njoftim/tiguan-full-options/14994059,2012,Automatik,150000159999.0,Dizel / Naftë,Tiranë,Blu,VW Volkswagen,Tiguan,1.0,EUR,1.0,13,Tirane
+2025-04-28 09:36:44.212569,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:36:44.212578,https://www.merrjep.al/njoftim/benz-sl-550-silver-arrow-edition-limited-1-of-550/10819446,2012,Automatik,120000129999.0,Benzin,Durrës,Gri,Mercedes-Benz,SL 500,1.0,EUR,1.0,13,Durres
+2025-04-28 09:36:44.212587,https://www.merrjep.al/njoftim/tiguan-full-options/14974065,2013,Automatik,200000249999.0,Elektrikë,Tiranë,Kafe,VW Volkswagen,Tiguan,1.0,EUR,1.0,12,Tirane
+2025-04-28 09:36:44.212595,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:36:44.212603,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:36:44.212612,https://www.merrjep.al/njoftim/tiguan-full-options/14953712,2012,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,VW Volkswagen,Tiguan,1.0,EUR,1.0,13,Tirane
+2025-04-28 09:36:44.212620,https://www.merrjep.al/njoftim/tucson-full-options/14953682,2015,Automatik,120000129999.0,Dizel / Naftë,Tiranë,E Bardhë,Hyundai,Tucson,1.0,EUR,1.0,10,Tirane
+2025-04-28 09:36:44.212628,https://www.merrjep.al/njoftim/e-class-250-full-options/14725473,2014,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Bardhë,Mercedes-Benz,E 250,1.0,EUR,1.0,11,Tirane
+2025-04-28 09:36:44.212637,https://www.merrjep.al/njoftim/passat-cc-2014/15006638,2014,Automatik,180000189999.0,Dizel / Naftë,Durrës,E Bardhë,VW Volkswagen,CC,10000.0,EUR,10000.0,11,Durres
+2025-04-28 09:36:44.212645,https://www.merrjep.al/njoftim/toyota-yaris-benzin+gas/15197438,2010,Manual,200000249999.0,Gaz (TNG) / Benzinë,Fier,E Zezë,Toyota,Yaris,4499.0,LEK,4499.0,15,Other
+2025-04-28 09:36:44.212653,https://www.merrjep.al/njoftim/okazion-12000-euro/15062818,2014,Automatik,160000169999.0,Dizel / Naftë,Tiranë,Gri,Audi,A6,12000.0,EUR,12000.0,11,Tirane
+2025-04-28 09:36:44.212669,https://www.merrjep.al/njoftim/volkswagen-crafter-2018/15080936,2018,Manual,130000139999.0,Dizel / Naftë,Tiranë,E Bardhë,VW Volkswagen,Crafter,16.0,LEK,16.0,7,Tirane
+2025-04-28 09:36:44.212678,https://www.merrjep.al/njoftim/fiat-bravo-2012/15112090,2012,Manual,170000179999.0,Benzin,Fier,Gri,Fiat,Bravo,3700.0,LEK,3700.0,13,Other
+2025-04-28 09:36:44.212686,https://www.merrjep.al/njoftim/fiat-500/15005907,2009,Manual,170000179999.0,Benzin,Tiranë,E Zezë,Fiat,500,3600.0,EUR,3600.0,16,Tirane
+2025-04-28 09:36:44.212694,https://www.merrjep.al/njoftim/shes-nderoj-bezin-gaz-super-gjendje/15054422,2008,Manual,1500019999.0,Gaz (TNG) / Benzinë,Pogradec,Gri,BMW,116,3200.0,LEK,3200.0,17,Other
+2025-04-28 09:36:44.212703,https://www.merrjep.al/njoftim/honda-insajd-1-3-benzin+gaz+hibrid-automat-nga-zvicra/14518944,2009,Automatik,170000179999.0,Benzin,Durrës,E Bardhë,Honda,Insight,6700.0,EUR,6700.0,16,Durres
+2025-04-28 09:36:44.212720,https://www.merrjep.al/njoftim/mercedes-a-clase/15091542,2002,Manual,180000189999.0,Dizel / Naftë,Vlorë,Gri,Mercedes-Benz,A 170,400.0,LEK,400.0,23,Vlore
+2025-04-28 09:36:44.212729,https://www.merrjep.al/njoftim/okazion-8900-audi-q7-2011-3-0-nafte/15223290,2011,Automatik,190000199999.0,Dizel / Naftë,Durrës,E Zezë,Audi,Q7,8900.0,EUR,8900.0,14,Durres
+2025-04-28 09:36:44.212737,https://www.merrjep.al/njoftim/glk-250-4matic-amg-viti-2015/14435350,2015,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Kuqe,Mercedes-Benz,GLK 250,12800.0,EUR,12800.0,10,Tirane
+2025-04-28 09:36:44.212746,https://www.merrjep.al/njoftim/shitet-bmw-x5-full-option-2014-diesel/14626647,2014,Automatik,190000199999.0,Dizel / Naftë,Elbasan,E Zezë,BMW,X5,19999.0,EUR,19999.0,11,Other
+2025-04-28 09:36:44.212755,https://www.merrjep.al/njoftim/volvo-xc-60-2013-3-0-benzine-okazion/15219120,2013,Automatik,170000179999.0,Benzin,Durrës,E Zezë,Volvo,XC 60,9499.0,EUR,9499.0,12,Durres
+2025-04-28 09:36:44.212764,https://www.merrjep.al/njoftim/shitet-fugon-sprinter/15193525,2010,Manual,250000299999.0,Dizel / Naftë,Tiranë,E Bardhë,Mercedes-Benz,220,10000.0,EUR,10000.0,15,Tirane
+2025-04-28 09:36:44.212772,https://www.merrjep.al/njoftim/shiten-caddy-2-0-nafte/12363046,2007,Manual,200000249999.0,Dizel / Naftë,Tiranë,E Verdhë,VW Volkswagen,Caddy,3400.0,EUR,3400.0,18,Tirane
+2025-04-28 09:36:44.212787,https://www.merrjep.al/njoftim/volvo-xc60-r-2010-super-gjendje/13341815,2010,Automatik,160000169999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Volvo,XC 60,8500.0,EUR,8500.0,15,Tirane
+2025-04-28 09:36:44.212795,https://www.merrjep.al/njoftim/shitet-glk-250-bluetec-2014-okazion/15111580,2014,Automatik,170000179999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,GLK 250,12000.0,EUR,12000.0,11,Durres
+2025-04-28 09:36:44.212804,https://www.merrjep.al/njoftim/shitet-audi-a7-3-0-tdi-germanie/15100036,2012,Automatik,200000249999.0,Dizel / Naftë,Durrës,E Zezë,Audi,A7,11900.0,EUR,11900.0,13,Durres
+2025-04-28 09:36:44.212812,https://www.merrjep.al/njoftim/shitet-range-rover-3-0-naft-italie/15031434,2016,Automatik,180000189999.0,Dizel / Naftë,Durrës,E Argjendtë,Land Rover,Range Rover Sport,18500.0,EUR,18500.0,9,Durres
+2025-04-28 09:36:44.212821,https://www.merrjep.al/njoftim/super-smart/15201228,2004,Automatik,150000159999.0,Benzin,Tiranë,E Verdhë,Smart,ForTwo,2000.0,EUR,2000.0,21,Tirane
+2025-04-28 09:36:44.212829,https://www.merrjep.al/njoftim/citroen-nemo1-4-familjare-pune-okazion/15003728,2011,Manual,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Citroën,Nemo,4500.0,EUR,4500.0,14,Tirane
+2025-04-28 09:36:44.212837,https://www.merrjep.al/njoftim/passat-se-2-5-benzine/15197066,2012,Automatik,190000199999.0,Benzin,Tiranë,Gri,VW Volkswagen,Passat,6500.0,EUR,6500.0,13,Tirane
+2025-04-28 09:36:44.212845,https://www.merrjep.al/njoftim/mercedes-benz-evo/15184943,2008,Automatik,200000249999.0,Dizel / Naftë,Vlorë,Gri,Mercedes-Benz,E 280,5900.0,EUR,5900.0,17,Vlore
+2025-04-28 09:36:44.212854,https://www.merrjep.al/njoftim/shitet-audi-a6-3-0-tfsi-2013-automat-okazion/15179009,2013,Automatik,180000189999.0,Benzin,Durrës,Kafe,Audi,A6,7200.0,EUR,7200.0,12,Durres
+2025-04-28 09:36:44.212934,https://www.merrjep.al/njoftim/ml-350-bluetec-2013/15176364,2013,Automatik,130000139999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,ML 350,15.0,EUR,15.0,12,Tirane
+2025-04-28 09:36:44.212949,https://www.merrjep.al/njoftim/mercedes-benz-c200-kompressor/15170545,2009,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Vlorë,Gri,Mercedes-Benz,C 200,6300.0,EUR,6300.0,16,Vlore
+2025-04-28 09:36:44.212958,https://www.merrjep.al/njoftim/materia-1-5-automat-me-dogane-nga-zvicra/15115576,2007,Automatik,200000249999.0,Benzin,Durrës,Blu,Daihatsu,MATERIA,1.0,EUR,1.0,18,Durres
+2025-04-28 09:36:44.212968,https://www.merrjep.al/njoftim/fiat-stilo-2002/15020484,2002,Manual,2000024999.0,Dizel / Naftë,Pogradec,Gri,Fiat,Stilo,1.0,LEK,1.0,23,Other
+2025-04-28 09:36:44.212993,https://www.merrjep.al/njoftim/toyota-yaris-1-3-benzine-2011-nga-zvicra/10998586,2011,Manual,180000189999.0,Benzin,Durrës,E Bardhë,Toyota,Yaris,4500.0,EUR,4500.0,14,Durres
+2025-04-28 09:36:44.213001,https://www.merrjep.al/njoftim/nisan-note-1-5-nafte-2009-nga-zvicra/9597270,2009,Manual,180000189999.0,Dizel / Naftë,Durrës,Blu,Nissan,Note,4000.0,EUR,4000.0,16,Durres
+2025-04-28 09:36:44.213009,https://www.merrjep.al/njoftim/ford/15198928,2001,Manual,200000249999.0,Benzin,Vlorë,Gri,Ford,Fiesta,300.0,LEK,300.0,24,Vlore
+2025-04-28 09:36:44.213017,https://www.merrjep.al/njoftim/ford-naft-me-letra-mund-nderrimi/15197492,2002,Manual,190000199999.0,Dizel / Naftë,Durrës,Gri,Ford,Focus,1600.0,LEK,1600.0,23,Durres
+2025-04-28 09:36:44.213026,https://www.merrjep.al/njoftim/citroen-c4-automatike/15155582,2011,Automatik,140000149999.0,Benzin,Vlorë,Kafe,Citroën,C4,5500.0,EUR,5500.0,14,Vlore
+2025-04-28 09:36:44.213053,https://www.merrjep.al/njoftim/39-500-class-350-bluetec-viti-2012-nafte-pa-takse-lluksi/15089289,2012,Automatik,190000199999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,G 350,39500.0,EUR,39500.0,13,Tirane
+2025-04-28 09:36:44.213065,https://www.merrjep.al/njoftim/2015-audi-a6-tdi-s-line-shitet-nderrohet/14694576,2015,Automatik,200000249999.0,Dizel / Naftë,Shkodër,E Argjendtë,Audi,A6,16000.0,EUR,16000.0,10,Other
+2025-04-28 09:36:44.213074,https://www.merrjep.al/njoftim/2012-audi-q3-2-0-tdi-s-tronic/15222056,2012,Automatik,180000189999.0,Dizel / Naftë,Shkodër,Blu,Audi,Q3,14800.0,EUR,14800.0,13,Other
+2025-04-28 09:36:44.213082,https://www.merrjep.al/njoftim/shitet-toyota-rav-4-naft-d4d-2008/15220848,2008,Manual,200000249999.0,Dizel / Naftë,Durrës,Gri,Toyota,RAV 4,4700.0,EUR,4700.0,17,Durres
+2025-04-28 09:36:44.213089,https://www.merrjep.al/njoftim/mercedes-benz-ml-350/15221128,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Vlorë,E Zezë,Mercedes-Benz,ML 350,6500.0,EUR,6500.0,17,Vlore
+2025-04-28 09:36:44.897723,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:36:44.897750,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:36:44.897763,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:36:44.897772,https://www.merrjep.al/njoftim/volvo-xc60-nafte-2011/15131950,2011,Automatik,200000249999.0,Dizel / Naftë,Durrës,E Zezë,Volvo,XC 60,11900.0,EUR,11900.0,14,Durres
+2025-04-28 09:36:44.897790,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:36:44.897800,https://www.merrjep.al/njoftim/okazion-nissan-qashqai-nafte-2-0-automatike-2011/14491247,2011,Automatik,250000299999.0,Dizel / Naftë,Tiranë,Gri,Nissan,Qashqai+2,6999.0,EUR,6999.0,14,Tirane
+2025-04-28 09:36:44.897809,https://www.merrjep.al/njoftim/volvo-v60-nafte-2-4-automatike-2011-ardhur-nga-zvicra/14527811,2011,Automatik,150000159999.0,Dizel / Naftë,Tiranë,E Zezë,Volvo,V60,5999.0,EUR,5999.0,14,Tirane
+2025-04-28 09:36:44.897818,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:36:44.897828,https://www.merrjep.al/njoftim/fiat-panda-benzine-manuale-sapo-targuar/14382334,2011,Manual,190000199999.0,Benzin,Tiranë,E Zezë,Fiat,Panda,4999.0,EUR,4999.0,14,Tirane
+2025-04-28 09:36:44.897837,https://www.merrjep.al/njoftim/eclas-250-4-matic-viti-2013-full/15158255,2013,Automatik,2000024999.0,Dizel / Naftë,Durrës,E Bardhë,Mercedes-Benz,E 250,10300.0,EUR,10300.0,12,Durres
+2025-04-28 09:36:44.897846,https://www.merrjep.al/njoftim/audi-q-5/15195283,2010,Automatik,170000179999.0,Dizel / Naftë,Tiranë,E Bardhë,Audi,Q5,11500.0,EUR,11500.0,15,Tirane
+2025-04-28 09:36:44.897854,https://www.merrjep.al/njoftim/audi-a4-1-9-nafte-me-letra/15137303,2007,Manual,2000024999.0,Dizel / Naftë,Durrës,Gri,Audi,A4,3200.0,EUR,3200.0,18,Durres
+2025-04-28 09:36:44.897862,https://www.merrjep.al/njoftim/automat-2-0-nafte-viti-2010-super-gjendje/15154245,2010,Automatik,1500019999.0,Dizel / Naftë,Durrës,E Bardhë,Ford,C-Max,3500.0,EUR,3500.0,15,Durres
+2025-04-28 09:36:44.897880,https://www.merrjep.al/njoftim/land-rover-off-road-nafte-2-5-krah-anglez/15172553,2000,Manual,2500029999.0,Dizel / Naftë,Tiranë,Vishnje,Land Rover,Model tjetër,4999.0,EUR,4999.0,25,Tirane
+2025-04-28 09:36:44.897889,https://www.merrjep.al/njoftim/mb-c-220-furnizimi-i-ri/15220255,2014,Automatik,150000159999.0,Dizel / Naftë,Tiranë,E Bardhë,Mercedes-Benz,C 220,1.0,EUR,1.0,11,Tirane
+2025-04-28 09:36:44.897897,https://www.merrjep.al/njoftim/mb-glc-220-2016/15219140,2016,Automatik,170000179999.0,Dizel / Naftë,Tiranë,E Bardhë,Mercedes-Benz,GLC 220,1.0,EUR,1.0,9,Tirane
+2025-04-28 09:36:44.897923,https://www.merrjep.al/njoftim/c-clas-180-kompresor-i-sapo-ardhur-nga-hollanda/15223250,2002,Automatik,200000249999.0,Benzin,Tiranë,Blu,Mercedes-Benz,C 180,3200.0,EUR,3200.0,23,Tirane
+2025-04-28 09:36:44.897932,https://www.merrjep.al/njoftim/mb-glk-220/15201334,2013,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,GLK 220,13999.0,EUR,13999.0,12,Tirane
+2025-04-28 09:36:44.897940,https://www.merrjep.al/njoftim/shitet-audi-a6-x3-s-line-supercharged/15223248,2014,Automatik,2000024999.0,Benzin,Tiranë,E Zezë,Audi,A6,14000.0,EUR,14000.0,11,Tirane
+2025-04-28 09:36:44.897949,https://www.merrjep.al/njoftim/audi-q-3-afurnizimi-i-ri/15221113,2014,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Bardhë,Audi,Q3,14999.0,EUR,14999.0,11,Tirane
+2025-04-28 09:36:44.897957,https://www.merrjep.al/njoftim/hyundai-tucson-premium-2-0-nafte-automat/15177351,2010,Automatik,190000199999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,Tucson,6700.0,EUR,6700.0,15,Tirane
+2025-04-28 09:36:44.897966,https://www.merrjep.al/njoftim/shitet-ford-fiesta-titanium-1-4-benzin-gaz-viti-2012/15223251,2012,Manual,170000179999.0,Gaz (TNG) / Benzinë,Durrës,E Zezë,Ford,Fiesta,1.0,EUR,1.0,13,Durres
+2025-04-28 09:36:44.897975,https://www.merrjep.al/njoftim/audi-a3-e-tron-hybrid-plug-in/15011435,2017,Automatik,9500099999.0,Benzin,Tiranë,Blu,Audi,A3,15900.0,EUR,15900.0,8,Tirane
+2025-04-28 09:36:44.897983,https://www.merrjep.al/njoftim/okazion-audi-a4-nafte-2-0-automatik-gjendje-shume-te-mire/15181779,2009,Automatik,1500019999.0,Dizel / Naftë,Tiranë,Gri,Audi,A4,5999.0,EUR,5999.0,16,Tirane
+2025-04-28 09:36:44.897992,https://www.merrjep.al/njoftim/c220cdi-nafte-automatike-2003-dokumenta-te-paguara/15179140,2003,Automatik,250000299999.0,Dizel / Naftë,Tiranë,Blu,Mercedes-Benz,C 220,2800.0,LEK,2800.0,22,Tirane
+2025-04-28 09:36:44.898336,https://www.merrjep.al/njoftim/audi-q5-sline-3-0-nafte-viti-12-2014-automat/15147090,2014,Automatik,170000179999.0,Dizel / Naftë,Vlorë,E Artë,Audi,Q5,14350.0,EUR,14350.0,11,Vlore
+2025-04-28 09:36:44.898347,https://www.merrjep.al/njoftim/audi-q5-3-0-tdi-nafte-automat-amerike-viti-12-2014/15141007,2014,Automatik,170000179999.0,Dizel / Naftë,Vlorë,E Artë,Audi,Q5,14350.0,EUR,14350.0,11,Vlore
+2025-04-28 09:36:44.898356,https://www.merrjep.al/njoftim/c200evo-nafte-2009-manuale-dogane-e-paguar/15113254,2009,Manual,200000249999.0,Dizel / Naftë,Tiranë,E Artë,Mercedes-Benz,C 200,5000.0,LEK,5000.0,16,Tirane
+2025-04-28 09:36:44.898366,https://www.merrjep.al/njoftim/mercedes-vito-automatik-viti-2008-cmimi-6990/15042081,2008,Automatik,450000499999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,Viano,6990.0,EUR,6990.0,17,Tirane
+2025-04-28 09:36:44.898375,https://www.merrjep.al/njoftim/audi-a4-nafte-automatike-me-letra-te-paguara/14535603,2006,Automatik,250000299999.0,Dizel / Naftë,Tiranë,Gri,Audi,A4,2400.0,EUR,2400.0,19,Tirane
+2025-04-28 09:36:44.898384,https://www.merrjep.al/njoftim/mercedes-citan-nafte-1-5-manuale-sapo-targuar/14436708,2012,Manual,200000249999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,Model tjetër,6900.0,EUR,6900.0,13,Tirane
+2025-04-28 09:36:44.898394,https://www.merrjep.al/njoftim/touran-1-9tdi-manuale-2008-dogane-e-paguar/15189868,2008,Manual,200000249999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Touran,4500.0,LEK,4500.0,17,Tirane
+2025-04-28 09:36:44.898403,https://www.merrjep.al/njoftim/mercedes-benz-e-classe-200-gaz-automat-benzin-gaz/15189288,2008,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Durrës,Gri,Mercedes-Benz,E 200,5800.0,EUR,5800.0,17,Durres
+2025-04-28 09:36:44.898412,https://www.merrjep.al/njoftim/hyundai-i-40/15188653,2013,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Bardhë,Hyundai,i40,7499.0,EUR,7499.0,12,Tirane
+2025-04-28 09:36:44.898421,https://www.merrjep.al/njoftim/e220cdi-nafte-manuale-2005-dokumenta-te-paguara/15189816,2005,Manual,200000249999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,E 220,3700.0,LEK,3700.0,20,Tirane
+2025-04-28 09:36:44.898430,https://www.merrjep.al/njoftim/hyundai-kona/15195389,2017,Automatik,100000109999.0,Dizel / Naftë,Tiranë,E Bardhë,Hyundai,Model tjetër,13999.0,EUR,13999.0,8,Tirane
+2025-04-28 09:36:44.898439,https://www.merrjep.al/njoftim/vw-golf-7/15218270,2014,Automatik,170000179999.0,Dizel / Naftë,Tiranë,E Bardhë,VW Volkswagen,Golf,11999.0,EUR,11999.0,11,Tirane
+2025-04-28 09:36:44.898447,https://www.merrjep.al/njoftim/bmv-530xd-3-0-nafte-automat-viti-12-2006/15222353,2006,Automatik,190000199999.0,Dizel / Naftë,Vlorë,Gri,BMW,530,5200.0,EUR,5200.0,19,Vlore
+2025-04-28 09:36:44.898456,https://www.merrjep.al/njoftim/fiat-500-x/15220827,2017,Automatik,7000074999.0,Dizel / Naftë,Tiranë,E Bardhë,Fiat,500X,11999.0,EUR,11999.0,8,Tirane
+2025-04-28 09:36:44.898465,https://www.merrjep.al/njoftim/lancia-musa-automat-full-panoramike/15145890,2008,Automatik,190000199999.0,Benzin,Shkodër,E Zezë,Lancia,MUSA,3200.0,EUR,3200.0,17,Other
+2025-04-28 09:36:44.898473,https://www.merrjep.al/njoftim/toyota-yaris-hybrid/15216859,2013,Automatik,170000179999.0,Hibrid & CNG,Tiranë,E Bardhë,Toyota,Yaris,7700.0,EUR,7700.0,12,Tirane
+2025-04-28 09:36:44.898482,https://www.merrjep.al/njoftim/hyundai-i-30/15201313,2013,Automatik,170000179999.0,Dizel / Naftë,Tiranë,E Bardhë,Hyundai,i30,7999.0,EUR,7999.0,12,Tirane
+2025-04-28 09:36:44.898490,https://www.merrjep.al/njoftim/range-rover-vogue/15213555,2014,Automatik,170000179999.0,Dizel / Naftë,Tiranë,E Zezë,Rover,Model tjetër,1.0,EUR,1.0,11,Tirane
+2025-04-28 09:36:44.898499,https://www.merrjep.al/njoftim/audi-q5-tdi-diesel-automat-viti-12-2014/15078159,2014,Automatik,170000179999.0,Dizel / Naftë,Vlorë,E Artë,Audi,Q5,14350.0,EUR,14350.0,11,Vlore
+2025-04-28 09:36:44.898508,https://www.merrjep.al/njoftim/toyota/14437132,2005,Automatik,160000169999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Toyota,4-Runner,15900.0,EUR,15900.0,20,Tirane
+2025-04-28 09:36:44.898516,https://www.merrjep.al/njoftim/tiguan-panoram-benxine-gaz-prins/15134043,2011,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,E Bardhë,VW Volkswagen,Tiguan,9800.0,EUR,9800.0,14,Tirane
+2025-04-28 09:36:44.898524,https://www.merrjep.al/njoftim/range-rover-discovery/15188636,2011,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Bardhë,Rover,Model tjetër,10499.0,EUR,10499.0,14,Tirane
+2025-04-28 09:36:44.898533,https://www.merrjep.al/njoftim/vw-tiguan/15201219,2013,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Bardhë,VW Volkswagen,Tiguan,10499.0,EUR,10499.0,12,Tirane
+2025-04-28 09:36:44.898541,https://www.merrjep.al/njoftim/shitet-golf-5-1-9-naft-kambio-automatike-nga-gjermania/15198612,2006,Automatik,170000179999.0,Dizel / Naftë,Durrës,E Zezë,VW Volkswagen,Golf,1.0,EUR,1.0,19,Durres
+2025-04-28 09:36:44.932792,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:36:44.932817,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:36:44.932830,https://www.merrjep.al/njoftim/toyota-yaris-1-4-nafte/15176207,2008,Manual,200000249999.0,Dizel / Naftë,Durrës,Gri,Toyota,Yaris,4320.0,EUR,4320.0,17,Durres
+2025-04-28 09:36:44.932852,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:36:44.932863,https://www.merrjep.al/njoftim/w-tiguan-2-0-tdi/15153565,2014,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Zezë,VW Volkswagen,Tiguan,8300.0,EUR,8300.0,11,Tirane
+2025-04-28 09:36:44.932873,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:36:44.932884,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:36:44.932916,https://www.merrjep.al/njoftim/volkswagen-tiguan-2-0-tdi-highline-4motion-led-panoram-full/14966334,2015,Automatik,130000139999.0,Dizel / Naftë,Tiranë,E Zezë,VW Volkswagen,Tiguan,11990.0,EUR,11990.0,10,Tirane
+2025-04-28 09:36:44.932938,https://www.merrjep.al/njoftim/mercedes-benz-glk-okazioooooooon/14461255,2010,Automatik,200000249999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,GLK 350,9300.0,EUR,9300.0,15,Durres
+2025-04-28 09:36:44.932958,https://www.merrjep.al/njoftim/shitet-hyundai-tuscon-2016-evgt-cmime-okazion/15194611,2016,Automatik,100000109999.0,Dizel / Naftë,Tiranë,E Gjelbër,Hyundai,Tucson,1.0,EUR,1.0,9,Tirane
+2025-04-28 09:36:44.932968,https://www.merrjep.al/njoftim/evoque-2-2-sd4/15223232,2015,Automatik,150000159999.0,Dizel / Naftë,Durrës,E Zezë,Land Rover,Range Rover Evoque,14800.0,EUR,14800.0,10,Durres
+2025-04-28 09:36:44.933189,https://www.merrjep.al/njoftim/toyota-auris-1-4d-automat/14991055,2009,Automatik,2000024999.0,Dizel / Naftë,Elbasan,Gri,Toyota,Auris,4950.0,EUR,4950.0,16,Other
+2025-04-28 09:36:44.933201,https://www.merrjep.al/njoftim/golf-vi-2010-1-4-tsi-automatik/15002082,2010,Automatik,2000024999.0,Benzin,Elbasan,E Zezë,VW Volkswagen,Golf,6000.0,EUR,6000.0,15,Other
+2025-04-28 09:36:44.933210,https://www.merrjep.al/njoftim/shitet-ford-fiesta/15168572,2022,Manual,4000044999.0,Benzin,Tiranë,E Zezë,Ford,Fiesta,12500.0,EUR,12500.0,3,Tirane
+2025-04-28 09:36:44.933218,https://www.merrjep.al/njoftim/volvo-xc60-nafte-zvicre/15215462,2012,Automatik,200000249999.0,Dizel / Naftë,Durrës,Kafe,Volvo,XC 60,11200.0,EUR,11200.0,13,Durres
+2025-04-28 09:36:44.933227,https://www.merrjep.al/njoftim/mercedes-benz-sprinter-automatic/15003536,2015,Automatik,200000249999.0,Dizel / Naftë,Durrës,Blu,Mercedes-Benz,Model tjetër,14300.0,EUR,14300.0,10,Durres
+2025-04-28 09:36:44.933235,https://www.merrjep.al/njoftim/mercedes-e320-gaz+benzin-amg-line-fabrike-mega-full/15139649,2002,Automatik,300000349999.0,Gaz (TNG) / Benzinë,Vlorë,Gri,Mercedes-Benz,E 320,5500.0,EUR,5500.0,23,Vlore
+2025-04-28 09:36:44.933261,https://www.merrjep.al/njoftim/toyota-iq-1-0-benzin/15222983,2009,Manual,150000159999.0,Benzin,Lushnjë,E Zezë,Toyota,IQ,4000.0,EUR,4000.0,16,Other
+2025-04-28 09:36:44.933311,https://www.merrjep.al/njoftim/mercedes-benz-w212-e-220-cdi-bluetec-avantgarde-sport-15/14492113,2016,Automatik,180000189999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,E 220,12990.0,EUR,12990.0,9,Tirane
+2025-04-28 09:36:44.933337,https://www.merrjep.al/njoftim/peugoto-308-okazion/15185081,2009,Automatik,140000149999.0,Benzin,Tiranë,Gri,Peugeot,308,5000.0,EUR,5000.0,16,Tirane
+2025-04-28 09:36:44.933345,https://www.merrjep.al/njoftim/audi-a3-automat-2007/15171073,2007,Automatik,2000024999.0,Dizel / Naftë,Lushnjë,Gri,Audi,A3,4500.0,EUR,4500.0,18,Other
+2025-04-28 09:36:44.933360,https://www.merrjep.al/njoftim/golf-5-1-9-naft-automat/15171058,2006,Automatik,2000024999.0,Dizel / Naftë,Lushnjë,Gri,VW Volkswagen,Golf,4600.0,EUR,4600.0,19,Other
+2025-04-28 09:36:44.933368,https://www.merrjep.al/njoftim/smart-2009/15222124,2009,Automatik,1000014999.0,Benzin,Durrës,E Bardhë,Smart,ForTwo,1.0,EUR,1.0,16,Durres
+2025-04-28 09:36:44.933377,https://www.merrjep.al/njoftim/shes-kia-k7/15099828,2013,Automatik,190000199999.0,Tjetër,Tiranë,E Zezë,Kia,K2700,9000.0,EUR,9000.0,12,Tirane
+2025-04-28 09:36:44.933393,https://www.merrjep.al/njoftim/jaguar-super-full/15222110,2007,Automatik,2000024999.0,Dizel / Naftë,Durrës,E Zezë,Jaguar,XJ,1.0,EUR,1.0,18,Durres
+2025-04-28 09:36:44.933402,https://www.merrjep.al/njoftim/mercedes-s-lok-6-3-amg-2016-naft-3-5-okazion-45000-mij-euro/15188621,2016,Automatik,4999.0,Dizel / Naftë,Tiranë,E Bardhë,Mercedes-Benz,S 63 AMG,45000.0,EUR,45000.0,9,Tirane
+2025-04-28 09:36:44.933411,https://www.merrjep.al/njoftim/shitet-hyndai-tucson/15223220,2011,Automatik,2000024999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,Tucson,8000.0,EUR,8000.0,14,Tirane
+2025-04-28 09:36:44.933420,https://www.merrjep.al/njoftim/shitet-renault-clio-2009-automat-benzine-1-4/15168199,2009,Automatik,120000129999.0,Benzin,Elbasan,Blu,Renault,Clio,3600.0,EUR,3600.0,16,Other
+2025-04-28 09:36:44.933429,https://www.merrjep.al/njoftim/shes-peugeot-508/15187435,2014,Automatik,150000159999.0,Dizel / Naftë,Tiranë,Gri,Peugeot,508,5300.0,EUR,5300.0,11,Tirane
+2025-04-28 09:36:44.933437,https://www.merrjep.al/njoftim/e-200-cdi-bluefficency/15223205,2012,Automatik,2500029999.0,Dizel / Naftë,Korçë,Bezhë,Mercedes-Benz,E 200,6000.0,EUR,6000.0,13,Other
+2025-04-28 09:36:44.933445,https://www.merrjep.al/njoftim/opel-combo-1-3-diesel-okazion/12362994,2010,Manual,180000189999.0,Dizel / Naftë,Tiranë,E Bardhë,Opel,Combo,1800.0,EUR,1800.0,15,Tirane
+2025-04-28 09:36:44.933454,https://www.merrjep.al/njoftim/volkswagen-polo-1-4-tdi/15223221,2008,Manual,250000299999.0,Dizel / Naftë,Kurbin,E Argjendtë,VW Volkswagen,Polo,3000.0,EUR,3000.0,17,Other
+2025-04-28 09:36:44.933462,https://www.merrjep.al/njoftim/audi-a6-automat-2-0-tdi/15192140,2013,Automatik,1000014999.0,Dizel / Naftë,Tiranë,Gri,Audi,A6,11499.0,EUR,11499.0,12,Tirane
+2025-04-28 09:36:44.933470,https://www.merrjep.al/njoftim/renault-koleos-automat-2-0-naft-okazion/15202104,2008,Automatik,1000014999.0,Dizel / Naftë,Tiranë,Gri,Renault,Koleos,4500.0,EUR,4500.0,17,Tirane
+2025-04-28 09:36:44.933478,https://www.merrjep.al/njoftim/2015-audi-a6-c7-s-line-3-0t/13954522,2015,Automatik,160000169999.0,Benzin,Tiranë,E Zezë,Audi,A6,18000.0,EUR,18000.0,10,Tirane
+2025-04-28 09:36:44.933486,https://www.merrjep.al/njoftim/mercedes-benz-c300-amg-line/15203039,2008,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Tiranë,E Kuqe,Mercedes-Benz,C 300,8490.0,EUR,8490.0,17,Tirane
+2025-04-28 09:36:44.933495,https://www.merrjep.al/njoftim/audi-a6-2012-naft-3-0-km-178-automat-10500-euro-okazion/15200494,2012,Automatik,4999.0,Dizel / Naftë,Tiranë,Gri,Audi,A6,10500.0,EUR,10500.0,13,Tirane
+2025-04-28 09:36:44.934413,https://www.merrjep.al/njoftim/shitet-mercedes-benz-c-klas-220-automat-2007/15018142,2007,Automatik,200000249999.0,Dizel / Naftë,Elbasan,E Zezë,Mercedes-Benz,C 200,5000.0,EUR,5000.0,18,Other
+2025-04-28 09:36:44.934432,https://www.merrjep.al/njoftim/shitet-s-63-amg-20198brabus-800/14975149,2019,Automatik,7000074999.0,Benzin,Elbasan,E Zezë,Mercedes-Benz,S 63 AMG,1.0,EUR,1.0,6,Other
+2025-04-28 09:36:44.934443,https://www.merrjep.al/njoftim/mercedez-benz-e-clas-avangard-240-benzin-gaz/15111016,2005,Automatik,1000014999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,E 240,6290.0,EUR,6290.0,20,Tirane
+2025-04-28 09:36:44.934453,https://www.merrjep.al/njoftim/mercedez-benz-cls-350d-blueficency-4-matik/15110975,2016,Automatik,1500019999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,CLS 350,2000.0,EUR,2000.0,9,Tirane
+2025-04-28 09:36:44.934461,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:36:44.934469,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:36:44.934478,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:36:44.934517,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:36:44.934529,https://www.merrjep.al/njoftim/benz-e-klas-250-4-matic/15147752,2015,Automatik,170000179999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,E 250,12900.0,EUR,12900.0,10,Tirane
+2025-04-28 09:36:44.934538,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:36:44.934557,https://www.merrjep.al/njoftim/range-rover/14724760,2016,Automatik,8500089999.0,Dizel / Naftë,Tiranë,E Zezë,Land Rover,Range Rover,37000.0,EUR,37000.0,9,Tirane
+2025-04-28 09:36:44.934565,https://www.merrjep.al/njoftim/shitet-audi-q5-2015-automat-diesel-elbasan/14861730,2015,Automatik,190000199999.0,Dizel / Naftë,Elbasan,Gri,Audi,Q5,13500.0,EUR,13500.0,10,Other
+2025-04-28 09:36:44.934574,https://www.merrjep.al/njoftim/vw-tiguan/15161108,2012,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Zezë,VW Volkswagen,Tiguan,10900.0,EUR,10900.0,13,Tirane
+2025-04-28 09:36:44.934582,https://www.merrjep.al/njoftim/range-rover-vogue-3-0l-14-autobiography-full-panoramic/14840819,2014,Automatik,170000179999.0,Benzin,Tiranë,E Argjendtë,Land Rover,Range Rover,24000.0,EUR,24000.0,11,Tirane
+2025-04-28 09:36:44.934591,https://www.merrjep.al/njoftim/audi-q7-s-line-14panoramic-mundesi-nderrimi/14956135,2014,Automatik,200000249999.0,Benzin,Tiranë,Gri,Audi,Q7,11000.0,EUR,11000.0,11,Tirane
+2025-04-28 09:36:44.934599,https://www.merrjep.al/njoftim/range-rover-evoque/15165417,2013,Automatik,120000129999.0,Dizel / Naftë,Tiranë,Gri,Land Rover,Range Rover Evoque,14500.0,EUR,14500.0,12,Tirane
+2025-04-28 09:36:44.934608,https://www.merrjep.al/njoftim/mercedez-benz/15165445,2011,Automatik,450000499999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,E 350,8000.0,EUR,8000.0,14,Tirane
+2025-04-28 09:36:44.934617,https://www.merrjep.al/njoftim/shitet-range-rover-sport-2014/15023104,2014,Automatik,170000179999.0,Dizel / Naftë,Elbasan,Gri,Land Rover,Range Rover Sport,22000.0,EUR,22000.0,11,Other
+2025-04-28 09:36:44.934625,https://www.merrjep.al/njoftim/ford-2014-automat-4500-euro/15202061,2014,Automatik,170000179999.0,Benzin,Tiranë,Gri,Ford,Fiesta,4500.0,EUR,4500.0,11,Tirane
+2025-04-28 09:36:44.934633,https://www.merrjep.al/njoftim/mercedes-benz-c-220-nafte-2018-198-hp-amg-package/11469909,2018,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,C 220,21900.0,EUR,21900.0,7,Tirane
+2025-04-28 09:36:44.934642,https://www.merrjep.al/njoftim/bmw-x5-m50d-381hp/15087096,2014,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,BMW,X5,25900.0,EUR,25900.0,11,Tirane
+2025-04-28 09:36:44.934650,https://www.merrjep.al/njoftim/ford-fiesta-gaz-benzine-fabrikisht-viti-2010/15048748,2010,Manual,2000024999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Ford,Fiesta,3290.0,EUR,3290.0,15,Tirane
+2025-04-28 09:36:44.934659,https://www.merrjep.al/njoftim/shitet-audi-q7-diesel-2007-automat/14626704,2007,Automatik,250000299999.0,Dizel / Naftë,Elbasan,E Zezë,Audi,Q7,6500.0,EUR,6500.0,18,Other
+2025-04-28 09:36:44.934685,https://www.merrjep.al/njoftim/ford-mondeo-2-0-naft-automat/15181789,2007,Automatik,300000349999.0,Dizel / Naftë,Tiranë,E Zezë,Ford,Mondeo,2900.0,EUR,2900.0,18,Tirane
+2025-04-28 09:36:44.934693,https://www.merrjep.al/njoftim/hyundai-kona-1-6-nafte-automat-ne-garanci-vetem-36000km/15164259,2021,Automatik,3000034999.0,Dizel / Naftë,Tiranë,Vishnje,Hyundai,Model tjetër,18800.0,EUR,18800.0,4,Tirane
+2025-04-28 09:36:44.934703,https://www.merrjep.al/njoftim/audi-a6-2-0-tdi-full-servis/15221635,2013,Automatik,160000169999.0,Dizel / Naftë,Tiranë,E Bardhë,Audi,A6,11700.0,EUR,11700.0,12,Tirane
+2025-04-28 09:36:44.934711,https://www.merrjep.al/njoftim/hyundai-i30-1-6-nafte-2013-full-options/15196001,2013,Automatik,190000199999.0,Dizel / Naftë,Fier,E Bardhë,Hyundai,i30,8300.0,EUR,8300.0,12,Other
+2025-04-28 09:36:44.934720,https://www.merrjep.al/njoftim/shitet-nderrohet-mercedes-benz-ml-350-bluetec-2014/15181986,2014,Automatik,190000199999.0,Dizel / Naftë,Fier,Blu,Mercedes-Benz,ML 350,16800.0,EUR,16800.0,11,Other
+2025-04-28 09:36:44.934729,https://www.merrjep.al/njoftim/audi-q5-3-0-v6-tdi-quattro-premium/15017380,2015,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Bardhë,Audi,Q5,14900.0,EUR,14900.0,10,Tirane
+2025-04-28 09:36:44.934737,https://www.merrjep.al/njoftim/bmw-730li-msport-viti-2020/15084032,2020,Automatik,120000129999.0,Benzin,Fier,Gri,BMW,730,55900.0,EUR,55900.0,5,Other
+2025-04-28 09:36:44.934745,https://www.merrjep.al/njoftim/vw-golf-7-r-line-2014-nafte-2-0-automatik-klima/14970471,2014,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Bardhë,VW Volkswagen,Golf,11450.0,EUR,11450.0,11,Tirane
+2025-04-28 09:36:44.934754,https://www.merrjep.al/njoftim/shitet-peugeot-308-automat-2010-diesel-1-6/15018164,2010,Automatik,190000199999.0,Dizel / Naftë,Elbasan,Gri,Peugeot,308,4000.0,EUR,4000.0,15,Other
+2025-04-28 09:36:44.934762,https://www.merrjep.al/njoftim/shitet-toyota-yaris-2009-automat-1-4-diesel-diesel/15021647,2009,Automatik,170000179999.0,Dizel / Naftë,Elbasan,Gri,Toyota,Yaris,4800.0,EUR,4800.0,16,Other
+2025-04-28 09:36:44.934771,https://www.merrjep.al/njoftim/shitet-opel-antara-2008/15013033,2008,Automatik,200000249999.0,Dizel / Naftë,Durrës,Kafe,Opel,Antara,5800.0,EUR,5800.0,17,Durres
+2025-04-28 09:36:44.934779,https://www.merrjep.al/njoftim/gaz-bencin-kompresor-i-kuq-futur-per-boj/15157462,1997,Manual,2500029999.0,Gaz (TNG) / Benzinë,Fier,Gri,Mercedes-Benz,C 200,2500.0,EUR,2500.0,28,Other
+2025-04-28 09:36:44.934788,https://www.merrjep.al/njoftim/shitet-vw-tiguan-2010-automat-2-0-diesel-elbasan/14842624,2010,Automatik,200000249999.0,Dizel / Naftë,Elbasan,Gri,VW Volkswagen,Tiguan,7800.0,EUR,7800.0,15,Other
+2025-04-28 09:36:44.934805,https://www.merrjep.al/njoftim/ford-kuga-2-0-2016-full-extra/15087723,2016,Automatik,120000129999.0,Dizel / Naftë,Gjirokastër,E Bardhë,Ford,Kuga,12500.0,EUR,12500.0,9,Other
+2025-04-28 09:36:44.934813,https://www.merrjep.al/njoftim/mercedes-benz-b-class-200-cdi-2013-full/15177751,2013,Automatik,100000109999.0,Dizel / Naftë,Fier,E Bardhë,Mercedes-Benz,B 200,10800.0,EUR,10800.0,12,Other
+2025-04-28 09:36:44.934821,https://www.merrjep.al/njoftim/toyota-yaris-1-4-nafte-manual-nga-belgjika-okazion/15165810,2008,Manual,190000199999.0,Dizel / Naftë,Gjirokastër,Gri,Toyota,Yaris,3800.0,EUR,3800.0,17,Other
+2025-04-28 09:36:44.934830,https://www.merrjep.al/njoftim/hyundai-i10-benzin-gas-70k-km-automat/15080559,2011,Automatik,6500069999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Hyundai,i10,4800.0,EUR,4800.0,14,Tirane
+2025-04-28 09:36:44.934838,https://www.merrjep.al/njoftim/volvo-xc60-2-4-nafte-automat-sapo-ardhur-nga-zvicra/15183018,2010,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Volvo,XC 60,10.0,EUR,10.0,15,Tirane
+2025-04-28 09:36:44.934847,https://www.merrjep.al/njoftim/audi-q3-s-line/14997875,2015,Automatik,140000149999.0,Dizel / Naftë,Durrës,E Bardhë,Audi,Q3,13500.0,EUR,13500.0,10,Durres
+2025-04-28 09:36:44.934855,https://www.merrjep.al/njoftim/mercedes-benz-ml/15221860,2013,Automatik,180000189999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,ML 350,14500.0,EUR,14500.0,12,Tirane
+2025-04-28 09:36:44.934864,https://www.merrjep.al/njoftim/shitet-vw-golf-v-2006-diesel/15061811,2007,Manual,190000199999.0,Dizel / Naftë,Elbasan,Gri,VW Volkswagen,Golf,3400.0,EUR,3400.0,18,Other
+2025-04-28 09:36:44.934873,https://www.merrjep.al/njoftim/shitet-golf-7-full/15001260,2013,Automatik,160000169999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Golf,10900.0,EUR,10900.0,12,Tirane
+2025-04-28 09:36:44.934881,https://www.merrjep.al/njoftim/mercedes-2012-naft-220-automat-11800-euro-okazion/15215605,2013,Automatik,4999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,220,11800.0,EUR,11800.0,12,Tirane
+2025-04-28 09:36:44.935100,https://www.merrjep.al/njoftim/mercedes-benz-a180-blueefficiency/15075562,2013,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Kuqe,Mercedes-Benz,A 180,10500.0,LEK,10500.0,12,Tirane
+2025-04-28 09:36:44.935109,https://www.merrjep.al/njoftim/opel-astra/15190318,2008,Manual,190000199999.0,Dizel / Naftë,Vlorë,Blu,Opel,Astra,3700.0,EUR,3700.0,17,Vlore
+2025-04-28 09:36:44.935117,https://www.merrjep.al/njoftim/audi-s8-shitet-nderrohet/15186557,2008,Automatik,180000189999.0,Benzin,Vlorë,E Zezë,Audi,S8,12000.0,EUR,12000.0,17,Vlore
+2025-04-28 09:36:44.935135,https://www.merrjep.al/njoftim/audi-a4-s-line-2018/15092955,2018,Automatik,6500069999.0,Benzin,Tiranë,Gri,Audi,A4,16.0,EUR,16.0,7,Tirane
+2025-04-28 09:36:44.935144,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:36:44.935152,https://www.merrjep.al/njoftim/ford-transit-2014/15012067,2014,Manual,300000349999.0,Dizel / Naftë,Durrës,E Bardhë,Ford,Transit,13500.0,EUR,13500.0,11,Durres
+2025-04-28 09:36:44.935161,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:36:44.935186,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:36:44.935195,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:36:44.935203,https://www.merrjep.al/njoftim/audi-sq5-line-2015/15092981,2015,Automatik,200000249999.0,Benzin,Tiranë,E Zezë,Audi,Q5,13000.0,EUR,13000.0,10,Tirane
+2025-04-28 09:36:44.935211,https://www.merrjep.al/njoftim/shitet-c220-2008/15053493,2008,Automatik,250000299999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,C 220,7800.0,EUR,7800.0,17,Tirane
+2025-04-28 09:36:44.935219,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:36:44.935228,https://www.merrjep.al/njoftim/sharan-2-0-naft-automat-7-vendesh/15144976,2012,Automatik,2000024999.0,Dizel / Naftë,Lezhë,E Argjendtë,VW Volkswagen,Sharan,1.0,EUR,1.0,13,Other
+2025-04-28 09:36:44.935237,https://www.merrjep.al/njoftim/touran-7-vendesh-automat/14689737,2011,Automatik,2000024999.0,Dizel / Naftë,Lezhë,E Zezë,VW Volkswagen,Touran,1.0,EUR,1.0,14,Other
+2025-04-28 09:36:44.935246,https://www.merrjep.al/njoftim/glk-320-cdi-2009-pa-taks-lluksi-sapo-ardh-italie/14713274,2009,Automatik,190000199999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,GLK 320,8800.0,EUR,8800.0,16,Durres
+2025-04-28 09:36:44.935254,https://www.merrjep.al/njoftim/touran-cross-1-9-naft-automat/14716459,2007,Automatik,2000024999.0,Dizel / Naftë,Lezhë,E Zezë,VW Volkswagen,Touran,1.0,EUR,1.0,18,Other
+2025-04-28 09:36:44.935263,https://www.merrjep.al/njoftim/mercedes-gl-3-0-2015/13941798,2015,Automatik,150000159999.0,Benzin,Tiranë,Kafe,Mercedes-Benz,GL 450,15000.0,EUR,15000.0,10,Tirane
+2025-04-28 09:36:44.935271,https://www.merrjep.al/njoftim/e-250-naft-avandgard/15223275,2010,Automatik,250000299999.0,Dizel / Naftë,Elbasan,Vishnje,Mercedes-Benz,E 250,9000.0,EUR,9000.0,15,Other
+2025-04-28 09:36:44.935288,https://www.merrjep.al/njoftim/toyota-aygo-1-0-benzin-5-porta-e-sapo-ardhur-nga-zvicra/10911900,2006,Manual,170000179999.0,Benzin,Durrës,Gri,Toyota,Aygo,3000.0,EUR,3000.0,19,Durres
+2025-04-28 09:36:44.935296,https://www.merrjep.al/njoftim/volvo-v70-benzin+gaz-automat-nga-zvicra/6901066,2007,Automatik,250000299999.0,Gaz (TNG) / Benzinë,Durrës,Gri,Volvo,V70,3500.0,EUR,3500.0,18,Durres
+2025-04-28 09:36:44.935305,https://www.merrjep.al/njoftim/golf-7-gtd/15156428,2014,Automatik,130000139999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Golf,13300.0,EUR,13300.0,11,Tirane
+2025-04-28 09:36:44.935313,https://www.merrjep.al/njoftim/land-rover-freelander-2-2-nafte-4x4-super-gjendje-full/15163110,2008,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Zezë,Land Rover,Freelander,7800.0,EUR,7800.0,17,Tirane
+2025-04-28 09:36:44.935321,https://www.merrjep.al/njoftim/c-klas-shes-nderoj-automat-letra-sapo-prera/15223266,2001,Automatik,2000024999.0,Dizel / Naftë,Pogradec,Gri,Mercedes-Benz,220,2450.0,LEK,2450.0,24,Other
+2025-04-28 09:36:44.935330,https://www.merrjep.al/njoftim/vw-volkswagen-tiguan/15145799,2013,Automatik,180000189999.0,Dizel / Naftë,Tiranë,Blu,VW Volkswagen,Tiguan,10500.0,EUR,10500.0,12,Tirane
+2025-04-28 09:36:44.935342,https://www.merrjep.al/njoftim/audi-a5/15147648,2014,Automatik,120000129999.0,Dizel / Naftë,Tiranë,E Bardhë,Audi,A5,10800.0,EUR,10800.0,11,Tirane
+2025-04-28 09:36:44.935350,https://www.merrjep.al/njoftim/range-rover-vogue-5-0l-14-autobiography-full-panoramic/14720108,2013,Automatik,110000119999.0,Benzin,Tiranë,E Argjendtë,Land Rover,Range Rover,24000.0,EUR,24000.0,12,Tirane
+2025-04-28 09:36:44.935359,https://www.merrjep.al/njoftim/toyota-fj-cruiser-08-4-0l-benzine-mundesi-nderrimi/14755116,2008,Automatik,200000249999.0,Benzin,Tiranë,E Kuqe,Toyota,FJ,17000.0,EUR,17000.0,17,Tirane
+2025-04-28 09:36:44.935391,https://www.merrjep.al/njoftim/okazjon/15200269,2000,Manual,200000249999.0,Dizel / Naftë,Shkodër,Gri,Mitsubishi,L200,11500.0,EUR,11500.0,25,Other
+2025-04-28 09:36:44.935399,https://www.merrjep.al/njoftim/smart-center/15155245,2003,Automatik,4000044999.0,Benzin,Tiranë,E Zezë,Smart,Roadster,5500.0,EUR,5500.0,22,Tirane
+2025-04-28 09:36:44.935407,https://www.merrjep.al/njoftim/toyota-4runner-4-7-v8-4-runner/11753260,2005,Automatik,160000169999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Toyota,4-Runner,15900.0,EUR,15900.0,20,Tirane
+2025-04-28 09:36:44.935431,https://www.merrjep.al/njoftim/kia-picanto/15075760,2012,Automatik,7000074999.0,Benzin,Tiranë,Bezhë,Kia,Picanto,6390.0,EUR,6390.0,13,Tirane
+2025-04-28 09:36:44.935439,https://www.merrjep.al/njoftim/ford-fokus/15169204,2013,Automatik,110000119999.0,Dizel / Naftë,Tiranë,E Bardhë,Ford,Focus,7499.0,EUR,7499.0,12,Tirane
+2025-04-28 09:36:44.935447,https://www.merrjep.al/njoftim/hyundai-avante/15201261,2013,Automatik,160000169999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,Model tjetër,6999.0,EUR,6999.0,12,Tirane
+2025-04-28 09:36:44.935455,https://www.merrjep.al/njoftim/toyota-auris-1-4-naft-viti-2012-me-dogan/15193294,2012,Manual,170000179999.0,Dizel / Naftë,Fier,Gri,Toyota,Auris,5500.0,EUR,5500.0,13,Other
+2025-04-28 09:36:44.935463,https://www.merrjep.al/njoftim/volkswagen-tiguan/15058571,2018,Automatik,130000139999.0,Dizel / Naftë,Tiranë,E Bardhë,VW Volkswagen,Tiguan,21900.0,EUR,21900.0,7,Tirane
+2025-04-28 09:36:44.935472,https://www.merrjep.al/njoftim/skoda-automat-2008-nafte-me-letra/15138704,2008,Automatik,100000109999.0,Dizel / Naftë,Durrës,Gri,Škoda,Octavia,6400.0,EUR,6400.0,17,Durres
+2025-04-28 09:36:44.935501,https://www.merrjep.al/njoftim/vw-tiguan-2018-okazion-dsg/11064047,2018,Automatik,9500099999.0,Dizel / Naftë,Tiranë,E Gjelbër,VW Volkswagen,Tiguan,19150.0,EUR,19150.0,7,Tirane
+2025-04-28 09:36:44.935511,https://www.merrjep.al/njoftim/audi-q3-2-0-tfsi-quattro-premium-2016/15013352,2016,Automatik,160000169999.0,Benzin,Tiranë,Gri,Audi,Q3,11900.0,EUR,11900.0,9,Tirane
+2025-04-28 09:36:44.935520,https://www.merrjep.al/njoftim/ford-fiesta-5p-viti-2010-1-4-tdci-75cv/15059864,2010,Manual,190000199999.0,Dizel / Naftë,Fier,E Bardhë,Ford,Fiesta,4300.0,EUR,4300.0,15,Other
+2025-04-28 09:36:44.935529,https://www.merrjep.al/njoftim/audi-a-4-nafte-2-0-tdi-viti-2013-automatike-klima/14957690,2014,Automatik,170000179999.0,Dizel / Naftë,Tiranë,Gri,Audi,A4,9600.0,EUR,9600.0,11,Tirane
+2025-04-28 09:36:44.935538,https://www.merrjep.al/njoftim/volkswagen-golf-6-plus-2-0/15028896,2012,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Zezë,VW Volkswagen,Golf Plus,690000.0,LEK,690000.0,13,Tirane
+2025-04-28 09:36:44.935547,https://www.merrjep.al/njoftim/okazion-viano-8-vende-nafte-automatike-full-optional/15194823,2009,Automatik,170000179999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,Viano,8990.0,EUR,8990.0,16,Tirane
+2025-04-28 09:36:44.935556,https://www.merrjep.al/njoftim/hyundai-avante/15193799,2016,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Bardhë,Hyundai,Model tjetër,8999.0,EUR,8999.0,9,Tirane
+2025-04-28 09:36:44.935564,https://www.merrjep.al/njoftim/mb-glk-220/15193791,2013,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,GLK 220,13999.0,EUR,13999.0,12,Tirane
+2025-04-28 09:36:44.935573,https://www.merrjep.al/njoftim/vw-tiguan/15191063,2013,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Bardhë,VW Volkswagen,Tiguan,10499.0,EUR,10499.0,12,Tirane
+2025-04-28 09:36:44.935582,https://www.merrjep.al/njoftim/lncia-1-3-nafte-automatik-2010-euro-5/15150694,2010,Automatik,160000169999.0,Dizel / Naftë,Durrës,Gri,Lancia,MUSA,4500.0,LEK,4500.0,15,Durres
+2025-04-28 09:36:44.935599,https://www.merrjep.al/njoftim/bmw-320/15166015,2012,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Bardhë,BMW,320,8999.0,EUR,8999.0,13,Tirane
+2025-04-28 09:36:44.935607,https://www.merrjep.al/njoftim/mercedes-classe-c/15022253,2016,Automatik,170000179999.0,Dizel / Naftë,Elbasan,Kafe,Mercedes-Benz,C 220,17500.0,LEK,17500.0,9,Other
+2025-04-28 09:36:44.935615,https://www.merrjep.al/njoftim/golf-6-rline/15022274,2013,Automatik,150000159999.0,Dizel / Naftë,Elbasan,Gri,VW Volkswagen,Golf,7500.0,LEK,7500.0,12,Other
+2025-04-28 09:37:14.635849,https://www.merrjep.al/njoftim/tojota-2009-benxin-gaz-1-6-manual-5500-euro-italy/15201168,2009,Manual,4999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Toyota,Auris,5500.0,EUR,5500.0,16,Tirane
+2025-04-28 09:37:14.635879,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:37:14.635892,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:37:14.635902,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:37:14.635911,https://www.merrjep.al/njoftim/toyota-yaris-1-4-naft-viti-2007-manual-me-dogan-te-paguar/15171044,2007,Manual,1500019999.0,Dizel / Naftë,Tiranë,E Zezë,Toyota,Yaris,3600.0,EUR,3600.0,18,Tirane
+2025-04-28 09:37:14.635920,https://www.merrjep.al/njoftim/bmw-2017-lok-2021-benxin-4-4-full-38000-euro/15188591,2017,Automatik,4999.0,Benzin,Tiranë,E Zezë,BMW,750,38000.0,EUR,38000.0,8,Tirane
+2025-04-28 09:37:14.635929,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:37:14.635938,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:37:14.635947,https://www.merrjep.al/njoftim/mercedes-2012-naft-220-automat-11800-euro-okazion/15215605,2013,Automatik,4999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,220,11800.0,EUR,11800.0,12,Tirane
+2025-04-28 09:37:14.635957,https://www.merrjep.al/njoftim/bmw-x6-2010-benxin-3-0-km-163-automat-15500-euro/15188530,2010,Automatik,4999.0,Benzin,Tiranë,E Bardhë,BMW,X6,15500.0,EUR,15500.0,15,Tirane
+2025-04-28 09:37:14.635966,https://www.merrjep.al/njoftim/pezho-3008-automat-viti-2010-naft-1-6-me-klima-220-mi-km-ori/15181165,2010,Automatik,2000024999.0,Dizel / Naftë,Tiranë,E Zezë,Peugeot,3008,4300.0,EUR,4300.0,15,Tirane
+2025-04-28 09:37:14.635975,https://www.merrjep.al/njoftim/ford-fokus-1-6-naft-manual-viti-2011-super-gjendje-me-dogan/15110200,2011,Manual,1500019999.0,Dizel / Naftë,Tiranë,E Zezë,Ford,Focus,3600.0,EUR,3600.0,14,Tirane
+2025-04-28 09:37:14.635985,https://www.merrjep.al/njoftim/shitet-vw-golf-vi-2011-automat-1-6-diesel/14728481,2011,Automatik,170000179999.0,Dizel / Naftë,Elbasan,E Zezë,VW Volkswagen,Golf,6300.0,EUR,6300.0,14,Other
+2025-04-28 09:37:14.635994,https://www.merrjep.al/njoftim/ford-fiesta/15152419,2010,Manual,190000199999.0,Dizel / Naftë,Vlorë,Blu,Ford,Fiesta,4500.0,EUR,4500.0,15,Vlore
+2025-04-28 09:37:14.636002,https://www.merrjep.al/njoftim/evo-220-manual/14676283,2007,Manual,200000249999.0,Dizel / Naftë,Shkodër,Gri,Mercedes-Benz,220,6500.0,EUR,6500.0,18,Other
+2025-04-28 09:37:14.636011,https://www.merrjep.al/njoftim/okazion-mercedes-benz-c200-compressor-2005-automat/11555498,2005,Automatik,2000024999.0,Benzin,Tiranë,E Kuqe,Mercedes-Benz,C 200,4500.0,EUR,4500.0,20,Tirane
+2025-04-28 09:37:14.636020,https://www.merrjep.al/njoftim/ford-fokus-2-0-benzin+gaz-manual-viti-2009-ne-super-gjendje/15218248,2009,Manual,1500019999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Ford,Focus,3600.0,EUR,3600.0,16,Tirane
+2025-04-28 09:37:14.636029,https://www.merrjep.al/njoftim/seat-ibiza-1-6-naft-super-ekonomike-manual-viti-2010-me-doga/15171059,2010,Manual,1500019999.0,Dizel / Naftë,Tiranë,E Bardhë,Seat,Ibiza,3000.0,EUR,3000.0,15,Tirane
+2025-04-28 09:37:14.636061,https://www.merrjep.al/njoftim/golf-5+-gaz-benzin-1-6-motorr-i-thjesht-manual-viti-2006/15153641,2006,Manual,1500019999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,VW Volkswagen,Golf Plus,3400.0,EUR,3400.0,19,Tirane
+2025-04-28 09:37:14.636073,https://www.merrjep.al/njoftim/shitet-hyundai-i-30-2009-diesel-manual-1-6/15168167,2009,Manual,190000199999.0,Dizel / Naftë,Elbasan,Gri,Hyundai,i30,3400.0,EUR,3400.0,16,Other
+2025-04-28 09:37:14.636091,https://www.merrjep.al/njoftim/shitet-nderrohet-q8-50-tdi-57000-eur-german-bremen/14954893,2019,Automatik,100000109999.0,Dizel / Naftë,Tiranë,Gri,Audi,Q8,57000.0,EUR,57000.0,6,Tirane
+2025-04-28 09:37:14.636101,https://www.merrjep.al/njoftim/pezho-207-benzin-1-4-manual-viti-2007-me-letra-te-paguara-pe/15182551,2007,Manual,1500019999.0,Benzin,Tiranë,Gri,Peugeot,207,1900.0,EUR,1900.0,18,Tirane
+2025-04-28 09:37:14.636110,https://www.merrjep.al/njoftim/okazion-audi-q5-3-0-nafte-2015-full/15223175,2015,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Audi,Q5,12500.0,EUR,12500.0,10,Tirane
+2025-04-28 09:37:14.636119,https://www.merrjep.al/njoftim/jeep-wrangler-3-8/15165853,2008,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Jeep,Wrangler,17000.0,EUR,17000.0,17,Tirane
+2025-04-28 09:37:14.636128,https://www.merrjep.al/njoftim/bmw-x3-2-0-2014/13697766,2014,Automatik,170000179999.0,Dizel / Naftë,Tiranë,E Zezë,BMW,X3,12500.0,EUR,12500.0,11,Tirane
+2025-04-28 09:37:14.636136,https://www.merrjep.al/njoftim/bmw-x5-benzin-ga-18/14960266,2014,Automatik,150000159999.0,Gaz (TNG) / Benzinë,Tiranë,E Bardhë,BMW,X5,18.0,EUR,18.0,11,Tirane
+2025-04-28 09:37:14.636145,https://www.merrjep.al/njoftim/vw-touareg-3-0-tdi-4motion-automat/15015349,2014,Automatik,180000189999.0,Dizel / Naftë,Korçë,Gri,VW Volkswagen,Touareg,12000.0,EUR,12000.0,11,Other
+2025-04-28 09:37:14.636154,https://www.merrjep.al/njoftim/bmw-x5-benzin-gaz-18-okazion/14620060,2014,Automatik,160000169999.0,Gaz (TNG) / Benzinë,Tiranë,E Bardhë,BMW,X5,18000.0,EUR,18000.0,11,Tirane
+2025-04-28 09:37:14.636163,https://www.merrjep.al/njoftim/shitet-kia-k7-lpg/15173464,2013,Automatik,190000199999.0,Tjetër,Tiranë,E Zezë,Kia,K2700,9000.0,EUR,9000.0,12,Tirane
+2025-04-28 09:37:14.641310,https://www.merrjep.al/njoftim/hyundai-kona-2018-1-6-nafte/15083235,2018,Automatik,120000129999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,Model tjetër,12990.0,EUR,12990.0,7,Tirane
+2025-04-28 09:37:14.641329,https://www.merrjep.al/njoftim/shitet-peuugeot-508/15173457,2014,Automatik,150000159999.0,Dizel / Naftë,Tiranë,Gri,Peugeot,508,5300.0,EUR,5300.0,11,Tirane
+2025-04-28 09:37:14.641339,https://www.merrjep.al/njoftim/fiat-500-1-4-sport-benzine-2009/14514858,2009,Automatik,170000179999.0,Benzin,Tiranë,E Bardhë,Fiat,500,4700.0,EUR,4700.0,16,Tirane
+2025-04-28 09:37:14.641349,https://www.merrjep.al/njoftim/ford-kuga-titanium-automat/14960942,2013,Automatik,180000189999.0,Dizel / Naftë,Tiranë,Blu,Ford,Kuga,1.0,EUR,1.0,12,Tirane
+2025-04-28 09:37:14.641358,https://www.merrjep.al/njoftim/bmw-640d-m-gran-coupe-2016/13371866,2016,Automatik,160000169999.0,Dizel / Naftë,Tiranë,E Zezë,BMW,640,22300.0,EUR,22300.0,9,Tirane
+2025-04-28 09:37:14.641366,https://www.merrjep.al/njoftim/golf-6-2012-2-5-benzin+gaz/15176332,2012,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Tiranë,E Bardhë,VW Volkswagen,Golf,6500.0,EUR,6500.0,13,Tirane
+2025-04-28 09:37:14.641384,https://www.merrjep.al/njoftim/pasat-se-2-0-naft-automat-viti-2013/15018666,2013,Automatik,180000189999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Passat,5500.0,EUR,5500.0,12,Tirane
+2025-04-28 09:37:14.641393,https://www.merrjep.al/njoftim/okazion-golf-6-gaz-benzine-motorr-2-5/15172065,2013,Automatik,120000129999.0,Gaz (TNG) / Benzinë,Tiranë,E Bardhë,VW Volkswagen,Golf,1.0,EUR,1.0,12,Tirane
+2025-04-28 09:37:14.641402,https://www.merrjep.al/njoftim/peugeot-207-2009-1-4-benzine-gaz-fabrike/15196905,2009,Manual,250000299999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Peugeot,207,2200.0,EUR,2200.0,16,Tirane
+2025-04-28 09:37:14.641411,https://www.merrjep.al/njoftim/toyota-corolla-verso-2013-7-vende/15195780,2013,Manual,180000189999.0,Dizel / Naftë,Tiranë,E Bardhë,Toyota,Corolla Verso,1.0,EUR,1.0,12,Tirane
+2025-04-28 09:37:14.641429,https://www.merrjep.al/njoftim/touran-2011-2-0tdi-dsg-6+1vende/15096806,2011,Automatik,190000199999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Touran,9400.0,EUR,9400.0,14,Tirane
+2025-04-28 09:37:14.641437,https://www.merrjep.al/njoftim/wolzvagen-turan-vit-2009-naft-1-9-manuale/15028964,2009,Manual,200000249999.0,Dizel / Naftë,Lushnjë,Gri,VW Volkswagen,Touran,4999.0,LEK,4999.0,16,Other
+2025-04-28 09:37:14.641447,https://www.merrjep.al/njoftim/ford-fiesta-2011-gaz-benxin-manual/15133696,2011,Manual,1500019999.0,Gaz (TNG) / Benzinë,Durrës,Lejla,Ford,Fiesta,4100.0,EUR,4100.0,14,Durres
+2025-04-28 09:37:14.641455,https://www.merrjep.al/njoftim/mercedes-benz-c300-amg-line/14746254,2012,Automatik,200000249999.0,Benzin,Tiranë,E Zezë,Mercedes-Benz,C 300,10900.0,EUR,10900.0,13,Tirane
+2025-04-28 09:37:14.641464,https://www.merrjep.al/njoftim/mercedes-benz-e300-bluetec-2009/14413291,2009,Automatik,300000349999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,E 320,7400.0,EUR,7400.0,16,Tirane
+2025-04-28 09:37:14.641482,https://www.merrjep.al/njoftim/renault-koleos/15063972,2010,Automatik,160000169999.0,Dizel / Naftë,Tiranë,Gri,Renault,Koleos,5900.0,EUR,5900.0,15,Tirane
+2025-04-28 09:37:14.641491,https://www.merrjep.al/njoftim/shitet-suzuki-grand-vitara/15162526,2010,Automatik,2000024999.0,Gaz (TNG) / Benzinë,Fier,Gri,Suzuki,Grand Vitara,8500.0,EUR,8500.0,15,Other
+2025-04-28 09:37:14.641516,https://www.merrjep.al/njoftim/mercedes-benz/15173766,2008,Automatik,2500029999.0,Dizel / Naftë,Pogradec,Gri,Mercedes-Benz,C 220,5700.0,EUR,5700.0,17,Other
+2025-04-28 09:37:14.641533,https://www.merrjep.al/njoftim/toyota-auris-hybrid-2013-nga-zvicra/14958966,2013,Automatik,170000179999.0,Hibrid & CNG,Tiranë,E Bardhë,Toyota,Auris,11500.0,EUR,11500.0,12,Tirane
+2025-04-28 09:37:16.179220,https://www.merrjep.al/njoftim/mercedes-benz-cls400-3-0-benzin-look-amg-full-options/15162575,2015,Automatik,140000149999.0,Benzin,Fier,E Zezë,Mercedes-Benz,CLS 400,19500.0,EUR,19500.0,10,Other
+2025-04-28 09:37:16.179248,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:37:16.179259,https://www.merrjep.al/njoftim/shitet-vw-golf-7-r-line-2015-2-0-benzin/15062181,2015,Automatik,8000084999.0,Benzin,Durrës,Gri,VW Volkswagen,Golf,13500.0,EUR,13500.0,10,Durres
+2025-04-28 09:37:16.179269,https://www.merrjep.al/njoftim/c220-automat-perfek/15062828,2007,Automatik,200000249999.0,Dizel / Naftë,Krujë,E Zezë,Mercedes-Benz,C 220,3999.0,EUR,3999.0,18,Other
+2025-04-28 09:37:16.179277,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:37:16.179286,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:37:16.179295,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:37:16.179304,https://www.merrjep.al/njoftim/shitet-bmw-x5-2019/15157798,2019,Automatik,110000119999.0,Tjetër,Tiranë,E Zezë,BMW,X5,42000.0,EUR,42000.0,6,Tirane
+2025-04-28 09:37:16.179312,https://www.merrjep.al/njoftim/shitet-citroen-c4-picasso-1-6-nafte-viti-2007/15099286,2007,Manual,200000249999.0,Dizel / Naftë,Durrës,Blu,Citroën,C4,3400.0,EUR,3400.0,18,Durres
+2025-04-28 09:37:16.179321,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:37:16.179330,https://www.merrjep.al/njoftim/shitet-toyota-auris-1-4naft-2010/15202816,2010,Manual,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Toyota,Auris,5000.0,EUR,5000.0,15,Tirane
+2025-04-28 09:37:16.179338,https://www.merrjep.al/njoftim/volvo-xc60/14749043,2011,Automatik,200000249999.0,Benzin,Tiranë,E Zezë,Volvo,XC 60,8900.0,EUR,8900.0,14,Tirane
+2025-04-28 09:37:16.179346,https://www.merrjep.al/njoftim/volvo-v-40-viti-2015-1-6-naft-viti-2015/14999439,2015,Manual,1500019999.0,Dizel / Naftë,Durrës,E Bardhë,Volvo,V40,7300.0,EUR,7300.0,10,Durres
+2025-04-28 09:37:16.179355,https://www.merrjep.al/njoftim/tiguan-2011-automat/15223103,2011,Automatik,1500019999.0,Dizel / Naftë,Tiranë,E Bardhë,VW Volkswagen,Tiguan,1.0,LEK,1.0,14,Tirane
+2025-04-28 09:37:16.179364,https://www.merrjep.al/njoftim/shitet-volkswagen-touran-1-4-2014-benzine-gaz-full-opsion/15219683,2014,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Durrës,E Zezë,VW Volkswagen,Touran,13000.0,EUR,13000.0,11,Durres
+2025-04-28 09:37:16.179373,https://www.merrjep.al/njoftim/shitet-mercedes-benz/15137147,2007,Automatik,2000024999.0,Benzin,Fier,Blu,Mercedes-Benz,C 180,6000.0,EUR,6000.0,18,Other
+2025-04-28 09:37:16.179381,https://www.merrjep.al/njoftim/mercedes-benz-e270-diesel-cdi-2003-automatik-letra-paguara/15140796,2003,Automatik,300000349999.0,Dizel / Naftë,Fier,Gri,Mercedes-Benz,E 270,3100.0,EUR,3100.0,22,Other
+2025-04-28 09:37:16.179390,https://www.merrjep.al/njoftim/shitet-glk-280-automatik/15098954,2009,Automatik,2000024999.0,Gaz (TNG) / Benzinë,Fier,E Zezë,Mercedes-Benz,GLK 280,12000.0,EUR,12000.0,16,Other
+2025-04-28 09:37:16.179398,https://www.merrjep.al/njoftim/a4-sline-2012-automat-2-0-tfsi-me-defekt/14573155,2012,Automatik,200000249999.0,Benzin,Krujë,E Zezë,Audi,A4,3500.0,EUR,3500.0,13,Other
+2025-04-28 09:37:16.179448,https://www.merrjep.al/njoftim/porshe-cayenne-3-6-benzin-2011-xhama-te-zinj-origjinal/15176279,2011,Automatik,200000249999.0,Benzin,Fier,Gri,Porsche,Cayenne,13200.0,EUR,13200.0,14,Other
+2025-04-28 09:37:16.179459,https://www.merrjep.al/njoftim/mercedes-benz-c240-benzin-gaz-2004-automatik-xhama-te-zinj/15169998,2004,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Fier,E Gjelbër,Mercedes-Benz,C 240,3700.0,EUR,3700.0,21,Other
+2025-04-28 09:37:16.179470,https://www.merrjep.al/njoftim/honda-pilot-4wd-3-5-benzin-gaz-pa-taks-lluksi-7+1-vendshe/15181205,2009,Automatik,250000299999.0,Dizel / Naftë,Fier,Gri,Honda,Model tjetër,9900.0,EUR,9900.0,16,Other
+2025-04-28 09:37:16.179479,https://www.merrjep.al/njoftim/porsche-cayenne-3-6-benzin-2015-panorama-full-options/15158241,2015,Automatik,150000159999.0,Benzin,Fier,E Zezë,Porsche,Cayenne,27000.0,EUR,27000.0,10,Other
+2025-04-28 09:37:16.179487,https://www.merrjep.al/njoftim/vw-golf-plus-1-9-diesel-tdi-2006-manual/15146591,2006,Manual,250000299999.0,Dizel / Naftë,Fier,E Zezë,VW Volkswagen,Golf Plus,3200.0,EUR,3200.0,19,Other
+2025-04-28 09:37:16.179495,https://www.merrjep.al/njoftim/bmw-320-d/15084334,2013,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Bardhë,BMW,320,8999.0,EUR,8999.0,12,Tirane
+2025-04-28 09:37:16.179504,https://www.merrjep.al/njoftim/bmw-x5-3-5d-diesel-2013-x-driver-panorama-full-options/15142416,2013,Automatik,200000249999.0,Dizel / Naftë,Fier,Gri,BMW,X5,10500.0,EUR,10500.0,12,Other
+2025-04-28 09:37:16.179512,https://www.merrjep.al/njoftim/bmw-730d-3-0-diesel-xhamat-e-zinj-super-gjendje-nderrohet/14724182,2010,Automatik,200000249999.0,Dizel / Naftë,Fier,E Zezë,BMW,730,10500.0,EUR,10500.0,15,Other
+2025-04-28 09:37:16.179521,https://www.merrjep.al/njoftim/volkswagen-golf-gti-rabbit-edition/14859708,2019,Manual,100000109999.0,Benzin,Durrës,E Bardhë,VW Volkswagen,Golf,20500.0,EUR,20500.0,6,Durres
+2025-04-28 09:37:16.179529,https://www.merrjep.al/njoftim/2009-ford-focus-1-6-nafte/14388775,2009,Manual,200000249999.0,Dizel / Naftë,Durrës,Gri,Ford,Focus,3600.0,EUR,3600.0,16,Durres
+2025-04-28 09:37:16.179538,https://www.merrjep.al/njoftim/shitet-b-class-180-nafte-viti-2015/14654010,2015,Manual,160000169999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,B 180,11000.0,EUR,11000.0,10,Durres
+2025-04-28 09:37:16.179547,https://www.merrjep.al/njoftim/bmw-activehybrit-7/15219587,2010,Automatik,190000199999.0,Benzin,Durrës,E Zezë,BMW,ActiveHybrid 7,13900.0,EUR,13900.0,15,Durres
+2025-04-28 09:37:16.179555,https://www.merrjep.al/njoftim/ford-fiesta-2014-1-4-benzin-gaz-viti-2014/14387812,2014,Manual,180000189999.0,Dizel / Naftë,Durrës,Blu,Ford,Fiesta,5300.0,EUR,5300.0,11,Durres
+2025-04-28 09:37:16.179564,https://www.merrjep.al/njoftim/2016-mercedes-benz-gle-350d-4matic-designo/14387727,2016,Automatik,150000159999.0,Dizel / Naftë,Durrës,E Bardhë,Mercedes-Benz,GLE 350,33500.0,EUR,33500.0,9,Durres
+2025-04-28 09:37:16.179573,https://www.merrjep.al/njoftim/2012-ford-focus-1-6-nafte/14387360,2012,Manual,180000189999.0,Dizel / Naftë,Durrës,Gri,Ford,Focus,5700.0,EUR,5700.0,13,Durres
+2025-04-28 09:37:16.179581,https://www.merrjep.al/njoftim/audi-a7-okazion/15152056,2015,Automatik,120000129999.0,Dizel / Naftë,Tiranë,E Zezë,Audi,A7,1.0,EUR,1.0,10,Tirane
+2025-04-28 09:37:16.179598,https://www.merrjep.al/njoftim/c-class-220-okazion/15152049,2014,Automatik,100000109999.0,Dizel / Naftë,Tiranë,E Argjendtë,Mercedes-Benz,C 220,1.0,EUR,1.0,11,Tirane
+2025-04-28 09:37:16.179606,https://www.merrjep.al/njoftim/golf5-naft-1-9-viti-2006-manual/15197080,2006,Manual,2000024999.0,Dizel / Naftë,Durrës,Gri,VW Volkswagen,Golf,3700.0,EUR,3700.0,19,Durres
+2025-04-28 09:37:16.179615,https://www.merrjep.al/njoftim/golf5-naft-1-9-viti-2008-manual/15197046,2008,Manual,2000024999.0,Dizel / Naftë,Durrës,E Zezë,VW Volkswagen,e-Golf,3900.0,EUR,3900.0,17,Durres
+2025-04-28 09:37:16.179623,https://www.merrjep.al/njoftim/ford-fiesta-1-4-naft-viti-2008-manual/15197100,2008,Manual,2000024999.0,Dizel / Naftë,Durrës,E Zezë,Ford,Fiesta,2850.0,EUR,2850.0,17,Durres
+2025-04-28 09:37:16.179632,https://www.merrjep.al/njoftim/shiet-audi-sq5/15179885,2015,Automatik,170000179999.0,Dizel / Naftë,Tiranë,Blu,Audi,SQ5,1.0,EUR,1.0,10,Tirane
+2025-04-28 09:37:16.179640,https://www.merrjep.al/njoftim/peugeot-207-viti-2010/15218648,2010,Manual,250000299999.0,Benzin,Tiranë,E Kuqe,Peugeot,207,2600.0,EUR,2600.0,15,Tirane
+2025-04-28 09:37:16.179648,https://www.merrjep.al/njoftim/golf-5-tsi-1-4-benzine/14641017,2007,Automatik,180000189999.0,Gaz (TNG) / Benzinë,Fier,Gri,VW Volkswagen,Golf,5500.0,EUR,5500.0,18,Other
+2025-04-28 09:37:16.179656,https://www.merrjep.al/njoftim/cklas-naft-220cdi-viti-2006-automat/15196888,2006,Automatik,2500029999.0,Dizel / Naftë,Durrës,Kafe,Mercedes-Benz,220,4500.0,EUR,4500.0,19,Durres
+2025-04-28 09:37:16.179664,https://www.merrjep.al/njoftim/shitet-mercedez-benz-ml350-dizel-super-e-mbajtu/15026827,2012,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Bardhë,Mercedes-Benz,ML 350,15000.0,EUR,15000.0,13,Tirane
+2025-04-28 09:37:16.179680,https://www.merrjep.al/njoftim/a-class-avangard-premium-euro-5/15096652,2010,Automatik,170000179999.0,Dizel / Naftë,Durrës,Kafe,Mercedes-Benz,A 180,5500.0,LEK,5500.0,15,Durres
+2025-04-28 09:37:16.179690,https://www.merrjep.al/njoftim/renault-megane-1-5-dizel-super-ekonomike/14384469,2009,Manual,250000299999.0,Dizel / Naftë,Tiranë,Gri,Renault,Megane,3600.0,EUR,3600.0,16,Tirane
+2025-04-28 09:37:16.179699,https://www.merrjep.al/njoftim/audi-a6-2-0tdi-2016-facelift-full-option/15025484,2016,Automatik,150000159999.0,Dizel / Naftë,Tiranë,Gri,Audi,A6,15200.0,EUR,15200.0,9,Tirane
+2025-04-28 09:37:16.179707,https://www.merrjep.al/njoftim/tiguan-2013-okazion/15223088,2013,Automatik,1500019999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Tiguan,1.0,LEK,1.0,12,Tirane
+2025-04-28 09:37:16.179724,https://www.merrjep.al/njoftim/audi-q7-s-line-11-panoramic-mundesi-nderrim/15012613,2011,Automatik,200000249999.0,Benzin,Tiranë,Gri,Audi,Q7,10000.0,EUR,10000.0,14,Tirane
+2025-04-28 09:37:16.179732,https://www.merrjep.al/njoftim/hummer-h2-07-full-mundesi-nderrimi/15057434,2006,Automatik,200000249999.0,Benzin,Tiranë,E Bardhë,Hummer,H2,18000.0,EUR,18000.0,19,Tirane
+2025-04-28 09:37:16.179739,https://www.merrjep.al/njoftim/seat-leon/14518115,2017,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Bardhë,Seat,Leon,11200.0,EUR,11200.0,8,Tirane
+2025-04-28 09:37:16.334089,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:37:16.334116,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:37:16.334128,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:37:16.334137,https://www.merrjep.al/njoftim/golf-plus-1-9-nafte-2006-sapotarguar/15032798,2006,Manual,200000249999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Golf Plus,4000.0,EUR,4000.0,19,Tirane
+2025-04-28 09:37:16.334146,https://www.merrjep.al/njoftim/tiguan-2-0-automat/15162919,2009,Automatik,2000024999.0,Dizel / Naftë,Lushnjë,E Bardhë,VW Volkswagen,Tiguan,6900.0,EUR,6900.0,16,Other
+2025-04-28 09:37:16.334173,https://www.merrjep.al/njoftim/audi-q7-s-line-11-panoramic-mundesi-nderrim/15010069,2011,Automatik,200000249999.0,Benzin,Tiranë,E Zezë,Audi,Q7,9000.0,EUR,9000.0,14,Tirane
+2025-04-28 09:37:16.334182,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:37:16.334191,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:37:16.339328,https://www.merrjep.al/njoftim/touran-2010-dsg-2-0tdi/15216474,2010,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Touran,7900.0,EUR,7900.0,15,Tirane
+2025-04-28 09:37:16.339350,https://www.merrjep.al/njoftim/fiat-ducato-frigorifer-viti-2017-2-3-mjt-150cv/15087872,2017,Manual,180000189999.0,Dizel / Naftë,Fier,E Bardhë,Fiat,Ducato,14900.0,EUR,14900.0,8,Other
+2025-04-28 09:37:16.339362,https://www.merrjep.al/njoftim/okazion-nissan-qashqai-1-6-gaz-benxin/15162900,2009,Manual,2000024999.0,Gaz (TNG) / Benzinë,Lushnjë,E Zezë,Nissan,Qashqai,5700.0,EUR,5700.0,16,Other
+2025-04-28 09:37:16.339372,https://www.merrjep.al/njoftim/porsche-cayenne-3-0-turbo-benzine-awd-platinum-2020/15019984,2020,Automatik,120000129999.0,Benzin,Tiranë,E Zezë,Porsche,Cayenne,49900.0,EUR,49900.0,5,Tirane
+2025-04-28 09:37:16.339391,https://www.merrjep.al/njoftim/hyundai-accent-nafte-1-6-automatik-klima-2013/15136819,2013,Automatik,140000149999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,Accent,5999.0,EUR,5999.0,12,Tirane
+2025-04-28 09:37:16.339400,https://www.merrjep.al/njoftim/fiat-grande-punto-2008-1-2-benxin/14999474,2008,Manual,1500019999.0,Benzin,Durrës,Blu,Fiat,Grande Punto,2450.0,EUR,2450.0,17,Durres
+2025-04-28 09:37:16.339410,https://www.merrjep.al/njoftim/ranger-rover-sport-2008-lluk-2011-automatik/15028916,2008,Automatik,200000249999.0,Dizel / Naftë,Lushnjë,Gri,Land Rover,Range Rover Sport,5600.0,LEK,5600.0,17,Other
+2025-04-28 09:37:16.339418,https://www.merrjep.al/njoftim/okazion-lancia-delta-1-6-nafte-automat-2013/15028827,2013,Automatik,180000189999.0,Dizel / Naftë,Lushnjë,E Zezë,Lancia,Delta,4900.0,LEK,4900.0,12,Other
+2025-04-28 09:37:16.339436,https://www.merrjep.al/njoftim/shitet-per-arsye-mos-perdorimi/15223141,2003,Automatik,2000024999.0,Dizel / Naftë,Pogradec,Gri,Mercedes-Benz,220,2000.0,LEK,2000.0,22,Other
+2025-04-28 09:37:16.339445,https://www.merrjep.al/njoftim/ford-fiesta-viti-2008-1-4-naft/14997387,2008,Manual,1500019999.0,Dizel / Naftë,Durrës,Blu,Ford,Fiesta,2990.0,EUR,2990.0,17,Durres
+2025-04-28 09:37:16.339454,https://www.merrjep.al/njoftim/mercedes-benz-c220-2007/15188011,2007,Manual,2000024999.0,Dizel / Naftë,Vlorë,Gri,Mercedes-Benz,C 220,3800.0,EUR,3800.0,18,Vlore
+2025-04-28 09:37:16.339462,https://www.merrjep.al/njoftim/evo-200-kompresor-automat-zvicra/14967141,2007,Automatik,250000299999.0,Benzin,Elbasan,E Zezë,Mercedes-Benz,E 200,6500.0,EUR,6500.0,18,Other
+2025-04-28 09:37:16.339471,https://www.merrjep.al/njoftim/bmv-x3/10839075,2016,Steptronic / Tiptronic,140000149999.0,Dizel / Naftë,Tiranë,E Argjendtë,BMW,X3,18300.0,EUR,18300.0,9,Tirane
+2025-04-28 09:37:16.339479,https://www.merrjep.al/njoftim/audi-a6-3x-s-line-2019/14412876,2019,Automatik,8500089999.0,Dizel / Naftë,Tiranë,E Zezë,Audi,A6,38000.0,EUR,38000.0,6,Tirane
+2025-04-28 09:37:16.339487,https://www.merrjep.al/njoftim/golf-5-1-6-benzin-gaz/15082579,2006,Manual,200000249999.0,Gaz (TNG) / Benzinë,Lushnjë,Gri,VW Volkswagen,Golf,3800.0,LEK,3800.0,19,Other
+2025-04-28 09:37:16.339504,https://www.merrjep.al/njoftim/c-220-naft-full-opsion-zvicra/15113722,2014,Automatik,190000199999.0,Dizel / Naftë,Elbasan,E Zezë,Mercedes-Benz,C 220,16000.0,EUR,16000.0,11,Other
+2025-04-28 09:37:16.339513,https://www.merrjep.al/njoftim/suv-honda-crv-1-6-nafte-zvicera/14861682,2015,Manual,140000149999.0,Dizel / Naftë,Fier,E Bardhë,Honda,CR-V,15.0,EUR,15.0,10,Other
+2025-04-28 09:37:16.339522,https://www.merrjep.al/njoftim/tiguan-200-naft-viti-2010-4-4-manual/15216428,2010,Manual,1500019999.0,Dizel / Naftë,Durrës,E Bardhë,VW Volkswagen,Tiguan,8200.0,EUR,8200.0,15,Durres
+2025-04-28 09:37:16.339530,https://www.merrjep.al/njoftim/suzuki-grand-vitara-2-7-benzin-automat-zvicra/15005710,2008,Automatik,200000249999.0,Benzin,Elbasan,Gri,Suzuki,Grand Vitara,6500.0,LEK,6500.0,17,Other
+2025-04-28 09:37:16.339556,https://www.merrjep.al/njoftim/e-350-benzin-full-opsion-zvicra/15113993,2006,Automatik,190000199999.0,Benzin,Elbasan,E Gjelbër,Mercedes-Benz,E 350,8000.0,EUR,8000.0,19,Other
+2025-04-28 09:37:16.339565,https://www.merrjep.al/njoftim/volvo-xc90-benzine-hybrid/15168108,2017,Automatik,160000169999.0,Benzin,Tiranë,E Zezë,Volvo,XC 90,1.0,EUR,1.0,8,Tirane
+2025-04-28 09:37:16.339574,https://www.merrjep.al/njoftim/nisan-qashqai-1-6-naft-2013-manual/15178276,2013,Manual,1500019999.0,Dizel / Naftë,Durrës,Gri,Nissan,Qashqai,6300.0,EUR,6300.0,12,Durres
+2025-04-28 09:37:16.339607,https://www.merrjep.al/njoftim/e-klase-220-cdi/15174137,2003,Automatik,250000299999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,E 220,4500.0,EUR,4500.0,22,Tirane
+2025-04-28 09:37:16.339616,https://www.merrjep.al/njoftim/toyota-yaris-verso-1-3-automat-zvicra/14741997,2003,Automatik,190000199999.0,Benzin,Elbasan,Gri,Toyota,Yaris,4999.0,EUR,4999.0,22,Other
+2025-04-28 09:37:16.339624,https://www.merrjep.al/njoftim/s-klass-350-benzin-4-matic-zvicra/15113811,2011,Automatik,200000249999.0,Benzin,Elbasan,E Zezë,Mercedes-Benz,S 350,10000.0,EUR,10000.0,14,Other
+2025-04-28 09:37:16.339632,https://www.merrjep.al/njoftim/land-rover-discovery-4-zvicra/15113819,2010,Automatik,200000249999.0,Dizel / Naftë,Elbasan,Bezhë,Land Rover,Discovery,11000.0,EUR,11000.0,15,Other
+2025-04-28 09:37:16.339641,https://www.merrjep.al/njoftim/ml-350-naft-pa-taks-lluksi-full-opsion/14694063,2011,Automatik,200000249999.0,Dizel / Naftë,Elbasan,Gri,Mercedes-Benz,ML 350,9000.0,EUR,9000.0,14,Other
+2025-04-28 09:37:16.339650,https://www.merrjep.al/njoftim/mercedez-benz-e-200-benzin-avandgard-zvicra/15091721,2013,Automatik,190000199999.0,Benzin,Elbasan,E Zezë,Mercedes-Benz,E 200,10000.0,EUR,10000.0,12,Other
+2025-04-28 09:37:16.339659,https://www.merrjep.al/njoftim/slk-300-benzin-full-kabriolet/7753801,2008,Automatik,150000159999.0,Benzin,Elbasan,Gri,Mercedes-Benz,SLK 300,10000.0,EUR,10000.0,17,Other
+2025-04-28 09:37:16.339667,https://www.merrjep.al/njoftim/byd-seagull-fly-edition-405-km-autonomi/15218424,2025,Automatik,4999.0,Elektrikë,Tiranë,E Zezë,VW Volkswagen,ID.4,14900.0,EUR,14900.0,0,Tirane
+2025-04-28 09:37:16.339675,https://www.merrjep.al/njoftim/e-klas-220-naft-viti-2012-automat/15193284,2012,Automatik,150000159999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,220,9600.0,EUR,9600.0,13,Tirane
+2025-04-28 09:37:16.339684,https://www.merrjep.al/njoftim/2008-vw-golf-5-automat-dsg-1-4benzine-zvicra-me-dogane/15025468,2008,Automatik,200000249999.0,Benzin,Durrës,Gri,VW Volkswagen,Golf,4500.0,LEK,4500.0,17,Durres
+2025-04-28 09:37:16.339693,https://www.merrjep.al/njoftim/e-klas-220-naft-viti-2014-amg-line/15112258,2014,Automatik,170000179999.0,Dizel / Naftë,Tiranë,E Bardhë,Mercedes-Benz,220,13300.0,EUR,13300.0,11,Tirane
+2025-04-28 09:37:16.339702,https://www.merrjep.al/njoftim/nissan-qashqai-2-0-gpl-shitet-ose-nderrohet/15139595,2008,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Lezhë,E Zezë,Nissan,Qashqai,1.0,EUR,1.0,17,Other
+2025-04-28 09:37:16.339711,https://www.merrjep.al/njoftim/audi-a6-2016-diesel/14693349,2016,Automatik,160000169999.0,Dizel / Naftë,Tiranë,E Zezë,Audi,A6,14900.0,EUR,14900.0,9,Tirane
+2025-04-28 09:37:16.339719,https://www.merrjep.al/njoftim/byd-yuan-plus-leading-edition-2025-430-km-autonomi/15223129,2025,Automatik,4999.0,Elektrikë,Tiranë,E Zezë,VW Volkswagen,ID.3,18700.0,EUR,18700.0,0,Tirane
+2025-04-28 09:37:16.344846,https://www.merrjep.al/njoftim/q5-2000-nafte/11068856,2011,Automatik,200000249999.0,Dizel / Naftë,Durrës,E Bardhë,Audi,Q5,10500.0,EUR,10500.0,14,Durres
+2025-04-28 09:37:17.069343,https://www.merrjep.al/njoftim/caddy-1-4-benzin/13372967,2006,Manual,200000249999.0,Benzin,Durrës,E Bardhë,VW Volkswagen,Caddy,4900.0,EUR,4900.0,19,Durres
+2025-04-28 09:37:17.069371,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:37:17.069382,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:37:17.069392,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:37:17.069401,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:37:17.069410,https://www.merrjep.al/njoftim/volvo-2-4-naft-automat/11715066,2010,Automatik,200000249999.0,Dizel / Naftë,Durrës,E Zezë,Volvo,XC 60,9800.0,EUR,9800.0,15,Durres
+2025-04-28 09:37:17.069418,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:37:17.069427,https://www.merrjep.al/njoftim/bmw-e60-lci-525d-xdrivefacelift-viti2009-zvicra/10143066,2009,Automatik,190000199999.0,Dizel / Naftë,Korçë,Gri,BMW,525,7500.0,EUR,7500.0,16,Other
+2025-04-28 09:37:17.069437,https://www.merrjep.al/njoftim/mercedes-glk-220-cdi-2014-ardhur-nga-austria/15083299,2014,Automatik,190000199999.0,Dizel / Naftë,Durrës,Blu,Mercedes-Benz,GLK 220,13500.0,EUR,13500.0,11,Durres
+2025-04-28 09:37:17.069446,https://www.merrjep.al/njoftim/okazion-bmw-535-twinturbo-super-mjet/15214445,2011,Automatik,250000299999.0,Benzin,Krujë,E Zezë,BMW,535,6500.0,EUR,6500.0,14,Other
+2025-04-28 09:37:17.069454,https://www.merrjep.al/njoftim/ford-fusion-2010/11667865,2010,Manual,180000189999.0,Dizel / Naftë,Durrës,Lejla,Ford,Fusion,3700.0,EUR,3700.0,15,Durres
+2025-04-28 09:37:17.069462,https://www.merrjep.al/njoftim/volvo-xc60-automat/11033176,2010,Automatik,190000199999.0,Dizel / Naftë,Durrës,Kafe,Volvo,XC 60,10300.0,EUR,10300.0,15,Durres
+2025-04-28 09:37:17.069471,https://www.merrjep.al/njoftim/ford-kuga-magma-edition/14528600,2012,Automatik,170000179999.0,Dizel / Naftë,Tiranë,E Zezë,Ford,Kuga,7500.0,EUR,7500.0,13,Tirane
+2025-04-28 09:37:17.069480,https://www.merrjep.al/njoftim/shitet/11572727,2015,Automatik,150000159999.0,Benzin,Tiranë,E Zezë,Land Rover,Range Rover,35000.0,EUR,35000.0,10,Tirane
+2025-04-28 09:37:17.069488,https://www.merrjep.al/njoftim/ford-fiesta-2010/13609936,2010,Manual,190000199999.0,Dizel / Naftë,Durrës,Vishnje,Ford,Fiesta,3900.0,EUR,3900.0,15,Durres
+2025-04-28 09:37:17.069497,https://www.merrjep.al/njoftim/mazda-2-automat/13959762,2004,Automatik,180000189999.0,Benzin,Durrës,Gri,Mazda,2,3200.0,EUR,3200.0,21,Durres
+2025-04-28 09:37:17.069505,https://www.merrjep.al/njoftim/caddy/14656544,2005,Manual,200000249999.0,Benzin,Durrës,E Bardhë,VW Volkswagen,Caddy,4900.0,EUR,4900.0,20,Durres
+2025-04-28 09:37:17.069513,https://www.merrjep.al/njoftim/shitet/15223127,2007,Manual,2500029999.0,Dizel / Naftë,Tiranë,E Kuqe,Fiat,Bravo,2000.0,LEK,2000.0,18,Tirane
+2025-04-28 09:37:17.069521,https://www.merrjep.al/njoftim/mercedez-benz-c-220/14864287,2015,Automatik,180000189999.0,Dizel / Naftë,Durrës,E Zezë,Mercedes-Benz,C 220,17900.0,EUR,17900.0,10,Durres
+2025-04-28 09:37:17.069529,https://www.merrjep.al/njoftim/honda-cr-v/14953617,2006,Manual,200000249999.0,Dizel / Naftë,Durrës,Gri,Honda,CR-V,5500.0,EUR,5500.0,19,Durres
+2025-04-28 09:37:17.069545,https://www.merrjep.al/njoftim/c-200-kompresor/15022560,2005,Automatik,190000199999.0,Benzin,Durrës,Gri,Mercedes-Benz,C 200,5000.0,EUR,5000.0,20,Durres
+2025-04-28 09:37:17.069570,https://www.merrjep.al/njoftim/citroen-c-4-automat-viti-2016-1-6-naft/15149665,2016,Automatik,1500019999.0,Dizel / Naftë,Durrës,E Bardhë,Citroën,C4,6800.0,EUR,6800.0,9,Durres
+2025-04-28 09:37:17.069579,https://www.merrjep.al/njoftim/fiat-grande-punto-1-3-naft-viti-2007/15154047,2007,Manual,1500019999.0,Dizel / Naftë,Durrës,E Kuqe,Fiat,Grande Punto,2990.0,EUR,2990.0,18,Durres
+2025-04-28 09:37:17.069620,https://www.merrjep.al/njoftim/ford-kuga-automat/15078493,2010,Automatik,150000159999.0,Dizel / Naftë,Durrës,E Bardhë,Ford,Kuga,8300.0,EUR,8300.0,15,Durres
+2025-04-28 09:37:17.069628,https://www.merrjep.al/njoftim/golf-6-1-6-tdi-blue-motion/15199133,2010,Automatik,200000249999.0,Dizel / Naftë,Durrës,E Bardhë,VW Volkswagen,Golf,6900.0,EUR,6900.0,15,Durres
+2025-04-28 09:37:17.069637,https://www.merrjep.al/njoftim/toyota-yaris-automat/15190277,2012,Automatik,7000074999.0,Benzin,Durrës,Gri,Toyota,Yaris,7200.0,EUR,7200.0,13,Durres
+2025-04-28 09:37:17.069653,https://www.merrjep.al/njoftim/mercedes-c-class-220/15140940,2011,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Mercedes-Benz,C 220,7300.0,EUR,7300.0,14,Vlore
+2025-04-28 09:37:17.069661,https://www.merrjep.al/njoftim/c-class-benzine-gas/15192474,2003,Automatik,3000034999.0,Gaz (TNG) / Benzinë,Shkodër,Blu,Mercedes-Benz,C 200,3700.0,EUR,3700.0,22,Other
+2025-04-28 09:37:17.069678,https://www.merrjep.al/njoftim/suv-honda-crv-1-6-nafte-zvicera/14752072,2015,Manual,140000149999.0,Dizel / Naftë,Fier,E Bardhë,Honda,CR-V,15.0,EUR,15.0,10,Other
+2025-04-28 09:37:17.069686,https://www.merrjep.al/njoftim/shitet-volkswagen-tiguan/15223125,2012,Automatik,130000139999.0,Dizel / Naftë,Tiranë,Blu,VW Volkswagen,Tiguan,1.0,EUR,1.0,13,Tirane
+2025-04-28 09:37:17.069694,https://www.merrjep.al/njoftim/vw-caddy-2-0-benzin+gaz/14676799,2009,Manual,190000199999.0,Gaz (TNG) / Benzinë,Durrës,Blu,VW Volkswagen,Caddy,5999.0,LEK,5999.0,16,Durres
+2025-04-28 09:37:17.069703,https://www.merrjep.al/njoftim/touran-2012/15160840,2012,Manual,190000199999.0,Dizel / Naftë,Tiranë,E Zezë,VW Volkswagen,Touran,7800.0,EUR,7800.0,13,Tirane
+2025-04-28 09:37:17.069711,https://www.merrjep.al/njoftim/volvo-xc60-r-design-2-4-diesel-d4-awd-zvicra/15135008,2014,Automatik,200000249999.0,Dizel / Naftë,Korçë,Gri,Volvo,XC 60,11500.0,EUR,11500.0,11,Other
+2025-04-28 09:37:17.069733,https://www.merrjep.al/njoftim/land-rover-discovery-sport-2016/15168810,2016,Automatik,200000249999.0,Dizel / Naftë,Durrës,E Zezë,Land Rover,Discovery Sport,15000.0,EUR,15000.0,9,Durres
+2025-04-28 09:37:17.069742,https://www.merrjep.al/njoftim/ford-fiesta-automat/13959938,2005,Automatik,160000169999.0,Benzin,Durrës,Gri,Ford,Fiesta,3700.0,EUR,3700.0,20,Durres
+2025-04-28 09:37:17.069750,https://www.merrjep.al/njoftim/range-rover-velar-3-0-nafte-2019/15166347,2019,Automatik,100000109999.0,Dizel / Naftë,Durrës,E Zezë,Land Rover,Range Rover Velar,38000.0,EUR,38000.0,6,Durres
+2025-04-28 09:37:17.069799,https://www.merrjep.al/njoftim/ford-fusion-automat/13916490,2006,Automatik,190000199999.0,Benzin,Durrës,Portokalli,Ford,Fusion,3900.0,EUR,3900.0,19,Durres
+2025-04-28 09:37:17.069810,https://www.merrjep.al/njoftim/mitsubishi-colt-automat/11556718,2013,Automatik,160000169999.0,Benzin,Durrës,Blu,Mitsubishi,Colt,4900.0,EUR,4900.0,12,Durres
+2025-04-28 09:37:17.069818,https://www.merrjep.al/njoftim/toyota-urban-cruiser-1-4-naft/11549158,2010,Manual,190000199999.0,Dizel / Naftë,Durrës,Kafe,Toyota,Urban Cruiser,6300.0,EUR,6300.0,15,Durres
+2025-04-28 09:37:17.069826,https://www.merrjep.al/njoftim/ford-fucus/11003615,2008,Manual,190000199999.0,Dizel / Naftë,Durrës,E Zezë,Ford,Focus,3900.0,EUR,3900.0,17,Durres
+2025-04-28 09:37:17.069835,https://www.merrjep.al/njoftim/caddy-maxxi/14843338,2014,Manual,190000199999.0,Dizel / Naftë,Durrës,E Bardhë,VW Volkswagen,Caddy,9200.0,EUR,9200.0,11,Durres
+2025-04-28 09:37:17.069843,https://www.merrjep.al/njoftim/ford-focus/14751640,2007,Manual,190000199999.0,Benzin,Durrës,E Bardhë,Ford,Focus,3200.0,EUR,3200.0,18,Durres
+2025-04-28 09:37:17.069851,https://www.merrjep.al/njoftim/ford-kuga/14715985,2014,Automatik,180000189999.0,Dizel / Naftë,Durrës,Kafe,Ford,Kuga,10300.0,EUR,10300.0,11,Durres
+2025-04-28 09:37:17.069858,https://www.merrjep.al/njoftim/golf-5/14656072,2005,Manual,170000179999.0,Benzin,Durrës,Blu,VW Volkswagen,Golf,3700.0,EUR,3700.0,20,Durres
+2025-04-28 09:37:17.069865,https://www.merrjep.al/njoftim/audi-q5/14628351,2011,Automatik,190000199999.0,Dizel / Naftë,Durrës,E Bardhë,Audi,Q5,12300.0,EUR,12300.0,14,Durres
+2025-04-28 09:37:17.406802,https://www.merrjep.al/njoftim/vw-tiguan-2015-2-0-nafte/15159570,2015,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Bardhë,VW Volkswagen,Tiguan,10700.0,EUR,10700.0,10,Tirane
+2025-04-28 09:37:17.406830,https://www.merrjep.al/njoftim/shitet-okazion-2013-mercedes-benz-b250/10228487,2013,Automatik,110000119999.0,Benzin,Durrës,E Bardhë,Mercedes-Benz,B 250,8900.0,EUR,8900.0,12,Durres
+2025-04-28 09:37:17.406841,https://www.merrjep.al/njoftim/audi-a6-allroad-auto-penta/10088640,2013,Automatik,2000024999.0,Dizel / Naftë,Vlorë,E Zezë,Audi,A6,16900.0,EUR,16900.0,12,Vlore
+2025-04-28 09:37:17.406850,https://www.merrjep.al/njoftim/mercedes-benz-b-class-viti-2008-automatike-1-5-benzine+gaz/14997380,2008,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Mercedes-Benz,B 150,4800.0,EUR,4800.0,17,Tirane
+2025-04-28 09:37:17.406859,https://www.merrjep.al/njoftim/audi-a3-2015-1-6-nafte/15091917,2015,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Bardhë,Audi,A3,10900.0,EUR,10900.0,10,Tirane
+2025-04-28 09:37:17.406868,https://www.merrjep.al/njoftim/jetta-2014-1-6-nafte/15090529,2014,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Bardhë,VW Volkswagen,Jetta,7200.0,EUR,7200.0,11,Tirane
+2025-04-28 09:37:17.406876,https://www.merrjep.al/njoftim/toyota-yaris-1-4-naft/15049771,2013,Manual,150000159999.0,Dizel / Naftë,Durrës,Gri,Toyota,Yaris,6000.0,EUR,6000.0,12,Durres
+2025-04-28 09:37:17.406884,https://www.merrjep.al/njoftim/audi-a3-2016-1-8t/15218958,2016,Automatik,200000249999.0,Benzin,Pogradec,E Kuqe,Audi,A3,14000.0,EUR,14000.0,9,Other
+2025-04-28 09:37:17.406893,https://www.merrjep.al/njoftim/ford-kuga-2016-2-0-nafte-4x4/15171607,2016,Automatik,150000159999.0,Dizel / Naftë,Tiranë,E Zezë,Ford,Kuga,12700.0,EUR,12700.0,9,Tirane
+2025-04-28 09:37:17.406901,https://www.merrjep.al/njoftim/c250-4-matic-super-gjendje-zvicra/15175311,2015,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,C 250,12999.0,EUR,12999.0,10,Other
+2025-04-28 09:37:17.406910,https://www.merrjep.al/njoftim/4x4-dhe-6+1-vende/15139792,2013,Automatik,1500019999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,Santa Fe,9900.0,EUR,9900.0,12,Tirane
+2025-04-28 09:37:17.406918,https://www.merrjep.al/njoftim/shitet-dacia-duster/15018175,2017,Automatik,9500099999.0,Dizel / Naftë,Tiranë,Kafe,Dacia,Duster,10900.0,EUR,10900.0,8,Tirane
+2025-04-28 09:37:17.406926,https://www.merrjep.al/njoftim/a-klas-1-8-naft-viti-2012-manual/15047796,2012,Manual,2000024999.0,Dizel / Naftë,Durrës,E Argjendtë,Mercedes-Benz,A 180,3200.0,EUR,3200.0,13,Durres
+2025-04-28 09:37:17.406935,https://www.merrjep.al/njoftim/okazion-3390-euro-makine-ekonomike/15139528,2007,Manual,2000024999.0,Dizel / Naftë,Vlorë,Gri,Ford,S-Max,3390.0,EUR,3390.0,18,Vlore
+2025-04-28 09:37:17.406943,https://www.merrjep.al/njoftim/vw-tiguan-2-0-naft-viti-2009/14958993,2009,Automatik,190000199999.0,Dizel / Naftë,Durrës,E Zezë,VW Volkswagen,Tiguan,8800.0,EUR,8800.0,16,Durres
+2025-04-28 09:37:17.406952,https://www.merrjep.al/njoftim/fiat-500x/14729218,2016,Automatik,100000109999.0,Dizel / Naftë,Tiranë,Kafe,Fiat,500X,11900.0,EUR,11900.0,9,Tirane
+2025-04-28 09:37:17.406960,https://www.merrjep.al/njoftim/golf-r-line/15223118,2013,Automatik,1500019999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Golf,1.0,LEK,1.0,12,Tirane
+2025-04-28 09:37:17.406968,https://www.merrjep.al/njoftim/suzuki-1-6-naft-s-4-viti-2010-manual/14999455,2010,Manual,1500019999.0,Dizel / Naftë,Durrës,E Zezë,Suzuki,SX4,5200.0,EUR,5200.0,15,Durres
+2025-04-28 09:37:17.406977,https://www.merrjep.al/njoftim/citroen-c-4-viti-2014-manual/14999573,2014,Manual,1500019999.0,Dizel / Naftë,Durrës,E Zezë,Citroën,C4,5400.0,EUR,5400.0,11,Durres
+2025-04-28 09:37:17.406986,https://www.merrjep.al/njoftim/tyota-hibrid-viti-2015-automat/14993009,2015,Automatik,1000014999.0,Hibrid & CNG,Durrës,Gri,Toyota,Yaris,8700.0,EUR,8700.0,10,Durres
+2025-04-28 09:37:17.406994,https://www.merrjep.al/njoftim/nisan-qashqai-2-0-nafte-automat/15153317,2009,Automatik,190000199999.0,Dizel / Naftë,Durrës,E Bardhë,Nissan,Qashqai,6800.0,EUR,6800.0,16,Durres
+2025-04-28 09:37:17.407003,https://www.merrjep.al/njoftim/shitet-vw-touran-1-6-nafte/10917740,2011,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Blu,VW Volkswagen,Touran,6900.0,EUR,6900.0,14,Tirane
+2025-04-28 09:37:17.407011,https://www.merrjep.al/njoftim/audi-rs3-2015-naft-2-0-automat-13800-euro-okazion/15186021,2015,Automatik,4999.0,Dizel / Naftë,Tiranë,E Bardhë,Audi,RS3,13800.0,EUR,13800.0,10,Tirane
+2025-04-28 09:37:17.407021,https://www.merrjep.al/njoftim/okazion-automat/15201294,2006,Automatik,2500029999.0,Benzin,Tiranë,Blu,Toyota,Aygo,3300.0,EUR,3300.0,19,Tirane
+2025-04-28 09:37:17.407030,https://www.merrjep.al/njoftim/nissan-note/13367978,2007,Manual,200000249999.0,Benzin,Fier,Portokalli,Nissan,Note,2600.0,EUR,2600.0,18,Other
+2025-04-28 09:37:17.407076,https://www.merrjep.al/njoftim/tiguan-2013-naft-2-0-km-179-automat-10800-euro/15187509,2013,Automatik,4999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Tiguan,10800.0,EUR,10800.0,12,Tirane
+2025-04-28 09:37:17.407089,https://www.merrjep.al/njoftim/gaze-benzin-2012/15219698,2012,Automatik,1500019999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Mercedes-Benz,C 300,9900.0,EUR,9900.0,13,Tirane
+2025-04-28 09:37:17.407098,https://www.merrjep.al/njoftim/shitet-nderrohet-santafe-2-0-naft-2016/14963996,2016,Automatik,1500019999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,Santa Fe,13500.0,EUR,13500.0,9,Tirane
+2025-04-28 09:37:17.407107,https://www.merrjep.al/njoftim/automat-1-4-naft/15219684,2009,Automatik,1000014999.0,Dizel / Naftë,Tiranë,Gri,Toyota,Auris,5400.0,EUR,5400.0,16,Tirane
+2025-04-28 09:37:17.407115,https://www.merrjep.al/njoftim/blej-makina/14458807,2006,Automatik,150000159999.0,Dizel / Naftë,Tiranë,E Zezë,VW Volkswagen,Golf,500.0,EUR,500.0,19,Tirane
+2025-04-28 09:37:17.407125,https://www.merrjep.al/njoftim/pezho-1-6-naft-viti-2013-manual/15000955,2013,Manual,1500019999.0,Dizel / Naftë,Durrës,E Argjendtë,Peugeot,208,4300.0,EUR,4300.0,12,Durres
+2025-04-28 09:37:17.407133,https://www.merrjep.al/njoftim/okazionnnn-pak-dit/15152119,2014,Automatik,180000189999.0,Dizel / Naftë,Durrës,E Bardhë,Audi,A6,11990.0,EUR,11990.0,11,Durres
+2025-04-28 09:37:17.407142,https://www.merrjep.al/njoftim/mercedes-benz-c-kalas-220-cdi-viti-2008/15099211,2008,Automatik,190000199999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,C 220,8700.0,EUR,8700.0,17,Durres
+2025-04-28 09:37:17.407151,https://www.merrjep.al/njoftim/blej-makinaa/13952374,2008,Automatik,130000139999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,C 220,2000.0,EUR,2000.0,17,Tirane
+2025-04-28 09:37:17.407160,https://www.merrjep.al/njoftim/blej-makina-okazion/11481039,2007,Automatik,130000139999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,E 220,1100.0,EUR,1100.0,18,Tirane
+2025-04-28 09:37:17.407168,https://www.merrjep.al/njoftim/toyota-yaris-1-4-automat-nafte/15144239,2006,Automatik,160000169999.0,Dizel / Naftë,Durrës,Gri,Toyota,Yaris,5700.0,EUR,5700.0,19,Durres
+2025-04-28 09:37:17.407176,https://www.merrjep.al/njoftim/super-okazion/15192727,2015,Automatik,200000249999.0,Dizel / Naftë,Durrës,E Bardhë,Mercedes-Benz,E 250,13500.0,EUR,13500.0,10,Durres
+2025-04-28 09:37:17.407185,https://www.merrjep.al/njoftim/audi-q5-viti-2010/15180362,2010,Automatik,200000249999.0,Dizel / Naftë,Durrës,E Bardhë,Audi,Q5,10500.0,EUR,10500.0,15,Durres
+2025-04-28 09:37:17.407235,https://www.merrjep.al/njoftim/okazion-audi-a8-4-2/15216268,2012,Automatik,190000199999.0,Benzin,Krujë,E Zezë,Audi,A8,7600.0,EUR,7600.0,13,Other
+2025-04-28 09:37:17.407247,https://www.merrjep.al/njoftim/jaguar-f-pace-r-sport-full-opsion/15216264,2017,Automatik,130000139999.0,Dizel / Naftë,Krujë,E Zezë,Jaguar,F-Pace,15000.0,EUR,15000.0,8,Other
+2025-04-28 09:37:17.407256,https://www.merrjep.al/njoftim/volvo-xc60-2019-naft-2-0-km-93-elektrike-30000-italy/15187566,2019,Automatik,4999.0,Dizel / Naftë,Tiranë,E Zezë,Volvo,XC 60,30000.0,EUR,30000.0,6,Tirane
+2025-04-28 09:37:17.407266,https://www.merrjep.al/njoftim/nissan-juke-1-6-2012-automatik-e-sapotarguar/15146393,2012,Automatik,190000199999.0,Benzin,Elbasan,E Zezë,Nissan,Juke,6900.0,EUR,6900.0,13,Other
+2025-04-28 09:37:17.407275,https://www.merrjep.al/njoftim/mercedes-2010-naft-220-automat-germany-9500-euro/15186014,2010,Automatik,4999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,220,9500.0,EUR,9500.0,15,Tirane
+2025-04-28 09:37:17.407283,https://www.merrjep.al/njoftim/audi-a6-2014-naft-3-0-automat-12800-euro/15186006,2014,Automatik,4999.0,Dizel / Naftë,Tiranë,E Zezë,Audi,A6,12800.0,EUR,12800.0,11,Tirane
+2025-04-28 09:37:17.407292,https://www.merrjep.al/njoftim/shitet-hyundai-i30/15223106,2012,Automatik,170000179999.0,Dizel / Naftë,Tiranë,Blu,Hyundai,i30,1.0,EUR,1.0,13,Tirane
+2025-04-28 09:37:17.407300,https://www.merrjep.al/njoftim/okazion-panda-4x4/15149015,2005,Manual,200000249999.0,Benzin,Durrës,Blu,Fiat,Panda,3500.0,EUR,3500.0,20,Durres
+2025-04-28 09:37:17.407308,https://www.merrjep.al/njoftim/shitet-volkswagen-polo/15173562,2013,Automatik,190000199999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Polo,1.0,EUR,1.0,12,Tirane
+2025-04-28 09:37:17.407317,https://www.merrjep.al/njoftim/tiguan-benzin-gaz-prins/15132532,2013,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Krujë,Bezhë,VW Volkswagen,Tiguan,7000.0,EUR,7000.0,12,Other
+2025-04-28 09:37:17.407325,https://www.merrjep.al/njoftim/ford-c-max-2014-1-6-naft-manual/15089760,2014,Manual,1500019999.0,Dizel / Naftë,Durrës,E Zezë,Ford,C-Max,5400.0,EUR,5400.0,11,Durres
+2025-04-28 09:37:17.407333,https://www.merrjep.al/njoftim/blej-makina/13629664,2006,Automatik,130000139999.0,Dizel / Naftë,Tiranë,E Zezë,VW Volkswagen,Golf,600.0,EUR,600.0,19,Tirane
+2025-04-28 09:37:17.407341,https://www.merrjep.al/njoftim/hyndai-i-20-viti-2012-gaz-benxin-manual/15076295,2012,Manual,1500019999.0,Gaz (TNG) / Benzinë,Durrës,E Bardhë,Hyundai,i20,4300.0,EUR,4300.0,13,Durres
+2025-04-28 09:37:17.407349,https://www.merrjep.al/njoftim/audi-a8-4-2-diesel-tdi-quatro-2010-letra-sapo-paguara-nderro/15203184,2010,Automatik,200000249999.0,Dizel / Naftë,Fier,Gri,Audi,A8,12000.0,EUR,12000.0,15,Other
+2025-04-28 09:37:17.407358,https://www.merrjep.al/njoftim/subaru-outback-2-5-benzin-+gaz-2014-xhama-te-zinj-origjinal/15165472,2014,Automatik,180000189999.0,Gaz (TNG) / Benzinë,Fier,E Bardhë,Subaru,OUTBACK,8700.0,EUR,8700.0,11,Other
+2025-04-28 09:37:17.407367,https://www.merrjep.al/njoftim/citroen-c4-picaso-1-6-benzin-2011-sapo-ardhur-nga-zvicra/15203176,2011,Manual,190000199999.0,Benzin,Fier,E Zezë,Citroën,C4,3700.0,EUR,3700.0,14,Other
+2025-04-28 09:37:17.407374,https://www.merrjep.al/njoftim/bmw-x5-3-0-benzin-gaz-2007-panorama-xhama-te-zinj-origjinal/15176161,2007,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,E Bardhë,BMW,X5,7500.0,EUR,7500.0,18,Tirane
+2025-04-28 09:37:56.963446,https://www.merrjep.al/njoftim/mercedes-benz-c-270-cdi/15199979,2001,Automatik,3500039999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,C 270,2700.0,EUR,2700.0,24,Durres
+2025-04-28 09:37:56.963472,https://www.merrjep.al/njoftim/golf-5-2-0-manual-2004/13650312,2004,Manual,2000024999.0,Dizel / Naftë,Pogradec,E Zezë,VW Volkswagen,Golf,3500.0,EUR,3500.0,21,Other
+2025-04-28 09:37:56.963483,https://www.merrjep.al/njoftim/citroen-c4-picasso-viti-2013-manuale-motorr-1-6-nafte/14719881,2013,Manual,140000149999.0,Dizel / Naftë,Tiranë,Vishnje,Citroën,C4,6900.0,EUR,6900.0,12,Tirane
+2025-04-28 09:37:56.963493,https://www.merrjep.al/njoftim/ford-fiesta-viti-2015-manuale-motorr-1-5-nafte/15189962,2015,Manual,150000159999.0,Dizel / Naftë,Tiranë,E Bardhë,Ford,Fiesta,5900.0,EUR,5900.0,10,Tirane
+2025-04-28 09:37:56.963502,https://www.merrjep.al/njoftim/shitet-bmw-x5/15147205,2015,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Bardhë,BMW,X5,24000.0,EUR,24000.0,10,Tirane
+2025-04-28 09:37:56.963510,https://www.merrjep.al/njoftim/super-b-class-okazion/15185270,2006,Automatik,250000299999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,B 180,4000.0,EUR,4000.0,19,Tirane
+2025-04-28 09:37:56.963518,https://www.merrjep.al/njoftim/hyundai-i30-viti-2010-automatike-motorr-1-6-nafte/15151896,2010,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,i30,4300.0,EUR,4300.0,15,Tirane
+2025-04-28 09:37:56.963525,https://www.merrjep.al/njoftim/mercedes-benz-a160-auto-penta/7415443,2005,Manual,150000159999.0,Dizel / Naftë,Vlorë,E Zezë,Mercedes-Benz,A 160,3500.0,EUR,3500.0,20,Vlore
+2025-04-28 09:37:56.963534,https://www.merrjep.al/njoftim/bmw-x5-motorr-3-0-nafte/15046095,2010,Automatik,200000249999.0,Dizel / Naftë,Krujë,E Zezë,BMW,X5,7200.0,LEK,7200.0,15,Other
+2025-04-28 09:37:56.963542,https://www.merrjep.al/njoftim/audi-s7-fabrike-motorr-4-0-benzine/15216939,2013,Automatik,190000199999.0,Benzin,Krujë,E Bardhë,Audi,S7,17900.0,EUR,17900.0,12,Other
+2025-04-28 09:37:56.963550,https://www.merrjep.al/njoftim/audi-a4-3-0-v6-quattro/15213595,2009,Automatik,2500029999.0,Dizel / Naftë,Lezhë,Gri,Audi,A4,5900.0,EUR,5900.0,16,Other
+2025-04-28 09:37:56.963558,https://www.merrjep.al/njoftim/super-b-class-okazion/15185263,2006,Automatik,250000299999.0,Dizel / Naftë,Korçë,Gri,Mercedes-Benz,B 180,4000.0,EUR,4000.0,19,Other
+2025-04-28 09:37:56.963566,https://www.merrjep.al/njoftim/bmw-528i-motorr-3-0-aspirat-behet-100-me-gas/15060455,2011,Automatik,200000249999.0,Benzin,Krujë,E Bardhë,BMW,528,8500.0,EUR,8500.0,14,Other
+2025-04-28 09:37:56.963575,https://www.merrjep.al/njoftim/golf-6-motorr-2-5-benzine-behet-100-me-gas/14718936,2012,Automatik,200000249999.0,Benzin,Krujë,Gri,VW Volkswagen,Golf,5700.0,EUR,5700.0,13,Other
+2025-04-28 09:37:56.963583,https://www.merrjep.al/njoftim/toyota-auris-2010/15096342,2010,Manual,190000199999.0,Dizel / Naftë,Tiranë,Gri,Toyota,Auris,5900.0,EUR,5900.0,15,Tirane
+2025-04-28 09:37:56.963590,https://www.merrjep.al/njoftim/toyota-auris-2010/15096332,2010,Manual,190000199999.0,Dizel / Naftë,Korçë,Gri,Toyota,Auris,5900.0,EUR,5900.0,15,Other
+2025-04-28 09:37:56.963598,https://www.merrjep.al/njoftim/mercedes-benz-e-220-automatic-2006/13604612,2006,Automatik,4000044999.0,Dizel / Naftë,Pogradec,E Zezë,Mercedes-Benz,E 220,3500.0,EUR,3500.0,19,Other
+2025-04-28 09:37:56.963607,https://www.merrjep.al/njoftim/shitet-mercedes-benz-e250-4-matik/14996901,2014,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,250,13000.0,EUR,13000.0,11,Tirane
+2025-04-28 09:37:56.963615,https://www.merrjep.al/njoftim/outlander-turbo-4x4-2-0-black-matt-edition/14673263,2007,Manual,4999.0,Benzin,Fier,E Zezë,Mitsubishi,Outlander,1.0,EUR,1.0,18,Other
+2025-04-28 09:37:56.963623,https://www.merrjep.al/njoftim/c-class-motorr-3-0-benzine-behet-100-me-gas/15221995,2009,Automatik,200000249999.0,Benzin,Krujë,E Bardhë,Mercedes-Benz,C 300,5900.0,EUR,5900.0,16,Other
+2025-04-28 09:37:56.963631,https://www.merrjep.al/njoftim/opel-1-2-benxin-viti-2011/14999435,2011,Manual,1500019999.0,Dizel / Naftë,Durrës,E Zezë,Opel,Agila,2700.0,EUR,2700.0,14,Durres
+2025-04-28 09:37:56.963641,https://www.merrjep.al/njoftim/b-class-motorr-2-0-benzine-behet-100-me-gas/15030315,2014,Automatik,200000249999.0,Benzin,Krujë,Gri,Mercedes-Benz,B 250,8000.0,LEK,8000.0,11,Other
+2025-04-28 09:37:56.963649,https://www.merrjep.al/njoftim/audi-q8-3-0nafte-quattro-look-rsq8-2020-full/14013002,2020,Automatik,100000109999.0,Dizel / Naftë,Pogradec,E Bardhë,Audi,Q8,58000.0,EUR,58000.0,5,Other
+2025-04-28 09:37:56.963658,https://www.merrjep.al/njoftim/c-300-4matic/15139671,2010,Automatik,190000199999.0,Gaz (TNG) / Benzinë,Tiranë,Blu,Mercedes-Benz,C 300,7200.0,EUR,7200.0,15,Tirane
+2025-04-28 09:37:56.963666,https://www.merrjep.al/njoftim/okazion-shitet-makine-per-vetem-2500-euro/14755716,2010,Manual,180000189999.0,Gaz (TNG) / Benzinë,Tiranë,E Bardhë,Renault,Clio,2500.0,EUR,2500.0,15,Tirane
+2025-04-28 09:37:56.963675,https://www.merrjep.al/njoftim/shitet-super-audi/14755724,2013,Automatik,110000119999.0,Dizel / Naftë,Tiranë,E Zezë,Audi,A6,12800.0,EUR,12800.0,12,Tirane
+2025-04-28 09:37:56.963682,https://www.merrjep.al/njoftim/golf-7-motorr-2-0-nafte/15030307,2015,Automatik,200000249999.0,Dizel / Naftë,Krujë,E Zezë,VW Volkswagen,Golf,7800.0,LEK,7800.0,10,Other
+2025-04-28 09:37:56.963690,https://www.merrjep.al/njoftim/audi-a6-2012-3-0-nafte-quatro/15081554,2012,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Kafe,Audi,A6,850000.0,LEK,850000.0,13,Tirane
+2025-04-28 09:37:56.968816,https://www.merrjep.al/njoftim/audi-a6-2012-3-0-naft-quatro/15081733,2012,Automatik,190000199999.0,Dizel / Naftë,Tiranë,Gri,Audi,A6,920000.0,LEK,920000.0,13,Tirane
+2025-04-28 09:37:56.968835,https://www.merrjep.al/njoftim/audi-a4-2-0t-gaz+benzine-quattro-full-2013/14691512,2013,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Tiranë,Blu,Audi,A4,11500.0,EUR,11500.0,12,Tirane
+2025-04-28 09:37:56.968845,https://www.merrjep.al/njoftim/jeep-wrangler-3-6benzine-2015-automat-look-2020/13980303,2015,Automatik,100000109999.0,Benzin,Pogradec,E Zezë,Jeep,Wrangler,35000.0,EUR,35000.0,10,Other
+2025-04-28 09:37:56.968854,https://www.merrjep.al/njoftim/hyundai-santa-fe-2-2nafte-automat-2006-dokumenta-shqiptare/11526901,2006,Automatik,2500029999.0,Dizel / Naftë,Tiranë,E Zezë,Hyundai,Santa Fe,5700.0,EUR,5700.0,19,Tirane
+2025-04-28 09:37:56.968863,https://www.merrjep.al/njoftim/shitje/15223031,2001,Manual,3500039999.0,Dizel / Naftë,Tiranë,E Bardhë,Renault,Kangoo,1500.0,EUR,1500.0,24,Tirane
+2025-04-28 09:37:56.968871,https://www.merrjep.al/njoftim/vw-passat-cc-2013-2-0-nafte-automatik-klima/11067416,2013,Automatik,190000199999.0,Dizel / Naftë,Tiranë,Kafe,VW Volkswagen,CC,8999.0,EUR,8999.0,12,Tirane
+2025-04-28 09:37:56.968880,https://www.merrjep.al/njoftim/mb-c220/14521563,2006,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,C 220,3800.0,EUR,3800.0,19,Tirane
+2025-04-28 09:37:56.968889,https://www.merrjep.al/njoftim/bmw-gt-535-viti-2015-naft-3-5-automatike/15096703,2015,Automatik,190000199999.0,Dizel / Naftë,Tiranë,Gri,BMW,535,14500.0,EUR,14500.0,10,Tirane
+2025-04-28 09:37:56.968897,https://www.merrjep.al/njoftim/hyndai-i-30-viti-2014-1-6-naft/14999372,2014,Manual,1500019999.0,Dizel / Naftë,Durrës,E Bardhë,Hyundai,i30,6400.0,EUR,6400.0,11,Durres
+2025-04-28 09:37:56.968905,https://www.merrjep.al/njoftim/okazion-benz-c200-benzin-gaz-2007-automat/14576887,2007,Automatik,2000024999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Mercedes-Benz,C 200,3800.0,EUR,3800.0,18,Tirane
+2025-04-28 09:37:56.968913,https://www.merrjep.al/njoftim/golf-6-automat-naft-2012-6700-euro/15222448,2012,Automatik,190000199999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Golf,6700.0,EUR,6700.0,13,Tirane
+2025-04-28 09:37:56.968922,https://www.merrjep.al/njoftim/audi-q5-2012-naft-2-0-automat-targa-shiptare-13500/15185752,2012,Automatik,4999.0,Dizel / Naftë,Tiranë,Gri,Audi,Q5,13500.0,EUR,13500.0,13,Tirane
+2025-04-28 09:37:56.968930,https://www.merrjep.al/njoftim/discovery-4-autobiografy-look-16-mundesi-nderrimi/15143550,2012,Automatik,180000189999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Land Rover,Discovery,15000.0,EUR,15000.0,13,Tirane
+2025-04-28 09:37:56.968939,https://www.merrjep.al/njoftim/discovery-5-blackedition-18-mundesi-nderrimi/15114827,2017,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Zezë,Land Rover,Discovery,29000.0,EUR,29000.0,8,Tirane
+2025-04-28 09:37:56.968964,https://www.merrjep.al/njoftim/land-rover-discovery-3-zvicra/14724632,2008,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Land Rover,Discovery,7900.0,EUR,7900.0,17,Tirane
+2025-04-28 09:37:56.968974,https://www.merrjep.al/njoftim/jaguar-xj-3-0-portoflio-zvicra/14617937,2010,Automatik,160000169999.0,Dizel / Naftë,Tiranë,Gri,Jaguar,XJ,10800.0,EUR,10800.0,15,Tirane
+2025-04-28 09:37:56.968982,https://www.merrjep.al/njoftim/mercedes-c-220-viti-2003/14434641,2003,Manual,200000249999.0,Dizel / Naftë,Berat,E Zezë,Mercedes-Benz,C 220,3200.0,EUR,3200.0,22,Other
+2025-04-28 09:37:56.968990,https://www.merrjep.al/njoftim/land-rover-discovery4-zvicre/13992747,2010,Automatik,190000199999.0,Dizel / Naftë,Tiranë,Gri,Land Rover,Discovery,10500.0,EUR,10500.0,15,Tirane
+2025-04-28 09:37:56.968999,https://www.merrjep.al/njoftim/ford-c-max-1-6-naft-viti-2011/14999446,2011,Manual,1500019999.0,Dizel / Naftë,Durrës,Lejla,Ford,Focus C-Max,5200.0,EUR,5200.0,14,Durres
+2025-04-28 09:37:56.969007,https://www.merrjep.al/njoftim/fiat-punto-evo-1-3-naft-2015/14999379,2015,Manual,1500019999.0,Dizel / Naftë,Durrës,Gri,Fiat,Grande Punto,4400.0,EUR,4400.0,10,Durres
+2025-04-28 09:37:56.969015,https://www.merrjep.al/njoftim/golf-7-viti-2014-manual/14993851,2014,Manual,1500019999.0,Dizel / Naftë,Durrës,E Argjendtë,VW Volkswagen,Golf,8300.0,EUR,8300.0,11,Durres
+2025-04-28 09:37:56.969023,https://www.merrjep.al/njoftim/mercedes-glk-350-cdi-4-matic-viti-2009/15157086,2009,Automatik,190000199999.0,Dizel / Naftë,Berat,E Zezë,Mercedes-Benz,GLK 350,10500.0,EUR,10500.0,16,Other
+2025-04-28 09:37:56.969032,https://www.merrjep.al/njoftim/tiguan-2-0-tdi-automat/15031371,2009,Automatik,2000024999.0,Dizel / Naftë,Durrës,E Zezë,VW Volkswagen,Tiguan,8500.0,EUR,8500.0,16,Durres
+2025-04-28 09:37:56.969055,https://www.merrjep.al/njoftim/okazion-lancia-musa-1-4-benzin-2006-panoramik-automat/14994149,2006,Automatik,1000014999.0,Benzin,Tiranë,Gri,Lancia,MUSA,3000.0,EUR,3000.0,19,Tirane
+2025-04-28 09:37:57.713527,https://www.merrjep.al/njoftim/mercedes-benz-c-270-cdi/15199979,2001,Automatik,3500039999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,C 270,2700.0,EUR,2700.0,24,Durres
+2025-04-28 09:37:57.713552,https://www.merrjep.al/njoftim/citroen-c4-picasso-viti-2013-manuale-motorr-1-6-nafte/14719881,2013,Manual,140000149999.0,Dizel / Naftë,Tiranë,Vishnje,Citroën,C4,6900.0,EUR,6900.0,12,Tirane
+2025-04-28 09:37:57.713564,https://www.merrjep.al/njoftim/ford-fiesta-viti-2015-manuale-motorr-1-5-nafte/15189962,2015,Manual,150000159999.0,Dizel / Naftë,Tiranë,E Bardhë,Ford,Fiesta,5900.0,EUR,5900.0,10,Tirane
+2025-04-28 09:37:57.713573,https://www.merrjep.al/njoftim/okazion-vw-caddy-max-1-6tdi-automat-2013-me-7-vende/15193526,2013,Automatik,200000249999.0,Dizel / Naftë,Pogradec,Blu,VW Volkswagen,Caddy,9800.0,EUR,9800.0,12,Other
+2025-04-28 09:37:57.713582,https://www.merrjep.al/njoftim/hyundai-i30-viti-2010-automatike-motorr-1-6-nafte/15151896,2010,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,i30,4300.0,EUR,4300.0,15,Tirane
+2025-04-28 09:37:57.713591,https://www.merrjep.al/njoftim/mercedes-benz-a160-auto-penta/7415443,2005,Manual,150000159999.0,Dizel / Naftë,Vlorë,E Zezë,Mercedes-Benz,A 160,3500.0,EUR,3500.0,20,Vlore
+2025-04-28 09:37:57.713600,https://www.merrjep.al/njoftim/shitet-benz-2008/15192463,2008,Automatik,2500029999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Mercedes-Benz,200,6600.0,LEK,6600.0,17,Tirane
+2025-04-28 09:37:57.713608,https://www.merrjep.al/njoftim/seat-altea-2-0tdi-2005-automat-nga-zvicra-nderrohet/15169582,2005,Automatik,250000299999.0,Dizel / Naftë,Pogradec,Gri,Seat,Altea,4500.0,EUR,4500.0,20,Other
+2025-04-28 09:37:57.713625,https://www.merrjep.al/njoftim/opel-insignia-2-0cdti-facelift-2015-automat-full-nderrohet/15169572,2015,Automatik,4999.0,Dizel / Naftë,Pogradec,E Zezë,Opel,Insignia,10000.0,EUR,10000.0,10,Other
+2025-04-28 09:37:57.713642,https://www.merrjep.al/njoftim/okazionn-mb-c-class-2-2-blueficent-2010/15223068,2010,Automatik,2000024999.0,Dizel / Naftë,Vlorë,Gri,Mercedes-Benz,C 220,5490.0,EUR,5490.0,15,Vlore
+2025-04-28 09:37:57.713659,https://www.merrjep.al/njoftim/ford-fiesta-1-4-benzine-automat-me-letra/15192464,2006,Automatik,180000189999.0,Benzin,Durrës,E Kuqe,Ford,Fiesta,290000.0,LEK,290000.0,19,Durres
+2025-04-28 09:37:57.713667,https://www.merrjep.al/njoftim/mercedes-benz-e-220/15159205,2005,Automatik,2000024999.0,Dizel / Naftë,Shkodër,Gri,Mercedes-Benz,E 220,5000.0,EUR,5000.0,20,Other
+2025-04-28 09:37:57.713675,https://www.merrjep.al/njoftim/mercedes-benz-e-280/15151843,2008,Automatik,2000024999.0,Dizel / Naftë,Shkodër,E Zezë,Mercedes-Benz,E 280,6900.0,EUR,6900.0,17,Other
+2025-04-28 09:37:57.713683,https://www.merrjep.al/njoftim/mercedez-benz-gl-350/15141022,2011,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,GL 350,13000.0,EUR,13000.0,14,Tirane
+2025-04-28 09:37:57.713770,https://www.merrjep.al/njoftim/minicooper-countrymans-1-6benzine-4x4-panorama-super-full/15193832,2012,Automatik,120000129999.0,Benzin,Pogradec,Gri,MINI,Countryman,9400.0,EUR,9400.0,13,Other
+2025-04-28 09:37:57.713797,https://www.merrjep.al/njoftim/shitet-golf-5-benzin-gaz-okazion/15019273,2006,Manual,200000249999.0,Gaz (TNG) / Benzinë,Lushnjë,Blu,VW Volkswagen,Golf,3800.0,EUR,3800.0,19,Other
+2025-04-28 09:37:57.713812,https://www.merrjep.al/njoftim/toyota-avensi-1-8/15090667,2008,Automatik,130000139999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Toyota,Avensis,6200.0,EUR,6200.0,17,Tirane
+2025-04-28 09:37:57.713822,https://www.merrjep.al/njoftim/vw-crafter-2-5-nafte-6vende+mallra/15155224,2012,Manual,300000349999.0,Dizel / Naftë,Pogradec,E Gjelbër,VW Volkswagen,Crafter,10000.0,EUR,10000.0,13,Other
+2025-04-28 09:37:57.713831,https://www.merrjep.al/njoftim/vw-tiguan/15091673,2013,Automatik,160000169999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,VW Volkswagen,Tiguan,12500.0,EUR,12500.0,12,Tirane
+2025-04-28 09:37:57.713839,https://www.merrjep.al/njoftim/vw-caddy-maxi-1-6tdi-per-mallra+vende-me-dogane/15155183,2012,Manual,250000299999.0,Dizel / Naftë,Pogradec,Gri,VW Volkswagen,Caddy,8400.0,EUR,8400.0,13,Other
+2025-04-28 09:37:57.713847,https://www.merrjep.al/njoftim/mercedes-benz-ml-350-cdi-bluetec/15198598,2013,Automatik,250000299999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,ML 350,15000.0,EUR,15000.0,12,Durres
+2025-04-28 09:37:57.713855,https://www.merrjep.al/njoftim/mercedes-benz-e550-amg-line-benzin-gaz/15213900,2010,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Durrës,E Bardhë,Mercedes-Benz,E 500,12500.0,EUR,12500.0,15,Durres
+2025-04-28 09:37:57.713863,https://www.merrjep.al/njoftim/bmw-740-full-option/15200708,2010,Automatik,250000299999.0,Dizel / Naftë,Durrës,E Zezë,BMW,740,10500.0,EUR,10500.0,15,Durres
+2025-04-28 09:37:57.713879,https://www.merrjep.al/njoftim/smart-forfour-1-5cdi-manuale-4-dyer-me-dogane/15193838,2006,Manual,160000169999.0,Dizel / Naftë,Pogradec,E Bardhë,Smart,ForFour,2600.0,EUR,2600.0,19,Other
+2025-04-28 09:37:57.713888,https://www.merrjep.al/njoftim/mitsubishi-outlander-sport-2-0-benzine-automat-me-dogane/15193824,2015,Automatik,130000139999.0,Benzin,Pogradec,E Bardhë,Mitsubishi,Outlander,9600.0,EUR,9600.0,10,Other
+2025-04-28 09:37:57.713896,https://www.merrjep.al/njoftim/toyota-aygo-manuale-1-0benzine-me-kondicioner/15193819,2009,Manual,4999.0,Benzin,Pogradec,E Kuqe,Toyota,Aygo,2400.0,EUR,2400.0,16,Other
+2025-04-28 09:37:57.713904,https://www.merrjep.al/njoftim/vw-caddy-1-4-benzine-i-sapoardhur-nga-gjermania-me-dogane/15155173,2007,Manual,200000249999.0,Benzin,Pogradec,Blu,VW Volkswagen,Caddy,4300.0,EUR,4300.0,18,Other
+2025-04-28 09:37:57.713913,https://www.merrjep.al/njoftim/okazion-golf5-1-9nafte-2005-manual-me-letra-te-sapopaguara/15089264,2005,Manual,300000349999.0,Dizel / Naftë,Pogradec,Gri,VW Volkswagen,Golf,3200.0,EUR,3200.0,20,Other
+2025-04-28 09:37:57.713921,https://www.merrjep.al/njoftim/audi-a4-okazion/15223055,2012,Automatik,1500019999.0,Dizel / Naftë,Tiranë,E Zezë,Audi,A4,1.0,LEK,1.0,13,Tirane
+2025-04-28 09:37:57.713929,https://www.merrjep.al/njoftim/subaru/15042238,2013,Automatik,190000199999.0,Benzin,Tiranë,Gri,Subaru,XV,9300.0,EUR,9300.0,12,Tirane
+2025-04-28 09:37:57.713937,https://www.merrjep.al/njoftim/audi-a3-1-9-diesel-2007-sapo-ardhur/15160915,2007,Manual,2000024999.0,Dizel / Naftë,Lushnjë,Gri,Audi,A3,3800.0,LEK,3800.0,18,Other
+2025-04-28 09:37:57.713944,https://www.merrjep.al/njoftim/ford-focus/15183836,2003,Manual,250000299999.0,Dizel / Naftë,Tiranë,Blu,Ford,Focus,1400.0,EUR,1400.0,22,Tirane
+2025-04-28 09:37:57.713951,https://www.merrjep.al/njoftim/audi/14648721,2012,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Sarandë,Gri,Audi,Q5,12800.0,LEK,12800.0,13,Other
+2025-04-28 09:37:57.713959,https://www.merrjep.al/njoftim/audi-a3/15136438,2007,Automatik,2000024999.0,Dizel / Naftë,Durrës,E Zezë,Audi,A3,6300.0,LEK,6300.0,18,Durres
+2025-04-28 09:37:57.713966,https://www.merrjep.al/njoftim/ml-350cdi-4matic/15015354,2009,Automatik,200000249999.0,Dizel / Naftë,Korçë,E Bardhë,Mercedes-Benz,ML 350,9000.0,EUR,9000.0,16,Other
+2025-04-28 09:37:57.713974,https://www.merrjep.al/njoftim/tiguan-2-0-nafte-2018-4motion/15099846,2018,Automatik,120000129999.0,Dizel / Naftë,Korçë,E Bardhë,VW Volkswagen,Tiguan,17000.0,LEK,17000.0,7,Other
+2025-04-28 09:37:57.713982,https://www.merrjep.al/njoftim/volkswagen-passat-2-0-tdi-nafte-2016-automatik/15015340,2016,Automatik,120000129999.0,Dizel / Naftë,Korçë,Bezhë,VW Volkswagen,Passat,12000.0,EUR,12000.0,9,Other
+2025-04-28 09:37:57.713990,https://www.merrjep.al/njoftim/ford-fiesta-1-6-nafte-2009/15027413,2009,Manual,300000349999.0,Dizel / Naftë,Durrës,Gri,Ford,Fiesta,3300.0,EUR,3300.0,16,Durres
+2025-04-28 09:37:57.713998,https://www.merrjep.al/njoftim/mercedes-cl-63-amg/15187794,2008,Automatik,200000249999.0,Benzin,Durrës,E Argjendtë,Mercedes-Benz,CL 63 AMG,18500.0,EUR,18500.0,17,Durres
+2025-04-28 09:37:57.714006,https://www.merrjep.al/njoftim/shitet-ml/15131861,2013,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,ML 350,15900.0,EUR,15900.0,12,Tirane
+2025-04-28 09:37:57.714014,https://www.merrjep.al/njoftim/vw-caddy-maxi-1-6nafte-me-dogane/15155188,2012,Manual,250000299999.0,Dizel / Naftë,Pogradec,E Bardhë,VW Volkswagen,Caddy,8400.0,EUR,8400.0,13,Other
+2025-04-28 09:37:57.714022,https://www.merrjep.al/njoftim/golf-4-1-4-benzin-gas-i-sapo-vene-2001-manuale/15091549,2001,Manual,1500019999.0,Benzin,Pogradec,Blu,VW Volkswagen,Golf,1600.0,EUR,1600.0,24,Other
+2025-04-28 09:37:57.714030,https://www.merrjep.al/njoftim/range-rover-sport-hst-3-0-benzine-2016/15222587,2016,Automatik,170000179999.0,Benzin,Durrës,E Kuqe,Land Rover,Range Rover Sport,23000.0,EUR,23000.0,9,Durres
+2025-04-28 09:37:57.714062,https://www.merrjep.al/njoftim/mercedes-benz-c203-clas-automatic-nafte-2002/14611828,2002,Automatik,3500039999.0,Dizel / Naftë,Pogradec,Blu,Mercedes-Benz,C 220,2700.0,EUR,2700.0,23,Other
+2025-04-28 09:37:57.714071,https://www.merrjep.al/njoftim/toyota-rav-4/15090650,2014,Automatik,110000119999.0,Gaz (TNG) / Benzinë,Tiranë,E Bardhë,Toyota,RAV 4,16200.0,EUR,16200.0,11,Tirane
+2025-04-28 09:37:57.714080,https://www.merrjep.al/njoftim/seat-ibiza/15137376,2003,Manual,250000299999.0,Dizel / Naftë,Tiranë,Gri,Seat,Ibiza,1300.0,EUR,1300.0,22,Tirane
+2025-04-28 09:37:57.714087,https://www.merrjep.al/njoftim/citroen-c5/15183852,2008,Manual,250000299999.0,Dizel / Naftë,Tiranë,Gri,Citroën,C5,1800.0,EUR,1800.0,17,Tirane
+2025-04-28 09:37:57.714095,https://www.merrjep.al/njoftim/ford-foucs/15111144,2003,Manual,200000249999.0,Dizel / Naftë,Tiranë,Gri,Ford,Focus,1500.0,EUR,1500.0,22,Tirane
+2025-04-28 09:37:57.714102,https://www.merrjep.al/njoftim/ml350/15218992,2013,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,ML 350,15900.0,EUR,15900.0,12,Tirane
+2025-04-28 09:37:57.714110,https://www.merrjep.al/njoftim/shitet-q5/15218963,2021,Automatik,2500029999.0,Benzin,Tiranë,E Zezë,Audi,Q5,37500.0,EUR,37500.0,4,Tirane
+2025-04-28 09:37:57.714118,https://www.merrjep.al/njoftim/volvo-xc60-automatike-r-desing/13953347,2010,Automatik,200000249999.0,Benzin,Tiranë,E Kuqe,Volvo,XC 60,7999.0,EUR,7999.0,15,Tirane
+2025-04-28 09:37:57.714586,https://www.merrjep.al/njoftim/ford-fiesta-viti-2015-manuale-motorr-1-5-nafte/15189962,2015,Manual,150000159999.0,Dizel / Naftë,Tiranë,E Bardhë,Ford,Fiesta,5900.0,EUR,5900.0,10,Tirane
+2025-04-28 09:37:57.714606,https://www.merrjep.al/njoftim/citroen-c4-picasso-viti-2013-manuale-motorr-1-6-nafte/14719881,2013,Manual,140000149999.0,Dizel / Naftë,Tiranë,Vishnje,Citroën,C4,6900.0,EUR,6900.0,12,Tirane
+2025-04-28 09:37:57.714617,https://www.merrjep.al/njoftim/mercedes-benz-c-270-cdi/15199979,2001,Automatik,3500039999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,C 270,2700.0,EUR,2700.0,24,Durres
+2025-04-28 09:37:57.714627,https://www.merrjep.al/njoftim/hyundai-i30-viti-2010-automatike-motorr-1-6-nafte/15151896,2010,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,i30,4300.0,EUR,4300.0,15,Tirane
+2025-04-28 09:37:57.714635,https://www.merrjep.al/njoftim/mercedes-benz-a160-auto-penta/7415443,2005,Manual,150000159999.0,Dizel / Naftë,Vlorë,E Zezë,Mercedes-Benz,A 160,3500.0,EUR,3500.0,20,Vlore
+2025-04-28 09:37:57.714643,https://www.merrjep.al/njoftim/tojota-2007-naft-1-4-automat-4700-lek-targa-shiptare/15185680,2007,Automatik,4999.0,Dizel / Naftë,Tiranë,E Zezë,Toyota,Yaris,4700.0,LEK,4700.0,18,Tirane
+2025-04-28 09:37:57.714653,https://www.merrjep.al/njoftim/mercedes-e-220-automat-viti-2014/15055114,2014,Automatik,180000189999.0,Dizel / Naftë,Berat,E Bardhë,Mercedes-Benz,E 220,13500.0,EUR,13500.0,11,Other
+2025-04-28 09:37:57.714695,https://www.merrjep.al/njoftim/mercedes-aklas-2003-naft-1-7-manual-2000-okazion/15185667,2003,Manual,4999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,A 170,2000.0,LEK,2000.0,22,Tirane
+2025-04-28 09:37:57.714721,https://www.merrjep.al/njoftim/shitet-w203-c220-automat-2007/15181246,2007,Automatik,2000024999.0,Dizel / Naftë,Mallakastër,E Zezë,Mercedes-Benz,C 220,4900.0,EUR,4900.0,18,Other
+2025-04-28 09:37:57.714731,https://www.merrjep.al/njoftim/benzine-gas-automat-94000-km/15176117,2010,Automatik,9000094999.0,Gaz (TNG) / Benzinë,Tiranë,Blu,Citroën,C3,5200.0,EUR,5200.0,15,Tirane
+2025-04-28 09:37:57.714740,https://www.merrjep.al/njoftim/shitet-w203-c200-naft-automat-2007/15196834,2007,Automatik,2000024999.0,Dizel / Naftë,Mallakastër,Gri,Mercedes-Benz,C 200,4000.0,EUR,4000.0,18,Other
+2025-04-28 09:37:57.714748,https://www.merrjep.al/njoftim/mercedes-benz-e-300/15112713,2009,Automatik,150000159999.0,Benzin,Fier,E Bardhë,Mercedes-Benz,E 300,1.0,EUR,1.0,16,Other
+2025-04-28 09:37:57.714756,https://www.merrjep.al/njoftim/golf-6-automat-1-6-nafte-nga-franca/15218996,2011,Automatik,200000249999.0,Dizel / Naftë,Durrës,E Zezë,VW Volkswagen,Golf,6900.0,EUR,6900.0,14,Durres
+2025-04-28 09:37:57.714765,https://www.merrjep.al/njoftim/lancia-ypsilon-kambio-automatike-tavani-panoramik/15194323,2006,Automatik,180000189999.0,Benzin,Tiranë,E Zezë,Lancia,Ypsilon,3499.0,EUR,3499.0,19,Tirane
+2025-04-28 09:37:57.714773,https://www.merrjep.al/njoftim/okazion-land-rover-discovery-sport-2-0-nafte-9-automat-hse/15184561,2016,Automatik,130000139999.0,Dizel / Naftë,Berat,Gri,Land Rover,Discovery Sport,13000.0,EUR,13000.0,9,Other
+2025-04-28 09:37:57.714790,https://www.merrjep.al/njoftim/shitet-w203-c220-automat-2006/15181232,2006,Automatik,2000024999.0,Dizel / Naftë,Mallakastër,E Zezë,Mercedes-Benz,C 220,4100.0,EUR,4100.0,19,Other
+2025-04-28 09:37:57.714799,https://www.merrjep.al/njoftim/opel-korsa-shitje-viti-2004-naft-1-7/15188440,2004,Manual,300000349999.0,Dizel / Naftë,Tiranë,Gri,Opel,Corsa,140000.0,LEK,140000.0,21,Tirane
+2025-04-28 09:37:57.714807,https://www.merrjep.al/njoftim/mercedes-e-220-evo-automatik/15193390,2007,Automatik,2000024999.0,Dizel / Naftë,Vlorë,Gri,Mercedes-Benz,E 220,5800.0,EUR,5800.0,18,Vlore
+2025-04-28 09:37:57.714815,https://www.merrjep.al/njoftim/qashqai/15009742,2011,Manual,200000249999.0,Dizel / Naftë,Lushnjë,Gri,Nissan,Qashqai+2,6900.0,EUR,6900.0,14,Other
+2025-04-28 09:37:57.714830,https://www.merrjep.al/njoftim/a4-automat-2-0-nafte-i-sapo-targuar/15155415,2009,Automatik,200000249999.0,Dizel / Naftë,Durrës,Gri,Audi,A4,6500.0,EUR,6500.0,16,Durres
+2025-04-28 09:37:57.714838,https://www.merrjep.al/njoftim/okazion-shitet-range-rover-evoque-full/15201315,2012,Automatik,170000179999.0,Benzin,Tiranë,E Bardhë,Land Rover,Range Rover Evoque,13000.0,EUR,13000.0,13,Tirane
+2025-04-28 09:37:57.714846,https://www.merrjep.al/njoftim/auris-automatik-1-4-nafte-importuar-nga-italia/15146355,2008,Automatik,200000249999.0,Dizel / Naftë,Durrës,Gri,Toyota,Auris,5500.0,EUR,5500.0,17,Durres
+2025-04-28 09:37:57.714854,https://www.merrjep.al/njoftim/volvo-xc-60-3-0-benzin+gaz/15194676,2010,Automatik,180000189999.0,Benzin,Tiranë,E Zezë,Volvo,XC 60,8800.0,EUR,8800.0,15,Tirane
+2025-04-28 09:37:57.714862,https://www.merrjep.al/njoftim/kuga-full-options-nga-gjermania/15085854,2012,Automatik,160000169999.0,Dizel / Naftë,Durrës,Gri,Ford,Kuga,8800.0,EUR,8800.0,13,Durres
+2025-04-28 09:37:57.714884,https://www.merrjep.al/njoftim/qashqai-full-option-2-0-nafte-automat/15202303,2007,Automatik,190000199999.0,Dizel / Naftë,Durrës,E Zezë,Nissan,Qashqai,6500.0,EUR,6500.0,18,Durres
+2025-04-28 09:37:57.714892,https://www.merrjep.al/njoftim/shitet-nderrohet-nisan-mikra/15175403,2018,Manual,110000119999.0,Benzin,Tiranë,E Zezë,Nissan,Micra,9500.0,EUR,9500.0,7,Tirane
+2025-04-28 09:37:57.714916,https://www.merrjep.al/njoftim/jetta-automatike-1-6-nafte-nga-gjermania/15085878,2011,Automatik,200000249999.0,Dizel / Naftë,Durrës,Gri,VW Volkswagen,Jetta,6500.0,EUR,6500.0,14,Durres
+2025-04-28 09:37:57.714924,https://www.merrjep.al/njoftim/volvo-xc-60-2014-d4/15184178,2014,Automatik,200000249999.0,Dizel / Naftë,Lushnjë,E Zezë,Volvo,XC 60,12400.0,EUR,12400.0,11,Other
+2025-04-28 09:37:57.714931,https://www.merrjep.al/njoftim/shitet-ose-me-nderrim-golf-7-eshte-pa-dogane-200-nafte/15058428,2014,Manual,2000024999.0,Dizel / Naftë,Elbasan,E Argjendtë,VW Volkswagen,Golf,70000.0,EUR,70000.0,11,Other
+2025-04-28 09:37:57.714940,https://www.merrjep.al/njoftim/okazion-bmw-f10/14948117,2010,Automatik,250000299999.0,Dizel / Naftë,Vlorë,E Zezë,BMW,530,8000.0,EUR,8000.0,15,Vlore
+2025-04-28 09:37:57.714948,https://www.merrjep.al/njoftim/bmw-x6-35xdrive-twin-turbo-286hp-motorr-3-0-disel/13604822,2013,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,BMW,X6,125.0,LEK,125.0,12,Tirane
+2025-04-28 09:37:57.714956,https://www.merrjep.al/njoftim/santa-fe-benzin-gaz-automat-full-super-gjendje/15218980,2010,Automatik,170000179999.0,Gaz (TNG) / Benzinë,Durrës,Gri,Hyundai,Santa Fe,8900.0,EUR,8900.0,15,Durres
+2025-04-28 09:37:57.714964,https://www.merrjep.al/njoftim/shitet-ose-dhe-mundesi-nderrimi/15058401,2017,Automatik,2000024999.0,Dizel / Naftë,Elbasan,E Zezë,Land Rover,Range Rover Evoque,15500.0,EUR,15500.0,8,Other
+2025-04-28 09:37:57.714981,https://www.merrjep.al/njoftim/w204-2012-okazion-7800/14491327,2012,Automatik,200000249999.0,Benzin,Tiranë,E Kuqe,Mercedes-Benz,C 250,7800.0,EUR,7800.0,13,Tirane
+2025-04-28 09:37:57.714989,https://www.merrjep.al/njoftim/c-class-4-matic-3-0-benzine-look-brabus/15180779,2013,Automatik,110000119999.0,Benzin,Vlorë,E Zezë,Mercedes-Benz,C 300,12000.0,EUR,12000.0,12,Vlore
+2025-04-28 09:37:57.714998,https://www.merrjep.al/njoftim/super-c180-benzine-2013-zvicra/15184518,2013,Automatik,140000149999.0,Benzin,Tiranë,E Zezë,Mercedes-Benz,C 180,7999.0,EUR,7999.0,12,Tirane
+2025-04-28 09:37:57.715005,https://www.merrjep.al/njoftim/super-okazion-b150-benzin+-gas/15189921,2005,Manual,200000249999.0,Gaz (TNG) / Benzinë,Korçë,E Gjelbër,Mercedes-Benz,B 150,2999.0,EUR,2999.0,20,Other
+2025-04-28 09:37:57.715014,https://www.merrjep.al/njoftim/porshe-panamera-1-pronar/15197301,2012,Automatik,180000189999.0,Dizel / Naftë,Korçë,E Zezë,Porsche,Panamera,19999.0,EUR,19999.0,13,Other
+2025-04-28 09:37:57.715021,https://www.merrjep.al/njoftim/shitet-okazion-2012-mercedes-benz-c300/11167123,2012,Automatik,170000179999.0,Gaz (TNG) / Benzinë,Durrës,E Zezë,Mercedes-Benz,C 300,10800.0,EUR,10800.0,13,Durres
+2025-04-28 09:37:57.715029,https://www.merrjep.al/njoftim/shitet-okazion-2013-volkswagen-tiguan-r-line-panoramic/11192773,2013,Automatik,190000199999.0,Benzin,Durrës,E Zezë,VW Volkswagen,Tiguan,10300.0,EUR,10300.0,12,Durres
+2025-04-28 09:37:57.715057,https://www.merrjep.al/njoftim/shitet-okazion-2012-mercedes-benz-c300/11167141,2012,Automatik,200000249999.0,Benzin,Durrës,Gri,Mercedes-Benz,C 300,10300.0,EUR,10300.0,13,Durres
+2025-04-28 09:37:57.715066,https://www.merrjep.al/njoftim/shitet-okazion-2012-mercedes-benz-c300/11448195,2012,Automatik,200000249999.0,Benzin,Durrës,E Zezë,Mercedes-Benz,C 300,10300.0,EUR,10300.0,13,Durres
+2025-04-28 09:37:57.715075,https://www.merrjep.al/njoftim/okazion-shitet-2012-volkswagen-golf-6-motor-2-0-tdi/11467343,2012,Automatik,190000199999.0,Dizel / Naftë,Durrës,E Zezë,VW Volkswagen,Golf,8700.0,EUR,8700.0,13,Durres
+2025-04-28 09:37:57.715083,https://www.merrjep.al/njoftim/mercedes-benz-cls350-2012/15062442,2012,Automatik,170000179999.0,Dizel / Naftë,Korçë,Blu,Mercedes-Benz,CLS 350,16000.0,EUR,16000.0,13,Other
+2025-04-28 09:37:57.715130,https://www.merrjep.al/njoftim/mercedes-benz-evo-e230-benzine/15062443,2008,Automatik,190000199999.0,Benzin,Korçë,Gri,Mercedes-Benz,E 230,6900.0,EUR,6900.0,17,Other
+2025-04-28 09:37:57.715143,https://www.merrjep.al/njoftim/mercedes-evo-e230-benzine/15062457,2008,Automatik,180000189999.0,Benzin,Korçë,Gri,Mercedes-Benz,E 230,6900.0,EUR,6900.0,17,Other
+2025-04-28 09:37:57.715151,https://www.merrjep.al/njoftim/mercedes-cls-350-amg-line/15133864,2012,Steptronic / Tiptronic,180000189999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,CLS 350,1.0,EUR,1.0,13,Tirane
+2025-04-28 09:37:57.715160,https://www.merrjep.al/njoftim/mercedes-benz-cls-350-amg-line/15075538,2012,Automatik,190000199999.0,Dizel / Naftë,Korçë,E Zezë,Mercedes-Benz,CLS 350,17500.0,EUR,17500.0,13,Other
+2025-04-28 09:37:57.715535,https://www.merrjep.al/njoftim/ford-fiesta-viti-2015-manuale-motorr-1-5-nafte/15189962,2015,Manual,150000159999.0,Dizel / Naftë,Tiranë,E Bardhë,Ford,Fiesta,5900.0,EUR,5900.0,10,Tirane
+2025-04-28 09:37:57.715551,https://www.merrjep.al/njoftim/citroen-c4-picasso-viti-2013-manuale-motorr-1-6-nafte/14719881,2013,Manual,140000149999.0,Dizel / Naftë,Tiranë,Vishnje,Citroën,C4,6900.0,EUR,6900.0,12,Tirane
+2025-04-28 09:37:57.715561,https://www.merrjep.al/njoftim/mercedes-benz-c-270-cdi/15199979,2001,Automatik,3500039999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,C 270,2700.0,EUR,2700.0,24,Durres
+2025-04-28 09:37:57.715569,https://www.merrjep.al/njoftim/hyundai-i30-viti-2010-automatike-motorr-1-6-nafte/15151896,2010,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,i30,4300.0,EUR,4300.0,15,Tirane
+2025-04-28 09:37:57.715578,https://www.merrjep.al/njoftim/mercedes-benz-a160-auto-penta/7415443,2005,Manual,150000159999.0,Dizel / Naftë,Vlorë,E Zezë,Mercedes-Benz,A 160,3500.0,EUR,3500.0,20,Vlore
+2025-04-28 09:37:57.715586,https://www.merrjep.al/njoftim/seat-leon/14518115,2017,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Bardhë,Seat,Leon,11200.0,EUR,11200.0,8,Tirane
+2025-04-28 09:37:57.715594,https://www.merrjep.al/njoftim/audi-a7/15077932,2016,Automatik,120000129999.0,Dizel / Naftë,Tiranë,E Zezë,Audi,A7,1.0,EUR,1.0,9,Tirane
+2025-04-28 09:37:57.715602,https://www.merrjep.al/njoftim/audi-q7-s-line-11-panoramic-mundesi-nderrim/15012613,2011,Automatik,200000249999.0,Benzin,Tiranë,Gri,Audi,Q7,10000.0,EUR,10000.0,14,Tirane
+2025-04-28 09:37:57.715618,https://www.merrjep.al/njoftim/audi-a7-okazion/14847509,2015,Automatik,120000129999.0,Dizel / Naftë,Tiranë,E Zezë,Audi,A7,1.0,EUR,1.0,10,Tirane
+2025-04-28 09:37:57.715626,https://www.merrjep.al/njoftim/golf-plus-1-4-tsi-2008-automat/14612676,2008,Automatik,180000189999.0,Benzin,Tiranë,Gri,VW Volkswagen,Golf Plus,5200.0,EUR,5200.0,17,Tirane
+2025-04-28 09:37:57.715635,https://www.merrjep.al/njoftim/hummer-h2-07-full-mundesi-nderrimi/15057434,2006,Automatik,200000249999.0,Benzin,Tiranë,E Bardhë,Hummer,H2,18000.0,EUR,18000.0,19,Tirane
+2025-04-28 09:37:57.715643,https://www.merrjep.al/njoftim/tojota-yaris-naft-1-4-viti-2008-manual/15197006,2008,Manual,2000024999.0,Dizel / Naftë,Durrës,Gri,Toyota,Yaris,3900.0,EUR,3900.0,17,Durres
+2025-04-28 09:37:57.715651,https://www.merrjep.al/njoftim/aklas-naft-1-8-viti-2008-automat/15196927,2008,Manual,1500019999.0,Dizel / Naftë,Durrës,E Zezë,Mercedes-Benz,A 180,3600.0,EUR,3600.0,17,Durres
+2025-04-28 09:37:57.715660,https://www.merrjep.al/njoftim/shitet-mercedes-benz-slk-280-benzine-kabriolet/15006868,2007,Automatik,250000299999.0,Benzin,Tiranë,E Zezë,Mercedes-Benz,280,10000.0,EUR,10000.0,18,Tirane
+2025-04-28 09:37:57.715668,https://www.merrjep.al/njoftim/chevrolet-captiva/14494348,2010,Automatik,190000199999.0,Dizel / Naftë,Tiranë,E Zezë,Chevrolet,Captiva,5700.0,EUR,5700.0,15,Tirane
+2025-04-28 09:37:57.715677,https://www.merrjep.al/njoftim/okazion-2020-volvo-xc60-2-0-naft-r-design-full-opsion/15148982,2021,Automatik,130000139999.0,Dizel / Naftë,Tiranë,E Zezë,Volvo,XC 60,28500.0,EUR,28500.0,4,Tirane
+2025-04-28 09:37:57.715685,https://www.merrjep.al/njoftim/range-rover-sport-3-0-supercharged-autobiography/15035285,2016,Automatik,110000119999.0,Benzin,Tiranë,E Zezë,Land Rover,Range Rover Sport,23900.0,EUR,23900.0,9,Tirane
+2025-04-28 09:37:57.715694,https://www.merrjep.al/njoftim/shitet-c-class-350-nafte-amg-line-viti-2012-super-full/15214295,2012,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,C 350,10500.0,EUR,10500.0,13,Tirane
+2025-04-28 09:37:57.715702,https://www.merrjep.al/njoftim/shitet-ose-ndrohet-gle-coupe-350/15039747,2018,Steptronic / Tiptronic,140000149999.0,Dizel / Naftë,Tiranë,E Bardhë,Mercedes-Benz,GL 350,43000.0,EUR,43000.0,7,Tirane
+2025-04-28 09:37:57.715711,https://www.merrjep.al/njoftim/ford-fiesta-5p-viti-2006-1-4-tdci-68cv/15089519,2006,Manual,190000199999.0,Dizel / Naftë,Fier,Gri,Ford,Fiesta,2900.0,EUR,2900.0,19,Other
+2025-04-28 09:37:57.715727,https://www.merrjep.al/njoftim/opel-zafira-1-9-nafte/13183623,2007,Manual,200000249999.0,Dizel / Naftë,Durrës,Bezhë,Opel,Zafira,3200.0,EUR,3200.0,18,Durres
+2025-04-28 09:37:57.715735,https://www.merrjep.al/njoftim/ford-fusion-1-4-nafte/10950603,2008,Manual,190000199999.0,Dizel / Naftë,Durrës,E Zezë,Ford,Fusion,3300.0,EUR,3300.0,17,Durres
+2025-04-28 09:37:57.715743,https://www.merrjep.al/njoftim/volkswagen-tiguan-2012/11717093,2012,Automatik,170000179999.0,Dizel / Naftë,Tiranë,E Bardhë,VW Volkswagen,Tiguan,10900.0,EUR,10900.0,13,Tirane
+2025-04-28 09:37:57.715751,https://www.merrjep.al/njoftim/smart-600cc-automat/14972230,2002,Automatik,6500069999.0,Benzin,Tiranë,Blu,Smart,ForTwo,2190.0,LEK,2190.0,23,Tirane
+2025-04-28 09:37:57.715759,https://www.merrjep.al/njoftim/volvo-s60/15018925,2016,Automatik,6000064999.0,Dizel / Naftë,Tiranë,Blu,Volvo,S60,10500.0,EUR,10500.0,9,Tirane
+2025-04-28 09:37:57.715767,https://www.merrjep.al/njoftim/mercedes-benz-e-class-avantgard-viti-2013/13312910,2013,Automatik,160000169999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,E 220,10200.0,EUR,10200.0,12,Tirane
+2025-04-28 09:37:57.715775,https://www.merrjep.al/njoftim/nissan-qashqai-1-6diesel-127-000km-automatik/15136749,2014,Automatik,120000129999.0,Dizel / Naftë,Vlorë,Vishnje,Nissan,Qashqai,13000.0,EUR,13000.0,11,Vlore
+2025-04-28 09:37:57.715783,https://www.merrjep.al/njoftim/okazion-range-rover/15076439,2013,Automatik,180000189999.0,Dizel / Naftë,Tiranë,E Zezë,Land Rover,Range Rover Evoque,11999.0,EUR,11999.0,12,Tirane
+2025-04-28 09:37:57.715791,https://www.merrjep.al/njoftim/volkswagen-jetta-2015/14953748,2015,Automatik,250000299999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Jetta,8200.0,EUR,8200.0,10,Tirane
+2025-04-28 09:37:57.715807,https://www.merrjep.al/njoftim/hyundai-santafe-viti-2018-km-62-mij/15047490,2018,Steptronic / Tiptronic,6000064999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,Santa Fe,19000.0,EUR,19000.0,7,Tirane
+2025-04-28 09:37:57.715816,https://www.merrjep.al/njoftim/tiguan-2013-okazion/15223073,2013,Automatik,1500019999.0,Dizel / Naftë,Tiranë,Vishnje,VW Volkswagen,Golf,1.0,LEK,1.0,12,Tirane
+2025-04-28 09:37:57.715824,https://www.merrjep.al/njoftim/audi-a6-2012/15222910,2012,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Tiranë,E Zezë,Audi,A6,10500.0,EUR,10500.0,13,Tirane
+2025-04-28 09:37:57.715831,https://www.merrjep.al/njoftim/vw-tiguan-2-0tdi-automat-4x4-me-letra-te-rregullta/15165167,2009,Automatik,4999.0,Dizel / Naftë,Tiranë,E Zezë,VW Volkswagen,Tiguan,7400.0,EUR,7400.0,16,Tirane
+2025-04-28 09:37:57.715839,https://www.merrjep.al/njoftim/audi-q7-3-0tdi-s-line-panorama-full-2016-nderrohet-+/15111720,2016,Automatik,200000249999.0,Dizel / Naftë,Pogradec,E Bardhë,Audi,Q7,36800.0,EUR,36800.0,9,Other
+2025-04-28 09:37:57.715848,https://www.merrjep.al/njoftim/okazion-toyota-yaris-automat-3500/15223075,2007,Automatik,130000139999.0,Benzin,Tiranë,Gri,Toyota,Yaris,3500.0,EUR,3500.0,18,Tirane
+2025-04-28 09:37:57.715856,https://www.merrjep.al/njoftim/vw-tiguan-2-0tdi-4x4-automat-viti-2009-me-letra-te-rregullta/15165146,2009,Automatik,4999.0,Dizel / Naftë,Pogradec,E Zezë,VW Volkswagen,Tiguan,7400.0,EUR,7400.0,16,Other
+2025-04-28 09:37:57.715864,https://www.merrjep.al/njoftim/ford-focus-2-0diesel-automat-titanium-full-options/15185755,2012,Automatik,200000249999.0,Dizel / Naftë,Vlorë,E Kuqe,Ford,Focus,7500.0,EUR,7500.0,13,Vlore
+2025-04-28 09:37:57.715888,https://www.merrjep.al/njoftim/smart-for-two-600cc/15201934,2003,Automatik,4999.0,Benzin,Tiranë,Gri,Smart,ForTwo,1990.0,LEK,1990.0,22,Tirane
+2025-04-28 09:37:57.715897,https://www.merrjep.al/njoftim/ford-fiesta-1-5nafte-2013/15182017,2013,Manual,200000249999.0,Dizel / Naftë,Vlorë,Blu,Ford,Fiesta,5700.0,EUR,5700.0,12,Vlore
+2025-04-28 09:37:57.715905,https://www.merrjep.al/njoftim/volkswagen-passat/15195613,2008,Automatik,2000024999.0,Dizel / Naftë,Shkodër,Blu,VW Volkswagen,Passat,5400.0,EUR,5400.0,17,Other
+2025-04-28 09:37:57.715929,https://www.merrjep.al/njoftim/toyota-rav-4-viti-2010/15144759,2010,Steptronic / Tiptronic,300000349999.0,Dizel / Naftë,Tiranë,E Zezë,Toyota,RAV 4,7799.0,EUR,7799.0,15,Tirane
+2025-04-28 09:37:57.716002,https://www.merrjep.al/njoftim/citroen-c4-picasso-viti-2013-manuale-motorr-1-6-nafte/14719881,2013,Manual,140000149999.0,Dizel / Naftë,Tiranë,Vishnje,Citroën,C4,6900.0,EUR,6900.0,12,Tirane
+2025-04-28 09:37:57.716011,https://www.merrjep.al/njoftim/mercedes-benz-c-270-cdi/15199979,2001,Automatik,3500039999.0,Dizel / Naftë,Durrës,Gri,Mercedes-Benz,C 270,2700.0,EUR,2700.0,24,Durres
+2025-04-28 09:37:57.716019,https://www.merrjep.al/njoftim/ford-fiesta-viti-2015-manuale-motorr-1-5-nafte/15189962,2015,Manual,150000159999.0,Dizel / Naftë,Tiranë,E Bardhë,Ford,Fiesta,5900.0,EUR,5900.0,10,Tirane
+2025-04-28 09:37:57.716027,https://www.merrjep.al/njoftim/hyundai-i30-viti-2010-automatike-motorr-1-6-nafte/15151896,2010,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,Hyundai,i30,4300.0,EUR,4300.0,15,Tirane
+2025-04-28 09:37:57.716054,https://www.merrjep.al/njoftim/mercedes-200-kompresor-benzin-i-konvertushm-100-gaz/15182394,2006,Manual,2000024999.0,Benzin,Fier,Blu,Mercedes-Benz,C 180,3700.0,EUR,3700.0,19,Other
+2025-04-28 09:37:57.716071,https://www.merrjep.al/njoftim/lancia-musa-viti-2009-1-4i-16v-95cv-benzin-gas/15089526,2009,Manual,180000189999.0,Gaz (TNG) / Benzinë,Fier,E Zezë,Lancia,MUSA,4300.0,EUR,4300.0,16,Other
+2025-04-28 09:37:57.716087,https://www.merrjep.al/njoftim/vw-touran-2007-automatik-klima-2-0-nafte/14970481,2007,Automatik,200000249999.0,Dizel / Naftë,Tiranë,Gri,VW Volkswagen,Touran,4999.0,EUR,4999.0,18,Tirane
+2025-04-28 09:37:57.716100,https://www.merrjep.al/njoftim/mercedes-benz-a160-auto-penta/7415443,2005,Manual,150000159999.0,Dizel / Naftë,Vlorë,E Zezë,Mercedes-Benz,A 160,3500.0,EUR,3500.0,20,Vlore
+2025-04-28 09:37:57.716108,https://www.merrjep.al/njoftim/range-rover-autobiography-4-4-sdv8-biturbo-nafte/15040634,2014,Automatik,200000249999.0,Dizel / Naftë,Tiranë,E Zezë,Land Rover,Range Rover,28900.0,EUR,28900.0,11,Tirane
+2025-04-28 09:37:57.716117,https://www.merrjep.al/njoftim/vw-tiguan-2018-germany/13673444,2018,Automatik,130000139999.0,Dizel / Naftë,Tiranë,Bezhë,VW Volkswagen,Tiguan,19999.0,EUR,19999.0,7,Tirane
+2025-04-28 09:37:57.716125,https://www.merrjep.al/njoftim/auris-1-4-nafte-automat-nga-italia/15085636,2007,Automatik,200000249999.0,Dizel / Naftë,Durrës,Gri,Toyota,Auris,5800.0,EUR,5800.0,18,Durres
+2025-04-28 09:37:57.716133,https://www.merrjep.al/njoftim/golf-6-gtd-full-options-nga-gjermania-super-gjendje/15085615,2011,Automatik,200000249999.0,Dizel / Naftë,Durrës,Gri,VW Volkswagen,Golf,8800.0,EUR,8800.0,14,Durres
+2025-04-28 09:37:57.716142,https://www.merrjep.al/njoftim/citroen-1-6-bezin-gas-2010/15056207,2010,Manual,200000249999.0,Gaz (TNG) / Benzinë,Fier,Gri,Citroën,Xsara,3200.0,LEK,3200.0,15,Other
+2025-04-28 09:37:57.716150,https://www.merrjep.al/njoftim/mercedes-220-automat-viti-2014/11700845,2014,Automatik,190000199999.0,Dizel / Naftë,Berat,E Bardhë,Mercedes-Benz,E 220,13500.0,EUR,13500.0,11,Other
+2025-04-28 09:37:57.716158,https://www.merrjep.al/njoftim/audi-a6-3-0-naft-automat-viti-2012/11715853,2012,Automatik,180000189999.0,Dizel / Naftë,Berat,E Zezë,Audi,A6,9800.0,EUR,9800.0,13,Other
+2025-04-28 09:37:57.716166,https://www.merrjep.al/njoftim/c-class/15174788,2003,Automatik,300000349999.0,Dizel / Naftë,Tiranë,Gri,Mercedes-Benz,220,3100.0,EUR,3100.0,22,Tirane
+2025-04-28 09:37:57.716173,https://www.merrjep.al/njoftim/b-klas-viti-2014-automat/14999593,2014,Automatik,1500019999.0,Dizel / Naftë,Durrës,E Bardhë,Mercedes-Benz,200,7800.0,EUR,7800.0,11,Durres
+2025-04-28 09:37:57.716181,https://www.merrjep.al/njoftim/volvo-xc-60-2-4-naft-viti-2010/11695965,2010,Automatik,180000189999.0,Dizel / Naftë,Berat,E Bardhë,Volvo,XC 60,10500.0,EUR,10500.0,15,Other
+2025-04-28 09:37:57.716189,https://www.merrjep.al/njoftim/mercedes-220-automat-viti-2011/14691866,2011,Automatik,190000199999.0,Dizel / Naftë,Berat,E Bardhë,Mercedes-Benz,E 220,9500.0,EUR,9500.0,14,Other
+2025-04-28 09:37:57.716198,https://www.merrjep.al/njoftim/opel-combo/15080441,2007,Manual,250000299999.0,Benzin,Elbasan,E Bardhë,Opel,Combo,3400.0,EUR,3400.0,18,Other
+2025-04-28 09:37:57.716205,https://www.merrjep.al/njoftim/toyota-yaris-1-4-naft-viti-2008/13951808,2008,Manual,170000179999.0,Dizel / Naftë,Berat,Gri,Toyota,Yaris,4200.0,EUR,4200.0,17,Other
+2025-04-28 09:37:57.716213,https://www.merrjep.al/njoftim/mercedes-c220-bluetec-automat-viti-2015/15216695,2015,Automatik,190000199999.0,Dizel / Naftë,Berat,E Bardhë,Mercedes-Benz,C 220,15500.0,EUR,15500.0,10,Other
+2025-04-28 09:37:57.716237,https://www.merrjep.al/njoftim/nisan-qashqai-1-6-naft-viti-2015/11687087,2015,Automatik,140000149999.0,Dizel / Naftë,Berat,Gri,Nissan,Qashqai,11400.0,EUR,11400.0,10,Other
+2025-04-28 09:37:57.716246,https://www.merrjep.al/njoftim/mercedes-benz-c-200-w204/15220214,2009,Manual,2000024999.0,Dizel / Naftë,Tiranë,E Zezë,Mercedes-Benz,200,6200.0,EUR,6200.0,16,Tirane
+2025-04-28 09:37:57.716253,https://www.merrjep.al/njoftim/toyota-rav-4-2-0-naft-viti-2016/14650365,2016,Manual,180000189999.0,Dizel / Naftë,Berat,E Bardhë,Toyota,RAV 4,14800.0,EUR,14800.0,9,Other
+2025-04-28 09:37:57.716261,https://www.merrjep.al/njoftim/mercedes-c-klase-220-automat-viti-2015/14954065,2015,Automatik,190000199999.0,Dizel / Naftë,Berat,E Bardhë,Mercedes-Benz,C 220,15500.0,EUR,15500.0,10,Other
+2025-04-28 09:37:57.716269,https://www.merrjep.al/njoftim/mercedes-220-automat-viti-2011/14019846,2010,Automatik,190000199999.0,Dizel / Naftë,Berat,E Bardhë,Mercedes-Benz,E 220,9500.0,EUR,9500.0,15,Other
+2025-04-28 09:37:57.716277,https://www.merrjep.al/njoftim/mercedes-benz-c-class-avantgard/14619325,2007,Automatik,200000249999.0,Dizel / Naftë,Elbasan,Gri,Mercedes-Benz,C 220,4300.0,LEK,4300.0,18,Other
+2025-04-28 09:37:57.716285,https://www.merrjep.al/njoftim/audi-a8-l-3-0-viti-2016/14019836,2016,Automatik,180000189999.0,Dizel / Naftë,Berat,E Zezë,Audi,A8,26500.0,EUR,26500.0,9,Other
+2025-04-28 09:37:57.716309,https://www.merrjep.al/njoftim/volvo-xc-60-2-0-naft-viti-2014/11695957,2014,Automatik,180000189999.0,Dizel / Naftë,Berat,E Zezë,Volvo,XC 60,14500.0,EUR,14500.0,11,Other
+2025-04-28 09:37:57.716319,https://www.merrjep.al/njoftim/golf-6+/10622014,2010,Automatik,200000249999.0,Benzin,Elbasan,Gri,VW Volkswagen,Golf Plus,6500.0,EUR,6500.0,15,Other
+2025-04-28 09:37:57.716342,https://www.merrjep.al/njoftim/mercedes-benz-glk-250/14449693,2015,Automatik,140000149999.0,Dizel / Naftë,Fier,Kafe,Mercedes-Benz,GLK 250,1.0,EUR,1.0,10,Other
+2025-04-28 09:37:57.716350,https://www.merrjep.al/njoftim/nisan-qashqai-2-0-naft-automat-viti-2008/15136811,2008,Automatik,190000199999.0,Dizel / Naftë,Berat,E Bardhë,Nissan,Qashqai,7400.0,EUR,7400.0,17,Other
+2025-04-28 09:37:57.716359,https://www.merrjep.al/njoftim/audi-a3-2-0-tdi-s-line-2011/15223018,2011,Automatik,160000169999.0,Dizel / Naftë,Tiranë,Gri,Audi,A3,6900.0,EUR,6900.0,14,Tirane
+2025-04-28 09:37:57.716366,https://www.merrjep.al/njoftim/porsche-cayenne-08-0684497314/15167381,2008,Automatik,200000249999.0,Gaz (TNG) / Benzinë,Tiranë,Blu,Porsche,Cayenne,8900.0,EUR,8900.0,17,Tirane
+2025-04-28 09:37:57.716374,https://www.merrjep.al/njoftim/touran-1-9-naft-automat-viti-2009/15031765,2009,Automatik,180000189999.0,Dizel / Naftë,Berat,Gri,VW Volkswagen,Touran,7500.0,EUR,7500.0,16,Other
+2025-04-28 09:37:57.716382,https://www.merrjep.al/njoftim/kadi-maxi-1-9-naft-viti-2009/14848134,2009,Manual,190000199999.0,Dizel / Naftë,Berat,E Kuqe,VW Volkswagen,Caddy,6900.0,EUR,6900.0,16,Other
+2025-04-28 09:37:57.716390,https://www.merrjep.al/njoftim/kadi-maxi-1-9-naft-viti-2009/14843345,2009,Manual,190000199999.0,Dizel / Naftë,Berat,E Kuqe,VW Volkswagen,Caddy,6900.0,EUR,6900.0,16,Other
+2025-04-28 09:37:57.716398,https://www.merrjep.al/njoftim/mercedes-e-220-automat-viti-2011/14529325,2011,Automatik,180000189999.0,Dizel / Naftë,Berat,Gri,Mercedes-Benz,E 220,10900.0,EUR,10900.0,14,Other
+2025-04-28 09:37:57.716407,https://www.merrjep.al/njoftim/volvo-xc-60-2-4-naft-viti-2014/14462048,2014,Automatik,190000199999.0,Dizel / Naftë,Berat,E Bardhë,Volvo,XC 60,12500.0,EUR,12500.0,11,Other
+2025-04-28 09:37:57.716415,https://www.merrjep.al/njoftim/mercedes-c-220-nafte-automat-viti-2010/14459672,2010,Automatik,150000159999.0,Dizel / Naftë,Berat,E Zezë,Mercedes-Benz,C 220,7900.0,EUR,7900.0,15,Other
+2025-04-28 09:37:57.716430,https://www.merrjep.al/njoftim/mercedes-e-280-cdi-automat-viti-2008/15152556,2008,Automatik,200000249999.0,Dizel / Naftë,Berat,Kafe,Mercedes-Benz,E 280,5800.0,EUR,5800.0,17,Other
+2025-04-28 09:37:57.716447,https://www.merrjep.al/njoftim/golf-7-2015-benxin-2-0-km-170-gti-fabrike-15000-euro/15185813,2015,Automatik,4999.0,Benzin,Tiranë,E Kuqe,VW Volkswagen,Golf,15000.0,EUR,15000.0,10,Tirane
+2025-04-28 09:37:57.716455,https://www.merrjep.al/njoftim/audi-a4-2013-naft-2-0-automat-10600-euro-okazion/15185789,2013,Automatik,4999.0,Dizel / Naftë,Tiranë,E Bardhë,Audi,A4,10600.0,EUR,10600.0,12,Tirane
+2025-04-28 09:37:57.716464,https://www.merrjep.al/njoftim/audi-a5-2011-2-0-diesel/15143729,2011,Manual,190000199999.0,Dizel / Naftë,Vlorë,Gri,Audi,A5,6000.0,EUR,6000.0,14,Vlore
+2025-04-28 09:37:57.716471,https://www.merrjep.al/njoftim/toyota-avenis-1-6-gaz-benxin/15189049,2004,Manual,250000299999.0,Gaz (TNG) / Benzinë,Tiranë,Gri,Toyota,Avensis,2600.0,EUR,2600.0,21,Tirane
+2025-04-28 09:37:57.716479,https://www.merrjep.al/njoftim/audi-a6-2013-naft-2-0-automat-okazion-11500-euro-okazion/15185766,2013,Automatik,4999.0,Dizel / Naftë,Tiranë,Gri,Audi,A6,11500.0,EUR,11500.0,12,Tirane
+2025-04-28 09:37:57.716487,https://www.merrjep.al/njoftim/golf-5-plus-2007-benxin-1-4-manual-targa-shiptare-2800-lek/15185734,2007,Manual,4999.0,Benzin,Tiranë,Gri,VW Volkswagen,Golf,2800.0,LEK,2800.0,18,Tirane
+2025-04-28 09:37:57.716494,https://www.merrjep.al/njoftim/ford-fiesta-2010-0684497314/15158401,2010,Manual,9000094999.0,Benzin,Tiranë,Blu,Ford,Fiesta,4400.0,EUR,4400.0,15,Tirane
