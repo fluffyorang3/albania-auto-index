@@ -1,0 +1,43 @@
+name: Daily Scrape & Dashboard
+
+on:
+  schedule:
+    - cron: "0 2 * * *" # 02:00 UTC ≈ 04:00 Tirana
+  push:
+    branches:
+      - main
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 pandas matplotlib
+      - name: Run scraper
+        run: |
+          python scraper.py
+          # append today's data to historical:
+          cat today_listings.csv >> historical_listings.csv
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add today_listings.csv historical_listings.csv
+          git commit -m "Daily scrape $(date -u +'%Y-%m-%d')"
+      - name: Generate Dashboard
+        run: |
+          python generate_dashboard.py
+        env:
+          TZ: "Europe/Tirane"
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs
+          publish_branch: gh-pages
