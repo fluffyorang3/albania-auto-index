@@ -1,5 +1,9 @@
 name: Daily Scrape & Dashboard
 
+permissions:
+  contents: write
+  pages: write
+
 on:
   push:
     branches:
@@ -51,12 +55,20 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add today_listings.csv historical_listings.csv
-          git commit -m "chore: update data $(date -u +'%Y-%m-%d')" || echo "No changes"
+          git commit -m "chore: update data $(date -u +'%Y-%m-%d')" || echo "No changes to commit"
 
       - name: Generate Dashboard
         run: python generate_dashboard.py
         env:
           TZ: Europe/Tirane
+
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
