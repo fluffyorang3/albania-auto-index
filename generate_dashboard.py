@@ -1,3 +1,4 @@
+# generate_dashboard.py
 #!/usr/bin/env python3
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -9,7 +10,7 @@ from datetime import datetime
 HIST_FILE = "historical_listings.csv"
 OUT_DIR   = "docs"
 REPORT    = os.path.join(OUT_DIR, "index.html")
-# ────────────────────────────────────────────────────────────────────────────
+# ───────────────────────────────────────────────────────────────────────────
 
 # Ensure output directory exists
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -33,7 +34,6 @@ def parse_mileage(m):
     except:
         return pd.NA
 
-# Apply mileage parsing
 df['mileage'] = df['mileage'].apply(parse_mileage).astype('Int64')
 
 # Drop rows missing core numeric fields
@@ -51,17 +51,17 @@ df = df[(df['price'] >= lower_bound) & (df['price'] <= upper_bound)].copy()
 df["age"] = datetime.now().year - df["year"].astype(int)
 
 # ─── SUMMARY METRICS ────────────────────────────────────────────────────────
-total_listings    = len(df)
-avg_price         = df['price'].mean()
-avg_mileage       = df['mileage'].mean()
-avg_age           = df['age'].mean()
+total_listings  = len(df)
+avg_price       = df['price'].mean()
+avg_mileage     = df['mileage'].mean()
+avg_age         = df['age'].mean()
 
 # Price by fuel type
-type_counts      = df['fuel'].value_counts()
-avg_price_fuel   = df.groupby('fuel')['price'].mean()
+type_counts    = df['fuel'].value_counts()
+avg_price_fuel = df.groupby('fuel')['price'].mean()
 
 # Top models by count
-top_models        = df['model'].value_counts().head(20)
+top_models         = df['model'].value_counts().head(20)
 models_for_heatmap = top_models.index
 
 # Region mapping
@@ -75,9 +75,9 @@ def map_region(m):
         return 'Vlore'
     return 'Other'
 
-df['region']      = df['municipality'].apply(map_region)
-avg_price_region  = df.groupby('region')['price'].mean()
-count_region      = df['region'].value_counts()
+df['region']        = df['municipality'].apply(map_region)
+avg_price_region   = df.groupby('region')['price'].mean()
+count_region       = df['region'].value_counts()
 
 # Time series
 daily_counts      = df.set_index('scrape_date').resample('D')['listing_url'].count()
@@ -87,6 +87,13 @@ monthly_avg_price = df.set_index('scrape_date').resample('M')['price'].mean()
 
 # Top municipalities
 top_munis = df.groupby('municipality')['price'].mean().sort_values(ascending=False).head(10)
+
+# ─── PERCENTAGES ─────────────────────────────────────────────────────────────
+model_pct   = top_models     / total_listings * 100
+fuel_pct    = type_counts    / total_listings * 100
+region_pct  = count_region   / total_listings * 100
+daily_pct   = daily_counts   / total_listings * 100
+monthly_pct = monthly_counts / total_listings * 100
 
 # ─── EXPORT DATA ───────────────────────────────────────────────────────────
 df.to_csv(os.path.join(OUT_DIR, 'historical_listings.csv'), index=False)
@@ -99,6 +106,13 @@ daily_avg_price.to_csv(os.path.join(OUT_DIR, 'daily_avg_price.csv'), header=['av
 monthly_counts.to_csv(os.path.join(OUT_DIR, 'monthly_volume.csv'), header=['count'])
 monthly_avg_price.to_csv(os.path.join(OUT_DIR, 'monthly_avg_price.csv'), header=['avg_price'])
 top_munis.to_csv(os.path.join(OUT_DIR, 'top_municipalities.csv'), header=['avg_price'])
+
+# ─── EXPORT PERCENTAGE DATA ─────────────────────────────────────────────────
+model_pct.to_csv(os.path.join(OUT_DIR, 'top_models_pct.csv'), header=['percent'])
+fuel_pct.to_csv(os.path.join(OUT_DIR, 'fuel_distribution_pct.csv'), header=['percent'])
+region_pct.to_csv(os.path.join(OUT_DIR, 'count_by_region_pct.csv'), header=['percent'])
+daily_pct.to_csv(os.path.join(OUT_DIR, 'daily_volume_pct.csv'), header=['percent'])
+monthly_pct.to_csv(os.path.join(OUT_DIR, 'monthly_volume_pct.csv'), header=['percent'])
 
 # ─── CHARTS ─────────────────────────────────────────────────────────────────
 # Heatmap: Avg price by model & year
@@ -217,8 +231,8 @@ html = f'''<!doctype html>
       <h2 class="section-title">Avg Price by Model & Year</h2>
       <img src="heatmap_model_year.png">
       <table>
-        <tr><th>Model</th><th>Count</th></tr>
-        {''.join(f'<tr><td>{m}</td><td>{c}</td></tr>' for m,c in top_models.items())}
+        <tr><th>Model</th><th>Percentage</th></tr>
+        {''.join(f'<tr><td>{m}</td><td>{model_pct[m]:.1f}%</td></tr>' for m in model_pct.index)}
       </table>
     </section>
 
@@ -231,8 +245,8 @@ html = f'''<!doctype html>
       <h2 class="section-title">Avg Price by Region</h2>
       <img src="regional_price.png">
       <table>
-        <tr><th>Region</th><th>Avg Price</th><th>Count</th></tr>
-        {''.join(f'<tr><td>{r}</td><td>{avg_price_region[r]:,.0f}</td><td>{count_region[r]}</td></tr>' for r in avg_price_region.index)}
+        <tr><th>Region</th><th>Avg Price</th><th>Percentage</th></tr>
+        {''.join(f'<tr><td>{r}</td><td>{avg_price_region[r]:,.0f}</td><td>{region_pct[r]:.1f}%</td></tr>' for r in region_pct.index)}
       </table>
     </section>
 
@@ -240,8 +254,8 @@ html = f'''<!doctype html>
       <h2 class="section-title">Fuel Type Distribution</h2>
       <img src="fuel_counts.png">
       <table>
-        <tr><th>Fuel</th><th>Avg Price</th><th>Count</th></tr>
-        {''.join(f'<tr><td>{fuel}</td><td>{avg_price_fuel[fuel]:,.0f}</td><td>{type_counts[fuel]}</td></tr>' for fuel in type_counts.index)}
+        <tr><th>Fuel</th><th>Avg Price</th><th>Percentage</th></tr>
+        {''.join(f'<tr><td>{fuel}</td><td>{avg_price_fuel[fuel]:,.0f}</td><td>{fuel_pct[fuel]:.1f}%</td></tr>' for fuel in fuel_pct.index)}
       </table>
     </section>
 
@@ -255,8 +269,8 @@ html = f'''<!doctype html>
       <img src="monthly_volume.png">
       <img src="monthly_avg_price.png">
       <table>
-        <tr><th>Month</th><th>Count</th><th>Avg Price</th></tr>
-        {''.join(f"<tr><td>{idx.strftime('%Y-%m')}</td><td>{monthly_counts[idx]}</td><td>{monthly_avg_price[idx]:,.0f}</td></tr>" for idx in monthly_counts.index[-6:])}
+        <tr><th>Month</th><th>Percentage</th><th>Avg Price</th></tr>
+        {''.join(f"<tr><td>{idx.strftime('%Y-%m')}</td><td>{monthly_pct[idx]:.1f}%</td><td>{monthly_avg_price[idx]:,.0f}</td></tr>" for idx in monthly_pct.index[-6:])}
       </table>
     </section>
 
@@ -269,10 +283,15 @@ html = f'''<!doctype html>
         <li><a href="avg_price_by_region.csv">avg_price_by_region.csv</a></li>
         <li><a href="count_by_region.csv">count_by_region.csv</a></li>
         <li><a href="daily_volume.csv">daily_volume.csv</a></li>
-        <li><a href="daily_avg_price.csv">daily_avg_price.csv</li>
+        <li><a href="daily_avg_price.csv">daily_avg_price.csv</a></li>
         <li><a href="monthly_volume.csv">monthly_volume.csv</a></li>
         <li><a href="monthly_avg_price.csv">monthly_avg_price.csv</a></li>
         <li><a href="top_municipalities.csv">top_municipalities.csv</a></li>
+        <li><a href="top_models_pct.csv">top_models_pct.csv</a></li>
+        <li><a href="fuel_distribution_pct.csv">fuel_distribution_pct.csv</a></li>
+        <li><a href="count_by_region_pct.csv">count_by_region_pct.csv</a></li>
+        <li><a href="daily_volume_pct.csv">daily_volume_pct.csv</a></li>
+        <li><a href="monthly_volume_pct.csv">monthly_volume_pct.csv</a></li>
       </ul>
     </section>
 

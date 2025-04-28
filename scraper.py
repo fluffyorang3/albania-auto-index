@@ -1,3 +1,4 @@
+# scraper.py
 #!/usr/bin/env python3
 import csv
 import os
@@ -30,7 +31,7 @@ HEADERS = {
         "Chrome/115.0.0.0 Safari/537.36"
     )
 }
-# ────────────────────────────────────────────────────────────────────────────
+# ───────────────────────────────────────────────────────────────────────────
 
 def get_with_retries(session, url, retries=3, backoff=2):
     """GET with retries on HTTP errors and exponential back-off."""
