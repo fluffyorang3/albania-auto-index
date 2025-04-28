@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import csv
 import os
+import time
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -12,7 +13,8 @@ from tqdm import tqdm
 BASE_URL     = "https://www.merrjep.al"
 LISTING_PATH = "/njoftime/automjete/makina/ne-shitje"
 PAGES        = 20
-MAX_WORKERS  = 10
+CHUNK_SIZE   = 5
+MAX_DETAIL_WORKERS = 10
 OUTPUT_FILE  = "today_listings.csv"
 
 FIELDNAMES = [
@@ -21,7 +23,6 @@ FIELDNAMES = [
     "municipality", "color", "make", "model",
     "price_value", "price_currency"
 ]
-# ────────────────────────────────────────────────────────────────────────────
 
 HEADERS = {
     "User-Agent": (
@@ -30,15 +31,31 @@ HEADERS = {
         "Chrome/115.0.0.0 Safari/537.36"
     )
 }
+# ────────────────────────────────────────────────────────────────────────────
+
+def get_with_retries(session, url, retries=3, backoff=2):
+    """Simple GET + retry on HTTPError (400, 5xx) with exponential back-off."""
+    for attempt in range(1, retries+1):
+        try:
+            r = session.get(url, timeout=10)
+            r.raise_for_status()
+            return r
+        except requests.HTTPError as e:
+            if attempt < retries:
+                tqdm.write(f"[Retry {attempt}/{retries}] {url} → {e}. waiting {backoff}s")
+                time.sleep(backoff)
+                backoff *= 2
+            else:
+                raise
 
 def parse_detail(session, href):
-    """Fetch and parse a single listing detail page."""
+    """Fetch & parse one listing’s detail page."""
     url = href if href.startswith("http") else BASE_URL + href
-    resp = session.get(url, timeout=10)
-    resp.raise_for_status()
+    resp = get_with_retries(session, url)
     soup = BeautifulSoup(resp.text, "html.parser")
     data = {}
-    # attributes
+
+    # extract your tag-item fields
     for tag in soup.select(".tag-item"):
         label = tag.find("span").get_text(strip=True)
         val   = tag.find("bdi").get_text(strip=True)
@@ -52,25 +69,25 @@ def parse_detail(session, href):
         elif label.startswith("Modeli"):       data["model"]        = val
 
     # price
-    price_elem = soup.select_one(".new-price .format-money-int")
-    data["price_value"]    = price_elem["value"] if price_elem else ""
-    curr_elem              = soup.select_one(".new-price span:not(.format-money-int)")
-    data["price_currency"] = curr_elem.get_text(strip=True) if curr_elem else ""
+    pe = soup.select_one(".new-price .format-money-int")
+    data["price_value"]    = pe["value"] if pe else ""
+    ce = soup.select_one(".new-price span:not(.format-money-int)")
+    data["price_currency"] = ce.get_text(strip=True) if ce else ""
+
     return url, data
 
 def scrape_page(session, page_num, total_bar):
-    """Get all listing URLs on one page, then fetch details in parallel."""
+    """Fetch one page’s listing URLs, then parse each detail in parallel."""
     page_url = f"{BASE_URL}{LISTING_PATH}?Page={page_num}"
-    r = session.get(page_url, timeout=10)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
-    links = [a["href"] for a in soup.select("a.Link_vis")]
+    resp = get_with_retries(session, page_url)
+    soup = BeautifulSoup(resp.text, "html.parser")
+    hrefs = [a["href"] for a in soup.select("a.Link_vis")]
 
     results = []
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as exec:
+    with ThreadPoolExecutor(max_workers=MAX_DETAIL_WORKERS) as exec:
         futures = {
             exec.submit(parse_detail, session, href): href
-            for href in links
+            for href in hrefs
         }
         for fut in tqdm(as_completed(futures),
                         total=len(futures),
@@ -82,39 +99,44 @@ def scrape_page(session, page_num, total_bar):
                 total_bar.update(1)
                 results.append((url, details))
             except Exception as e:
-                tqdm.write(f"[Page {page_num}] error fetching {futures[fut]}: {e}")
+                tqdm.write(f"[Page {page_num}] detail error for {futures[fut]} → {e}")
 
     return results
 
 def main():
-    # ensure output dir exists
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
-
-    # open CSV writer
     with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
         writer.writeheader()
 
-        # estimate total listings = PAGES * ~50
         estimated_total = PAGES * 50
         total_bar = tqdm(total=estimated_total, desc="Total", unit="lst")
 
-        # use one session for all requests
-        session = requests.Session()
-        session.headers.update(HEADERS)
+        # process pages in chunks, fresh session per chunk
+        for i in range(0, PAGES, CHUNK_SIZE):
+            chunk = list(range(i+1, min(PAGES, i+CHUNK_SIZE)+1))
+            session = requests.Session()
+            session.headers.update(HEADERS)
 
-        for page in range(1, PAGES + 1):
-            try:
-                page_results = scrape_page(session, page, total_bar)
-                for url, details in page_results:
-                    row = {
-                        "scrape_date": datetime.utcnow().isoformat(),
-                        "listing_url": url,
-                        **details
-                    }
-                    writer.writerow(row)
-            except Exception as e:
-                tqdm.write(f"[Page {page}] failed completely: {e}")
+            # parallelize pages in this chunk
+            with ThreadPoolExecutor(max_workers=len(chunk)) as page_exec:
+                futures = {
+                    page_exec.submit(scrape_page, session, pg, total_bar): pg
+                    for pg in chunk
+                }
+                for fut in as_completed(futures):
+                    pg = futures[fut]
+                    try:
+                        for url, details in fut.result():
+                            writer.writerow({
+                                "scrape_date": datetime.utcnow().isoformat(),
+                                "listing_url": url,
+                                **details
+                            })
+                    except Exception as e:
+                        tqdm.write(f"[Page {pg}] failed after retries → {e}")
+
+            session.close()
 
         total_bar.close()
     print(f"✅ Done — wrote {OUTPUT_FILE}")
