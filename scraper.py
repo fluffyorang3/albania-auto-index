@@ -1,145 +1,119 @@
 #!/usr/bin/env python3
-import csv
-import os
-import time
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import os
 
-import requests
-from bs4 import BeautifulSoup
-from tqdm import tqdm
+# -- configuration --
+HIST_FILE   = "historical_listings.csv"
+OUT_DIR     = "docs"
+REPORT      = os.path.join(OUT_DIR, "index.html")
 
-# ─── CONFIG ────────────────────────────────────────────────────────────────
-BASE_URL     = "https://www.merrjep.al"
-LISTING_PATH = "/njoftime/automjete/makina/ne-shitje"
-PAGES        = 20
-CHUNK_SIZE   = 5
-MAX_DETAIL_WORKERS = 10
-OUTPUT_FILE  = "today_listings.csv"
+# Read data
+df = pd.read_csv(HIST_FILE, parse_dates=["scrape_date"])
 
-FIELDNAMES = [
-    "scrape_date", "listing_url",
-    "year", "transmission", "mileage", "fuel",
-    "municipality", "color", "make", "model",
-    "price_value", "price_currency"
-]
+# Coerce year & price_value to numeric, drop invalid rows
+df["year"] = pd.to_numeric(df["year"], errors="coerce")
+df["price_value"] = pd.to_numeric(df["price_value"], errors="coerce")
+df = df.dropna(subset=["year", "price_value"])
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/115.0.0.0 Safari/537.36"
-    )
-}
-# ────────────────────────────────────────────────────────────────────────────
+# Now safe to convert year to int
+df["year"] = df["year"].astype(int)
+df["price"] = df["price_value"].astype(float)
 
-def get_with_retries(session, url, retries=3, backoff=2):
-    """Simple GET + retry on HTTPError (400, 5xx) with exponential back-off."""
-    for attempt in range(1, retries+1):
-        try:
-            r = session.get(url, timeout=10)
-            r.raise_for_status()
-            return r
-        except requests.HTTPError as e:
-            if attempt < retries:
-                tqdm.write(f"[Retry {attempt}/{retries}] {url} → {e}. waiting {backoff}s")
-                time.sleep(backoff)
-                backoff *= 2
-            else:
-                raise
+# Compute car age
+df["age"] = datetime.now().year - df["year"]
 
-def parse_detail(session, href):
-    """Fetch & parse one listing’s detail page."""
-    url = href if href.startswith("http") else BASE_URL + href
-    resp = get_with_retries(session, url)
-    soup = BeautifulSoup(resp.text, "html.parser")
-    data = {}
+# 1) Avg Price by Model & Year → Heatmap
+pivot = df.pivot_table(
+    index="model", columns="year", values="price",
+    aggfunc="mean"
+).fillna(0)
 
-    # extract your tag-item fields
-    for tag in soup.select(".tag-item"):
-        label = tag.find("span").get_text(strip=True)
-        val   = tag.find("bdi").get_text(strip=True)
-        if   label.startswith("Viti"):         data["year"]         = val
-        elif label.startswith("Transmetuesi"): data["transmission"] = val
-        elif label.startswith("Kilometrazha"): data["mileage"]      = val
-        elif label.startswith("Karburanti"):   data["fuel"]         = val
-        elif label.startswith("Komuna"):       data["municipality"] = val
-        elif label.startswith("Ngjyra"):       data["color"]        = val
-        elif label.startswith("Prodhuesi"):    data["make"]         = val
-        elif label.startswith("Modeli"):       data["model"]        = val
+plt.figure(figsize=(10,6))
+plt.imshow(pivot, aspect="auto", origin="lower")
+plt.colorbar(label="Avg Price")
+plt.yticks(range(len(pivot.index)), pivot.index)
+plt.xticks(range(len(pivot.columns)), pivot.columns, rotation=45)
+plt.title("Avg Price by Model & Year")
+plt.tight_layout()
+plt.savefig(os.path.join(OUT_DIR, "heatmap_model_year.png"))
+plt.close()
 
-    # price
-    pe = soup.select_one(".new-price .format-money-int")
-    data["price_value"]    = pe["value"] if pe else ""
-    ce = soup.select_one(".new-price span:not(.format-money-int)")
-    data["price_currency"] = ce.get_text(strip=True) if ce else ""
+# 2) Depreciation Curve for Top 5 Models
+top5 = df["model"].value_counts().head(5).index
+plt.figure()
+for model in top5:
+    sub = df[df["model"]==model].groupby("age")["price"].mean()
+    plt.plot(sub.index, sub.values, label=model)
+plt.xlabel("Age (years)")
+plt.ylabel("Avg Price")
+plt.title("Depreciation Curve – Top 5 Models")
+plt.legend()
+plt.tight_layout()
+plt.savefig(os.path.join(OUT_DIR, "depreciation_top5.png"))
+plt.close()
 
-    return url, data
+# 3) Price Distribution Boxplots by Model/Year
+grouped = df.groupby(["model","year"])
+samples = []
+labels  = []
+for (m,y), grp in grouped:
+    if m in top5 and len(grp) >= 10:
+        samples.append(grp["price"].values)
+        labels.append(f"{m}-{y}")
+if samples:
+    plt.figure(figsize=(12,6))
+    plt.boxplot(samples, labels=labels, vert=True)
+    plt.xticks(rotation=90)
+    plt.title("Price Distribution (boxplots) for Top Models by Year")
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUT_DIR, "boxplots.png"))
+    plt.close()
 
-def scrape_page(session, page_num, total_bar):
-    """Fetch one page’s listing URLs, then parse each detail in parallel."""
-    page_url = f"{BASE_URL}{LISTING_PATH}?Page={page_num}"
-    resp = get_with_retries(session, page_url)
-    soup = BeautifulSoup(resp.text, "html.parser")
-    hrefs = [a["href"] for a in soup.select("a.Link_vis")]
+# 4) Regional Comparison
+regions = ["Tirane", "Durres", "Vlore"]
+avg_region = df[df["municipality"].isin(regions)].groupby("municipality")["price"].mean()
+if not avg_region.empty:
+    plt.figure()
+    avg_region.plot(kind="bar")
+    plt.ylabel("Avg Price")
+    plt.title("Avg Price: Tirana vs Durrës vs Vlorë")
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUT_DIR, "regional_comparison.png"))
+    plt.close()
 
-    results = []
-    with ThreadPoolExecutor(max_workers=MAX_DETAIL_WORKERS) as exec:
-        futures = {
-            exec.submit(parse_detail, session, href): href
-            for href in hrefs
-        }
-        for fut in tqdm(as_completed(futures),
-                        total=len(futures),
-                        desc=f"Page {page_num}",
-                        unit="lst",
-                        leave=False):
-            try:
-                url, details = fut.result()
-                total_bar.update(1)
-                results.append((url, details))
-            except Exception as e:
-                tqdm.write(f"[Page {page_num}] detail error for {futures[fut]} → {e}")
+# 5) Listings Volume Over Time
+weekly_counts = df.set_index("scrape_date").resample("W")["listing_url"].count()
+if not weekly_counts.empty:
+    plt.figure()
+    weekly_counts.plot()
+    plt.ylabel("Number of Listings Scraped")
+    plt.title("Listings Volume Over Time (weekly)")
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUT_DIR, "volume_over_time.png"))
+    plt.close()
 
-    return results
+# Generate HTML report
+os.makedirs(OUT_DIR, exist_ok=True)
+now_iso = datetime.now().isoformat()
 
-def main():
-    os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
-    with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
-        writer.writeheader()
+with open(REPORT, "w", encoding="utf-8") as f:
+    f.write(f"""<!doctype html>
+<html><head><meta charset="utf-8"><title>Auto Listings Dashboard</title></head><body>
+<h1>Auto Listings Dashboard</h1>
+<p>Generated: {now_iso}</p>
+<h2>1. Avg Price by Model & Year</h2>
+<img src="heatmap_model_year.png" width="800"/>
+<h2>2. Depreciation Curve – Top 5 Models</h2>
+<img src="depreciation_top5.png" width="800"/>
+<h2>3. Price Distribution Boxplots</h2>
+<img src="boxplots.png" width="800"/>
+<h2>4. Regional Comparison</h2>
+<img src="regional_comparison.png" width="600"/>
+<h2>5. Listings Volume Over Time</h2>
+<img src="volume_over_time.png" width="800"/>
+</body></html>""")
 
-        estimated_total = PAGES * 50
-        total_bar = tqdm(total=estimated_total, desc="Total", unit="lst")
-
-        # process pages in chunks, fresh session per chunk
-        for i in range(0, PAGES, CHUNK_SIZE):
-            chunk = list(range(i+1, min(PAGES, i+CHUNK_SIZE)+1))
-            session = requests.Session()
-            session.headers.update(HEADERS)
-
-            # parallelize pages in this chunk
-            with ThreadPoolExecutor(max_workers=len(chunk)) as page_exec:
-                futures = {
-                    page_exec.submit(scrape_page, session, pg, total_bar): pg
-                    for pg in chunk
-                }
-                for fut in as_completed(futures):
-                    pg = futures[fut]
-                    try:
-                        for url, details in fut.result():
-                            writer.writerow({
-                                "scrape_date": datetime.utcnow().isoformat(),
-                                "listing_url": url,
-                                **details
-                            })
-                    except Exception as e:
-                        tqdm.write(f"[Page {pg}] failed after retries → {e}")
-
-            session.close()
-
-        total_bar.close()
-    print(f"✅ Done — wrote {OUTPUT_FILE}")
-
-if __name__ == "__main__":
-    main()
+print(f"Dashboard generated to {REPORT}")
