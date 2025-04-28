@@ -1,40 +1,63 @@
 name: Daily Scrape & Dashboard
 
 on:
-  schedule:
-    - cron: "0 2 * * *" # 02:00 UTC ≈ 04:00 Tirana
   push:
     branches:
       - main
+  schedule:
+    - cron: "0 2 * * *" # 02:00 UTC ≈ 04:00 Tirana
+  workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Python
+
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
-      - name: Install dependencies
+
+      - name: Install deps
         run: |
-          python -m pip install --upgrade pip
+          pip install --upgrade pip
           pip install requests beautifulsoup4 pandas matplotlib
-      - name: Run scraper
+
+      - name: Scrape listings
+        run: python scraper.py
+
+      - name: Merge & dedupe data
+        shell: bash
         run: |
-          python scraper.py
-          # append today's data to historical:
-          cat today_listings.csv >> historical_listings.csv
+          python - <<'EOF'
+          import pandas as pd, os
+
+          today = pd.read_csv("today_listings.csv")
+          if os.path.exists("historical_listings.csv"):
+              hist = pd.read_csv("historical_listings.csv")
+              combined = pd.concat([hist, today], ignore_index=True)
+          else:
+              combined = today
+
+          combined.drop_duplicates(subset=["scrape_date","listing_url"], inplace=True)
+          combined.to_csv("historical_listings.csv", index=False)
+          EOF
+
+      - name: Commit CSVs
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add today_listings.csv historical_listings.csv
-          git commit -m "Daily scrape $(date -u +'%Y-%m-%d')"
+          git commit -m "chore: update data $(date -u +'%Y-%m-%d')" || echo "No changes"
+
       - name: Generate Dashboard
-        run: |
-          python generate_dashboard.py
+        run: python generate_dashboard.py
         env:
-          TZ: "Europe/Tirane"
+          TZ: Europe/Tirane
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
