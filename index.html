@@ -5,101 +5,43 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Auto Listings Dashboard</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    body { font-family:'Inter',sans-serif; background:#f0f2f5; color:#333; margin:0; }
-    .container { max-width:1200px; margin:0 auto; padding:1rem; }
-    header { text-align:center; margin-bottom:2rem; }
-    header h1 { margin:0; font-weight:600; }
-    .metrics { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1rem; margin-bottom:2rem; }
-    .card { background:#fff; padding:1rem; border-radius:8px; box-shadow:0 1px 4px rgba(0,0,0,0.1); }
-    .card h2 { margin:0 0 .5rem; font-size:1rem; font-weight:600; }
-    img { max-width:100%; border-radius:6px; margin-bottom:1.5rem; }
-    section { margin-bottom:2rem; }
-    h2.section-title { font-size:1.2rem; margin-bottom:.5rem; }
-    table { width:100%; border-collapse:collapse; margin-bottom:1rem; }
-    th, td { padding:.5rem; border-bottom:1px solid #e0e0e0; text-align:left; }
-    th { background:#fafafa; font-weight:600; }
-    ul { list-style:none; padding:0; }
-    ul li { margin:.4rem 0; }
-  </style>
+  <style>/* styles omitted for brevity */</style>
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>Auto Listings Dashboard</h1>
-      <p>2025-04-28 14:14</p>
-    </header>
-
+    <header><h1>Auto Listings Dashboard</h1><p>2025-04-28 14:39</p></header>
     <div class="metrics">
-      <div class="card"><h2>Total Listings</h2><p>2379</p></div>
-      <div class="card"><h2>Avg Price (EUR)</h2><p>8,155</p></div>
-      <div class="card"><h2>Avg Mileage (km)</h2><p>159,493</p></div>
-      <div class="card"><h2>Avg Age (yrs)</h2><p>14.3</p></div>
+      <div class="card"><h2>Total Listings</h2><p>2375</p></div>
+      <div class="card"><h2>Avg Price</h2><p>8,266 EUR</p></div>
+      <div class="card"><h2>Avg Mileage</h2><p>162,568 km</p></div>
+      <div class="card"><h2>Avg Age</h2><p>14.2 yrs</p></div>
     </div>
-
-    <section>
-      <h2 class="section-title">Avg Price by Model & Year</h2>
-      <img src="heatmap_model_year.png">
-      <table>
-        <tr><th>Model</th><th>Count</th></tr>
-        <tr><td>Golf</td><td>121</td></tr><tr><td>Tiguan</td><td>83</td></tr><tr><td>C 220</td><td>80</td></tr><tr><td>Q5</td><td>63</td></tr><tr><td>A6</td><td>56</td></tr><tr><td>Caddy</td><td>51</td></tr><tr><td>Touran</td><td>46</td></tr><tr><td>Yaris</td><td>46</td></tr><tr><td>Focus</td><td>44</td></tr><tr><td>C 200</td><td>43</td></tr><tr><td>E 220</td><td>41</td></tr><tr><td>Passat</td><td>37</td></tr><tr><td>Wrangler</td><td>36</td></tr><tr><td>Q3</td><td>35</td></tr><tr><td>A4</td><td>34</td></tr><tr><td>XC 60</td><td>33</td></tr><tr><td>Fiesta</td><td>30</td></tr><tr><td>C4</td><td>30</td></tr><tr><td>C 300</td><td>30</td></tr><tr><td>Auris</td><td>29</td></tr>
-      </table>
+    <section><h2>Price vs Mileage by Fuel</h2><img src="scatter_price_mileage.png"></section>
+    <section><h2>Price Distribution by Category</h2>
+      <img src="boxplot_price_by_fuel.png"><img src="boxplot_price_by_transmission.png"><img src="boxplot_price_by_region.png">
     </section>
-
-    <section>
-      <h2 class="section-title">Depreciation Curve – Top 8 Models</h2>
-      <img src="depreciation_top8.png">
-    </section>
-
-    <section>
-      <h2 class="section-title">Avg Price by Region</h2>
-      <img src="regional_price.png">
-      <table>
-        <tr><th>Region</th><th>Avg Price</th><th>Count</th></tr>
-        <tr><td>Durres</td><td>7,976</td><td>367</td></tr><tr><td>Other</td><td>6,625</td><td>557</td></tr><tr><td>Tirane</td><td>8,754</td><td>1295</td></tr><tr><td>Vlore</td><td>9,043</td><td>160</td></tr>
-      </table>
-    </section>
-
-    <section>
-      <h2 class="section-title">Fuel Type Distribution</h2>
-      <img src="fuel_counts.png">
-      <table>
-        <tr><th>Fuel</th><th>Avg Price</th><th>Count</th></tr>
-        <tr><td>Dizel / Naftë</td><td>8,338</td><td>1606</td></tr><tr><td>Benzin</td><td>7,983</td><td>515</td></tr><tr><td>Gaz (TNG) / Benzinë</td><td>6,734</td><td>230</td></tr><tr><td>Elektrikë</td><td>12,668</td><td>16</td></tr><tr><td>Hibrid & CNG</td><td>12,850</td><td>10</td></tr><tr><td>Tjetër</td><td>9,000</td><td>2</td></tr>
-      </table>
-    </section>
-
-    <section>
-      <h2 class="section-title">Mileage Distribution</h2>
-      <img src="mileage_hist.png">
-    </section>
-
-    <section>
-      <h2 class="section-title">Monthly Trends</h2>
-      <img src="monthly_volume.png">
-      <img src="monthly_avg_price.png">
-      <table>
-        <tr><th>Month</th><th>Count</th><th>Avg Price</th></tr>
-        <tr><td>2025-04</td><td>2379</td><td>8,155</td></tr>
-      </table>
-    </section>
-
-    <section>
-      <h2 class="section-title">Download Data</h2>
-      <ul>
-        <li><a href="historical_listings.csv">historical_listings.csv</a></li>
-        <li><a href="top_models.csv">top_models.csv</a></li>
-        <li><a href="avg_price_by_fuel.csv">avg_price_by_fuel.csv</a></li>
-        <li><a href="avg_price_by_region.csv">avg_price_by_region.csv</a></li>
-        <li><a href="count_by_region.csv">count_by_region.csv</a></li>
-        <li><a href="daily_volume.csv">daily_volume.csv</a></li>
-        <li><a href="daily_avg_price.csv">daily_avg_price.csv</li>
-        <li><a href="monthly_volume.csv">monthly_volume.csv</a></li>
-        <li><a href="monthly_avg_price.csv">monthly_avg_price.csv</a></li>
-        <li><a href="top_municipalities.csv">top_municipalities.csv</a></li>
-      </ul>
-    </section>
-
+    <section><h2>Age Distribution</h2><img src="hist_age.png"></section>
+    <section><h2>Monthly Avg Price by Fuel</h2><img src="ts_price_by_fuel.png"></section>
+    <section><h2>Monthly Avg Price by Region</h2><img src="ts_price_by_region.png"></section>
+    <section><h2>Price per km Distribution</h2><img src="hist_price_per_km.png"><img src="boxplot_price_per_km_by_fuel.png"></section>
+    <section><h2>Avg Price by Year & Age Bucket</h2><img src="heat_year_agebucket.png"></section>
+    <section><h2>Listings by Weekday & Hour (%)</h2><img src="bar_listings_by_weekday.png"><img src="bar_listings_by_hour.png"></section>
+    <section><h2>Monthly % Volume of Top 10 Models</h2><img src="area_top10_models.png"></section>
+    <section><h2>Correlation Matrix</h2><img src="corr_matrix.png"></section>
+    <section><h2>Download Data</h2><ul>
+      <li><a href="historical_listings.csv">historical_listings.csv</a></li>
+      <li><a href="percent_by_fuel.csv">percent_by_fuel.csv</a></li>
+      <li><a href="percent_by_region.csv">percent_by_region.csv</a></li>
+      <li><a href="price_vs_mileage.csv">price_vs_mileage.csv</a></li>
+      <li><a href="age_distribution.csv">age_distribution.csv</a></li>
+      <li><a href="price_per_km.csv">price_per_km.csv</a></li>
+      <li><a href="percent_by_weekday.csv">percent_by_weekday.csv</a></li>
+      <li><a href="percent_by_hour.csv">percent_by_hour.csv</a></li>
+      <li><a href="top_models.csv">top_models.csv</a></li>
+      <li><a href="avg_price_by_fuel.csv">avg_price_by_fuel.csv</a></li>
+      <li><a href="avg_price_by_region.csv">avg_price_by_region.csv</a></li>
+      <li><a href="top_municipalities.csv">top_municipalities.csv</a></li>
+    </ul></section>
   </div>
 </body>
 </html>
