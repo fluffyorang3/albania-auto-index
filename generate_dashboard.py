@@ -22,10 +22,7 @@ df = df[df['price_currency'].str.upper() == 'EUR']
 
 # Parse numeric year and price
 df["year"]  = pd.to_numeric(df["year"], errors="coerce").astype('Int64')
-df["price"] = pd.to_numeric(
-    df["price_value"].astype(str).str.replace(r"\D+", "", regex=True),
-    errors="coerce"
-)
+df["price"] = pd.to_numeric(df["price_value"], errors="coerce")
 
 # Parse mileage ranges: take lower bound
 def parse_mileage(m):
