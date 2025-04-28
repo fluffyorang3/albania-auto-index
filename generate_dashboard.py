@@ -49,18 +49,21 @@ models_for_curve = top_models.head(5).index
 # Region mapping
 def map_region(m):
     m = str(m).lower()
-    if "tir" in m: return "Tirane"
-    if "dur" in m: return "Durres"
-    if "vl"  in m: return "Vlore"
+    if "tir" in m:
+        return "Tirane"
+    if "dur" in m:
+        return "Durres"
+    if "vl" in m:
+        return "Vlore"
     return "Other"
 
 df["region"] = df["municipality"].apply(map_region)
 avg_region    = df.groupby("region")["price"].mean()
 
-# Weekly listing volume
-daily_avg_price = df.groupby(pd.Grouper(key="scrape_date", freq="D"))["price"].mean()
-weekly_counts   = df.set_index("scrape_date").resample("W")["listing_url"].count()
-weekly_avg_price= df.set_index("scrape_date").resample("W")["price"].mean()
+# Time-series: daily & weekly
+daily_avg_price  = df.groupby(pd.Grouper(key="scrape_date", freq="D"))["price"].mean()
+weekly_counts    = df.set_index("scrape_date").resample("W")["listing_url"].count()
+weekly_avg_price = df.set_index("scrape_date").resample("W")["price"].mean()
 
 # ─── DATA EXPORTS ───────────────────────────────────────────────────────────
 # Save raw and aggregated CSVs to docs/
@@ -70,18 +73,29 @@ pivot = df.pivot_table(
 ).fillna(0)
 pivot.to_csv(os.path.join(OUT_DIR, "avg_price_model_year.csv"))
 avg_price_fuel.to_csv(
-    os.path.join(OUT_DIR, "avg_price_by_fuel.csv"), header=["avg_price"]\)
+    os.path.join(OUT_DIR, "avg_price_by_fuel.csv"),
+    header=["avg_price"],
+)
 avg_region.to_csv(
-    os.path.join(OUT_DIR, "avg_price_by_region.csv"), header=["avg_price"]\)
+    os.path.join(OUT_DIR, "avg_price_by_region.csv"),
+    header=["avg_price"],
+)
 weekly_counts.to_csv(
-    os.path.join(OUT_DIR, "weekly_volume.csv"), header=["listings"]\)
+    os.path.join(OUT_DIR, "weekly_volume.csv"),
+    header=["listings"],
+)
 weekly_avg_price.to_csv(
-    os.path.join(OUT_DIR, "weekly_avg_price.csv"), header=["avg_price"]\)
+    os.path.join(OUT_DIR, "weekly_avg_price.csv"),
+    header=["avg_price"],
+)
 top_models.to_csv(
-    os.path.join(OUT_DIR, "top_models.csv"), header=["count"]\)
-
+    os.path.join(OUT_DIR, "top_models.csv"),
+    header=["count"],
+)
 daily_avg_price.to_csv(
-    os.path.join(OUT_DIR, "daily_avg_price.csv"), header=["avg_price"]\)
+    os.path.join(OUT_DIR, "daily_avg_price.csv"),
+    header=["avg_price"],
+)
 
 # ─── CHARTS ─────────────────────────────────────────────────────────────────
 # 1) Heatmap: Avg Price by Model & Year
@@ -198,7 +212,7 @@ html = f"""<!doctype html>
 <img src="heatmap_model_year.png" width="800"/>
 
 <h2>Depreciation Curve – Top 5 Models</h2>
-<img src="depreciation_top5.png" width="800"/>
+<img src="deprecation_top5.png" width="800"/>
 
 <h2>Price Distribution Boxplots</h2>
 <img src="boxplots.png" width="800"/>
