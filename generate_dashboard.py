@@ -36,7 +36,8 @@ def parse_mileage(m):
     except:
         return pd.NA
 
- df['mileage'] = df['mileage'].apply(parse_mileage).astype('Int64')
+# Apply mileage parsing
+df['mileage'] = df['mileage'].apply(parse_mileage).astype('Int64')
 
 # Drop rows missing core numeric fields
 df = df.dropna(subset=["year", "price", "mileage"]).copy()
@@ -54,45 +55,48 @@ df["age"] = datetime.now().year - df["year"].astype(int)
 
 # ─── SUMMARY METRICS ────────────────────────────────────────────────────────
 total_listings    = len(df)
-avg_price          = df['price'].mean()
-avg_mileage        = df['mileage'].mean()
-avg_age            = df['age'].mean()
+avg_price         = df['price'].mean()
+avg_mileage       = df['mileage'].mean()
+avg_age           = df['age'].mean()
 
-# Price by Fuel type
-fuel_dist      = df['fuel'].value_counts()
-avg_price_fuel = df.groupby('fuel')['price'].mean()
+# Price by fuel type
+type_counts      = df['fuel'].value_counts()
+avg_price_fuel   = df.groupby('fuel')['price'].mean()
 
 # Top models by count
 top_models        = df['model'].value_counts().head(20)
 models_for_heatmap = top_models.index
 
-# Region mapping and stats
+# Region mapping
 def map_region(m):
     m = str(m).lower()
-    if 'tir' in m: return 'Tirane'
-    if 'dur' in m: return 'Durres'
-    if 'vl'  in m: return 'Vlore'
+    if 'tir' in m:
+        return 'Tirane'
+    if 'dur' in m:
+        return 'Durres'
+    if 'vl' in m:
+        return 'Vlore'
     return 'Other'
 
-df['region']    = df['municipality'].apply(map_region)
-avg_price_reg   = df.groupby('region')['price'].mean()
-count_reg       = df['region'].value_counts()
+df['region']      = df['municipality'].apply(map_region)
+avg_price_region  = df.groupby('region')['price'].mean()
+count_region      = df['region'].value_counts()
 
-# Time series aggregations
-daily_counts     = df.set_index('scrape_date').resample('D')['listing_url'].count()
-daily_avg_price  = df.set_index('scrape_date').resample('D')['price'].mean()
-monthly_counts   = df.set_index('scrape_date').resample('M')['listing_url'].count()
-monthly_avg_price= df.set_index('scrape_date').resample('M')['price'].mean()
+# Time series
+daily_counts      = df.set_index('scrape_date').resample('D')['listing_url'].count()
+daily_avg_price   = df.set_index('scrape_date').resample('D')['price'].mean()
+monthly_counts    = df.set_index('scrape_date').resample('M')['listing_url'].count()
+monthly_avg_price = df.set_index('scrape_date').resample('M')['price'].mean()
 
-# Municipality-level price
-top_munis        = df.groupby('municipality')['price'].mean().sort_values(ascending=False).head(10)
+# Top municipalities
+top_munis = df.groupby('municipality')['price'].mean().sort_values(ascending=False).head(10)
 
-# ─── DATA EXPORTS ───────────────────────────────────────────────────────────
+# ─── EXPORT DATA ───────────────────────────────────────────────────────────
 df.to_csv(os.path.join(OUT_DIR, 'historical_listings.csv'), index=False)
 top_models.to_csv(os.path.join(OUT_DIR, 'top_models.csv'), header=['count'])
 avg_price_fuel.to_csv(os.path.join(OUT_DIR, 'avg_price_by_fuel.csv'), header=['avg_price'])
-avg_price_reg.to_csv(os.path.join(OUT_DIR, 'avg_price_by_region.csv'), header=['avg_price'])
-count_reg.to_csv(os.path.join(OUT_DIR, 'count_by_region.csv'), header=['count'])
+avg_price_region.to_csv(os.path.join(OUT_DIR, 'avg_price_by_region.csv'), header=['avg_price'])
+count_region.to_csv(os.path.join(OUT_DIR, 'count_by_region.csv'), header=['count'])
 daily_counts.to_csv(os.path.join(OUT_DIR, 'daily_volume.csv'), header=['count'])
 daily_avg_price.to_csv(os.path.join(OUT_DIR, 'daily_avg_price.csv'), header=['avg_price'])
 monthly_counts.to_csv(os.path.join(OUT_DIR, 'monthly_volume.csv'), header=['count'])
@@ -100,7 +104,7 @@ monthly_avg_price.to_csv(os.path.join(OUT_DIR, 'monthly_avg_price.csv'), header=
 top_munis.to_csv(os.path.join(OUT_DIR, 'top_municipalities.csv'), header=['avg_price'])
 
 # ─── CHARTS ─────────────────────────────────────────────────────────────────
-# Heatmap: Avg Price by Model & Year for top 20 models
+# Heatmap: Avg price by model & year
 pivot = df[df['model'].isin(models_for_heatmap)].pivot_table(
     index='model', columns='year', values='price', aggfunc='mean'
 ).reindex(models_for_heatmap)
@@ -114,10 +118,10 @@ plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, 'heatmap_model_year.png'))
 plt.close()
 
-# Depreciation: top 8 models for clarity
+# Depreciation curves for top 8 models
 plt.figure(figsize=(10,6))
 for model in top_models.head(8).index:
-    series = df[df['model']==model].groupby('age')['price'].mean()
+    series = df[df['model'] == model].groupby('age')['price'].mean()
     plt.plot(series.index, series.values, marker='o', label=model)
 plt.xlabel('Age (years)')
 plt.ylabel('Avg Price (EUR)')
@@ -127,16 +131,16 @@ plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, 'depreciation_top8.png'))
 plt.close()
 
-# Price distribution by region
+# Price by region bar chart
 plt.figure(figsize=(8,6))
-avg_price_reg.plot(kind='bar')
+avg_price_region.plot(kind='bar')
 plt.ylabel('Avg Price (EUR)')
 plt.title('Avg Price by Region')
 plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, 'regional_price.png'))
 plt.close()
 
-# Mileage histogram
+# Mileage distribution
 plt.figure(figsize=(8,4))
 df['mileage'].plot(kind='hist', bins=30)
 plt.xlabel('Mileage (km)')
@@ -145,22 +149,30 @@ plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, 'mileage_hist.png'))
 plt.close()
 
-# Fuel type counts
+# Fuel type distribution
 plt.figure(figsize=(6,4))
-fuel_dist.plot(kind='bar')
+type_counts.plot(kind='bar')
 plt.ylabel('Count')
 plt.title('Listings by Fuel Type')
 plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, 'fuel_counts.png'))
 plt.close()
 
-# Monthly listing volume
+# Monthly trends
 plt.figure(figsize=(8,4))
 monthly_counts.plot()
 plt.ylabel('Count')
 plt.title('Monthly Listing Volume')
 plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, 'monthly_volume.png'))
+plt.close()
+
+plt.figure(figsize=(8,4))
+monthly_avg_price.plot()
+plt.ylabel('Avg Price (EUR)')
+plt.title('Monthly Avg Price')
+plt.tight_layout()
+plt.savefig(os.path.join(OUT_DIR, 'monthly_avg_price.png'))
 plt.close()
 
 # ─── BUILD HTML REPORT ───────────────────────────────────────────────────────
@@ -219,11 +231,11 @@ html = f'''<!doctype html>
     </section>
 
     <section>
-      <h2 class="section-title">Average Price by Region</h2>
+      <h2 class="section-title">Avg Price by Region</h2>
       <img src="regional_price.png">
       <table>
         <tr><th>Region</th><th>Avg Price</th><th>Count</th></tr>
-        {''.join(f'<tr><td>{r}</td><td>{avg_price_reg[r]:,.0f}</td><td>{count_reg[r]}</td></tr>' for r in avg_price_reg.index)}
+        {''.join(f'<tr><td>{r}</td><td>{avg_price_region[r]:,.0f}</td><td>{count_region[r]}</td></tr>' for r in avg_price_region.index)}
       </table>
     </section>
 
@@ -232,7 +244,7 @@ html = f'''<!doctype html>
       <img src="fuel_counts.png">
       <table>
         <tr><th>Fuel</th><th>Avg Price</th><th>Count</th></tr>
-        {''.join(f'<tr><td>{fuel}</td><td>{avg_price_fuel[fuel]:,.0f}</td><td>{fuel_dist[fuel]}</td></tr>' for fuel in fuel_dist.index)}
+        {''.join(f'<tr><td>{fuel}</td><td>{avg_price_fuel[fuel]:,.0f}</td><td>{type_counts[fuel]}</td></tr>' for fuel in type_counts.index)}
       </table>
     </section>
 
@@ -255,22 +267,21 @@ html = f'''<!doctype html>
       <h2 class="section-title">Download Data</h2>
       <ul>
         <li><a href="historical_listings.csv">historical_listings.csv</a></li>
-        <li><a href="daily_volume.csv">daily_volume.csv</a></li>
-        <li><a href="daily_avg_price.csv">daily_avg_price.csv</a></li>
-        <li><a href="monthly_volume.csv">monthly_volume.csv</a></li>
-        <li><a href="monthly_avg_price.csv">monthly_avg_price.csv</a></li>
-        <li><a href="avg_price_model_year.csv">avg_price_model_year.csv</a></li>
         <li><a href="top_models.csv">top_models.csv</a></li>
         <li><a href="avg_price_by_fuel.csv">avg_price_by_fuel.csv</a></li>
         <li><a href="avg_price_by_region.csv">avg_price_by_region.csv</a></li>
         <li><a href="count_by_region.csv">count_by_region.csv</a></li>
+        <li><a href="daily_volume.csv">daily_volume.csv</a></li>
+        <li><a href="daily_avg_price.csv">daily_avg_price.csv</li>
+        <li><a href="monthly_volume.csv">monthly_volume.csv</a></li>
+        <li><a href="monthly_avg_price.csv">monthly_avg_price.csv</a></li>
         <li><a href="top_municipalities.csv">top_municipalities.csv</a></li>
       </ul>
     </section>
 
   </div>
 </body>
-</html>''' 
+</html>'''
 
 with open(REPORT, "w", encoding="utf-8") as f:
     f.write(html)
