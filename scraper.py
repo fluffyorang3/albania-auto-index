@@ -21,7 +21,7 @@ from tqdm import tqdm
 # ─── CONFIG ────────────────────────────────────────────────────────────────
 BASE_URL            = "https://www.merrjep.al"
 LISTING_PATH        = "/njoftime/automjete/makina/ne-shitje"
-PAGES               = 20
+PAGES               = 40
 CHUNK_SIZE          = 5
 MAX_DETAIL_WORKERS  = 10
 OUTPUT_FILE         = "today_listings.csv"
