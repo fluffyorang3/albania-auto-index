@@ -8,19 +8,23 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - today_listings.csv
+      - historical_listings.csv
+      - docs/**
   schedule:
     - cron: "0 2 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repo
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
@@ -33,10 +37,10 @@ jobs:
       - name: Scrape listings
         run: python scraper.py
 
-      - name: Merge & dedupe data
+      - name: Merge & dedupe
         shell: bash
         run: |
-          python - <<'EOF'
+          python - << 'EOF'
           import pandas as pd, os
 
           today = pd.read_csv("today_listings.csv")
