@@ -142,6 +142,28 @@ plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, 'depreciation_top8.png'))
 plt.close()
 
+# Historical avg price – Top 10 Models (monthly)
+model_monthly = (
+    df[df['model'].isin(top_models.index)]
+      .set_index('scrape_date')
+      .groupby([pd.Grouper(freq='M'), 'model'])['price']
+      .mean()
+      .unstack()
+      .reindex(columns=top_models.index)
+)
+
+plt.figure(figsize=(12,8))
+for m in top_models.index:
+    s = model_monthly[m]
+    plt.plot(s.index, s.values, marker='o', label=m)
+plt.xlabel('Date')
+plt.ylabel('Avg Price (EUR)')
+plt.title('Historical Avg Price – Top 10 Models')
+plt.legend(fontsize='small', ncol=2)
+plt.tight_layout()
+plt.savefig(os.path.join(OUT_DIR, 'historical_avg_price_top10.png'))
+plt.close()
+
 # Price by region bar chart
 plt.figure(figsize=(8,6))
 avg_price_region.plot(kind='bar')
@@ -240,6 +262,12 @@ html = f'''<!doctype html>
       <h2 class="section-title">Depreciation Curve – Top 8 Models</h2>
       <img src="depreciation_top8.png">
     </section>
+
+    <section>
+  <h2 class="section-title">Historical Avg Price – Top 10 Models</h2>
+    <img src="historical_avg_price_top10.png">
+  </section>
+
 
     <section>
       <h2 class="section-title">Avg Price by Region</h2>
