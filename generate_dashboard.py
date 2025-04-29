@@ -303,26 +303,7 @@ html = f'''<!doctype html>
       </table>
     </section>
 
-    <!-- Manual update (hidden by default) -->
-<section id="manual-update" style="display:none;">
-  <h2 class="section-title">Manual Update</h2>
-  <p>
-    <a
-      href="https://github.com/<your-org>/<your-repo>/actions/workflows/daily-scrape.yml"
-      target="_blank"
-      class="btn"
-    >
-      🔄 Run Dashboard Update
-    </a>
-  </p>
-</section>
-
-<script>
-  // Reveal the manual-update link only when URL contains ?admin=1
-  if (new URLSearchParams(window.location.search).get('admin') === '1') {
-    document.getElementById('manual-update').style.display = 'block';
-  }
-</script>
+    
 
     <section>
       <h2 class="section-title">Download Data</h2>
