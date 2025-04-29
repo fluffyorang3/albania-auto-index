@@ -160,6 +160,7 @@ plt.xlabel('Date')
 plt.ylabel('Avg Price (EUR)')
 plt.title('Historical Avg Price – Top 10 Models')
 plt.legend(fontsize='small', ncol=2)
+plt.xlim(model_monthly.index.min(), model_monthly.index.max())
 plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, 'historical_avg_price_top10.png'))
 plt.close()
@@ -301,6 +302,27 @@ html = f'''<!doctype html>
         {''.join(f"<tr><td>{idx.strftime('%Y-%m')}</td><td>{monthly_pct[idx]:.1f}%</td><td>{monthly_avg_price[idx]:,.0f}</td></tr>" for idx in monthly_pct.index[-6:])}
       </table>
     </section>
+
+    <!-- Manual update (hidden by default) -->
+<section id="manual-update" style="display:none;">
+  <h2 class="section-title">Manual Update</h2>
+  <p>
+    <a
+      href="https://github.com/<your-org>/<your-repo>/actions/workflows/daily-scrape.yml"
+      target="_blank"
+      class="btn"
+    >
+      🔄 Run Dashboard Update
+    </a>
+  </p>
+</section>
+
+<script>
+  // Reveal the manual-update link only when URL contains ?admin=1
+  if (new URLSearchParams(window.location.search).get('admin') === '1') {
+    document.getElementById('manual-update').style.display = 'block';
+  }
+</script>
 
     <section>
       <h2 class="section-title">Download Data</h2>
