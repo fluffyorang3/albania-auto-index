@@ -1,9 +1,11 @@
 # .github/workflows/daily-scrape.yml
 name: Daily Scrape & Dashboard
 
+# give Actions permission to deploy via the Pages API
 permissions:
-  contents: write
-  pages: write
+  contents: write # for checkout, reading/writing CSV
+  pages: write # to deploy via actions/deploy-pages
+  id-token: write # required by actions/deploy-pages@v4
 
 on:
   push:
@@ -14,7 +16,7 @@ on:
       - historical_listings.csv
       - docs/**
   schedule:
-    - cron: '0 2 * * *'
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 jobs:
@@ -28,7 +30,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install dependencies
         run: |
@@ -60,9 +62,14 @@ jobs:
         env:
           TZ: Europe/Tirane
 
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+      # ──────────────────────────────────────────────────────────────────────
+      # Now: deploy via the Pages API instead of pushing to gh-pages branch
+      # ──────────────────────────────────────────────────────────────────────
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs
-          publish_branch: gh-pages
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
